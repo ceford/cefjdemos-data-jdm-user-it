@@ -2,28 +2,32 @@
 
 ## Scopo
 
-Il campo Utente consente di selezionare un utente da un elenco di utenti.
+Il campo utente consente di selezionare un utente da un elenco di utenti.
 
 ## Creazione del Campo
 
 Le opzioni speciali all'interno di questo campo sono:
 
-- **Utente Predefinito** Può essere utile impostare un utente predefinito se lo stesso utente appare in quasi tutti gli Articoli.
+- **Utente Predefinito** Può essere utile impostare un utente predefinito se lo stesso utente
+compare in quasi tutti gli Articoli.
+
+![creazione campo utente](../../../en/images/fields/fields-user-edit.png)
+
+**Nota:** In questo esempio, l'inclusione del tipo di campo nel Titolo è solo a scopo dimostrativo. Omettetelo nei vostri titoli di campo.
 
 ## Inserimento Data
 
 Semplice, basta selezionare un utente dall'elenco degli utenti.
 
+![inserimento dati campo utente](../../../en/images/fields/fields-user-data-entry.png)
 
-## Visualizzazione dei Dati
+## Visualizzazione Dati
 
-Lo screenshot del sito seguente mostra il campo visualizzato in un articolo. L'opzione *Visualizzazione automatica* è responsabile della posizione del campo e il tuo modello è responsabile del design del campo.
+Lo screenshot del sito seguente mostra il campo visualizzato in un articolo. L'opzione *Visualizzazione automatica* è responsabile della posizione del campo, mentre il tuo template è responsabile del design del campo.
 
-Cerca l'elemento **Reporter**.
+![visualizzazione campo utente sul sito](../../../en/images/fields/fields-user-site.png)
 
-![Visualizzazione di tutti i campi](../../../en/images/fields/fields-display.png "Visualizzazione dei campi")
-
-L'etichetta del campo è seguita dal nome dell'utente (non dal nome utente).
+Il campo Etichetta è seguito dal Nome dell'utente (non dal nome utente).
 
 *Tradotto da openai.com*
 

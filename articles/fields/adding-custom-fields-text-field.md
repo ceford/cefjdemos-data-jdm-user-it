@@ -2,31 +2,34 @@
 
 ## Scopo
 
-Il campo di testo permette l'immissione di dati di testo su una sola riga.
+Il campo di testo consente l'inserimento di dati testuali su una singola linea.
 
 
 ## Creazione del Campo
 
 Le opzioni speciali all'interno di questo campo sono:
 
-- **Filtro** Consente al sistema di salvare determinati tag HTML o dati grezzi. Utilizza il filtro raw per garantire che il codice HTML sia preservato quando il modulo viene elaborato.
+- **Filtro** Consente al sistema di salvare determinati tag html o dati grezzi. Utilizza il filtro raw per garantire che il codice html venga preservato quando il modulo viene elaborato.
 - **Lunghezza Massima** Il numero massimo di caratteri che possono essere inseriti.
-- **Prefisso** Appare prima del testo nell'output dell'Articolo. Esempio: £.
-- **Suffisso** Appare dopo il testo nell'output dell'Articolo, Esempio: EUR.
+- **Prefisso** Questo appare prima del testo nell'output dell'Articolo. Esempio: £.
+- **Suffisso** Questo appare dopo il testo nell'output dell'Articolo, Esempio: EUR.
+
+![creazione campo di testo](../../../en/images/fields/fields-text-edit.png)
+
+**Nota:** In questo esempio, l'inclusione del tipo di campo nel Titolo è solo a scopo dimostrativo. Omettilo nei tuoi titoli di campo.
 
 ## Inserimento Dati
 
 Semplice: Digita il tuo testo.
 
+![inserimento dati nel campo di testo](../../../en/images/fields/fields-text-data-entry.png)
 
 ## Visualizzazione dei Dati
 
-Lo screenshot del sito seguente mostra il campo visualizzato in un articolo. L'opzione *Visualizzazione automatica* è responsabile della posizione del campo e il tuo modello è responsabile del design del campo.
+Lo screenshot del sito seguente mostra il campo visualizzato in un articolo. L'opzione *Visualizzazione automatica* è responsabile della posizione del campo e il tuo template è responsabile del design del campo.
 
-Cerca l'elemento **Prezzo**.
+![visualizzazione del campo di testo del sito](../../../en/images/fields/fields-text-site.png)
 
-![Visualizzazione di tutti i campi](../../../en/images/fields/fields-display.png "Visualizzazione dei campi")
-
-Il campo Testo segue il campo Etichetta. E nota che il simbolo £ è stato impostato come Prefisso.
+Il campo Testo segue il campo Etichetta.
 *Tradotto da openai.com*
 
