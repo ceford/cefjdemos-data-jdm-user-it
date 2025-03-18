@@ -17,24 +17,24 @@ I moduli sono assegnati a una posizione su una pagina definita dal modello in us
 E la seguente lista mostra le posizioni dei moduli disponibili per nome:
 
 ```xml
-	<positions>
-		<position>topbar</position>
-		<position>sotto-top</position>
-		<position>menu</position>
-		<position>ricerca</position>
-		<position>banner</position>
-		<position>top-a</position>
-		<position>top-b</position>
-		<position>principale-top</position>
-		<position>principale-bottom</position>
-		<position>breadcrumbs</position>
-		<position>sidebar-sinistra</position>
-		<position>sidebar-destra</position>
-		<position>bottom-a</position>
-		<position>bottom-b</position>
-		<position>footer</position>
-		<position>debug</position>
-	</positions>
+    <positions>
+        <position>topbar</position>
+        <position>sotto-top</position>
+        <position>menu</position>
+        <position>ricerca</position>
+        <position>banner</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>principale-top</position>
+        <position>principale-bottom</position>
+        <position>breadcrumbs</position>
+        <position>sidebar-sinistra</position>
+        <position>sidebar-destra</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>footer</position>
+        <position>debug</position>
+    </positions>
 ```
 
 ## Aggiungere un Modulo Core
@@ -51,7 +51,7 @@ Scorri verso il basso e seleziona il modulo Immagine Casuale. Si aprirà il modu
 
 ![Modulo immagine casuale](../../../en/images/modules/cassiopeia-module-random-image.png)
 
-- **Titolo** Questo è un campo obbligatorio. 
+- **Titolo** Questo è un campo obbligatorio.
 - **Tipo Immagine** Il predefinito è jpg.
 - **Cartella Immagini** Inserisci un percorso a una cartella che contenga effettivamente immagini del tipo che hai selezionato.
 - **Link** Un URL a cui reindirizzare se l'immagine viene selezionata.
@@ -105,4 +105,3 @@ Tutto fatto?
 - **Tag - Simili** Il Modulo Tag Simili mostra link ad altri elementi con tag simili. È possibile specificare la vicinanza della corrispondenza.
 - **Chi è online** Il Modulo Chi è online visualizza il numero di Utenti Anonimi (Ospiti) e Utenti Registrati (utenti connessi) che stanno attualmente accedendo al sito web.
 - **Wrapper** Questo modulo mostra una finestra iframe verso una posizione specificata.
-

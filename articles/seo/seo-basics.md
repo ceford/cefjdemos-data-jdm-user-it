@@ -12,7 +12,7 @@ Il processo di ottimizzazione di un sito web è multifattoriale poiché ci sono 
 - Abilitare URL Amichevoli per i Motori di Ricerca per rendere l'indirizzo web delle pagine 'leggibile da un umano'
 - Aggiungere Markup Semantico Contestuale utilizzando dati di Schema
 
-Risorsa: Guida Introduttiva all'Ottimizzazione per i Motori di Ricerca (SEO)  
+Risorsa: Guida Introduttiva all'Ottimizzazione per i Motori di Ricerca (SEO)
 
 ## Struttura del Sito e URL Descrittivi
 
@@ -53,7 +53,7 @@ Per Joomla 4 e 5, prima di abilitare, il plugin necessita che `if ($app->isAdmin
 
 In un articolo, seleziona la scheda Pubblicazione e poi il pulsante *URL Canonico* **Auto**. Questo posizionerà un link come il seguente su qualsiasi pagina che visualizza l'articolo singolo:
 ```
-	<link href="/jdm3/en/user/seo/seo-basics.html" rel="canonical" />
+    <link href="/jdm3/en/user/seo/seo-basics.html" rel="canonical" />
 ```
 
 ## Qualità del Contenuto
@@ -79,7 +79,7 @@ Il contenuto dovrebbe consistere in una gerarchia di intestazioni e paragrafi co
   <h2>È difficile implementare le intestazioni?</h2>
   <p>È davvero facile implementare le intestazioni, basta usare il codice HTML appropriato.</p>
 ```
-Nota che un *Titolo* di un articolo diventerà un'intestazione `<h1>` se necessario, quindi non utilizzarlo nel corpo dell'articolo.  
+Nota che un *Titolo* di un articolo diventerà un'intestazione `<h1>` se necessario, quindi non utilizzarlo nel corpo dell'articolo.
 
 ## Anticipare i Termini di Ricerca
 
@@ -118,4 +118,3 @@ Inutile dire che immagini attraenti possono migliorare enormemente un sito. Ma t
 * Usa immagini responsive - c'è un plugin Joomla che crea dinamicamente versioni webp di immagini png e jpg in diverse dimensioni.
 
 *Tradotto da openai.com*
-

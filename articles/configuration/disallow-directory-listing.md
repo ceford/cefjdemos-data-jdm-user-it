@@ -20,7 +20,7 @@ Options -Indexes
 
 ## Nessun elenco di directory
 <IfModule mod_autoindex.c>
-	IndexIgnore *
+    IndexIgnore *
 </IfModule>
 ```
 
@@ -29,4 +29,3 @@ Options -Indexes
 Un modo per testare il tuo sito è inserire l'URL della cartella delle tue immagini nella barra degli URL del browser: `https://yourdomain.com/images/`. Poiché la cartella delle immagini normalmente non contiene un file index.html o index.php, dovresti vedere una pagina completamente vuota. Se vedi un elenco di tutti i file e le cartelle, allora non stai impedendo la scansione delle directory in nessuna parte del tuo sito. Correggi!
 
 *Tradotto da openai.com*
-

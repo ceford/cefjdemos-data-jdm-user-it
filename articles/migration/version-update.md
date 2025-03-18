@@ -132,20 +132,19 @@ vedere i passi registrati nel log. Mostrerà i passi principali (download del zi
 installazione, esecuzione delle istruzioni SQL, pulizia), qualcosa di simile a questo:
 
 ```
-2024-04-17T09:13:16+00:00	INFO 127.0.0.1	update	Aggiornamento avviato dall'utente Jimmy (139). La versione precedente è 5.0.3.
-2024-04-17T09:13:18+00:00	INFO 127.0.0.1	update	Download del file di aggiornamento da ...
-2024-04-17T09:13:28+00:00	INFO 127.0.0.1	update	File Joomla_5.1.0-Stable-Update_Package.zip scaricato.
-2024-04-17T09:13:28+00:00	INFO 127.0.0.1	update	Inizio installazione della nuova versione.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	Concludendo l'installazione.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	Inizio degli aggiornamenti SQL.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	La versione attuale del database (schema) è 5.0.0-2023-09-11.
+2024-04-17T09:13:16+00:00    INFO 127.0.0.1    update    Aggiornamento avviato dall'utente Jimmy (139). La versione precedente è 5.0.3.
+2024-04-17T09:13:18+00:00    INFO 127.0.0.1    update    Download del file di aggiornamento da ...
+2024-04-17T09:13:28+00:00    INFO 127.0.0.1    update    File Joomla_5.1.0-Stable-Update_Package.zip scaricato.
+2024-04-17T09:13:28+00:00    INFO 127.0.0.1    update    Inizio installazione della nuova versione.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    Concludendo l'installazione.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    Inizio degli aggiornamenti SQL.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    La versione attuale del database (schema) è 5.0.0-2023-09-11.
 ... Molte query SQL individuali
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Fine degli aggiornamenti SQL.
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Disinstallazione delle estensioni
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Cancellazione di file e cartelle rimossi.
-2024-04-17T09:13:44+00:00	INFO 127.0.0.1	update	Pulizia dopo l'installazione.
-2024-04-17T09:13:44+00:00	INFO 127.0.0.1	update	Aggiornamento alla versione 5.1.0 completato.
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Fine degli aggiornamenti SQL.
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Disinstallazione delle estensioni
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Cancellazione di file e cartelle rimossi.
+2024-04-17T09:13:44+00:00    INFO 127.0.0.1    update    Pulizia dopo l'installazione.
+2024-04-17T09:13:44+00:00    INFO 127.0.0.1    update    Aggiornamento alla versione 5.1.0 completato.
 ```
 
 *Tradotto da openai.com*
-

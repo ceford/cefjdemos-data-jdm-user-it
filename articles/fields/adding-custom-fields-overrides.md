@@ -112,7 +112,7 @@ Hai tutti i campi corrispondenti all'elemento corrente accessibili tramite la pr
 
 ## Visualizzare il campo
 
-La funzione `FieldsHelper::render()` è utilizzata per visualizzare ciascun campo. Innanzitutto, aggiungi un'istruzione 
+La funzione `FieldsHelper::render()` è utilizzata per visualizzare ciascun campo. Innanzitutto, aggiungi un'istruzione
 `use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;` alla lista delle istruzioni `use` nella parte superiore del file di override:
 
 ```php
@@ -132,7 +132,7 @@ use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;
 Poi, ovunque desideri posizionare i campi nel tuo template, utilizza il seguente codice:
 ```php
 <?php foreach ($this->item->jcfields as $field) : ?>
-	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?><br>
+    <?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?><br>
 <?php endforeach ?>
 ```
 
@@ -140,7 +140,7 @@ Oppure per un override grezzo, che non traduce l'etichetta:
 
 ```php
 <?php foreach ($this->item->jcfields as $field) : ?>
-	<?php echo $field->label . ':' . $field->value; ?><br>
+    <?php echo $field->label . ':' . $field->value; ?><br>
 <?php endforeach ?>
 ```
 
@@ -171,4 +171,3 @@ Per aggiungere il **valore** del campo al tuo override, inserisci il codice qui 
 ```
 
 Puoi aggiungere questo codice a qualsiasi parte del tuo override. Esempi: Il contenuto di un div, l'attributo src in un tag `img`, all'interno di un attributo di classe CSS, ecc.
-

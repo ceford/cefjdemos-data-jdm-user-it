@@ -8,12 +8,12 @@ Nota che non è previsto creare un utente e una password del database durante l'
 
 Se il problema si verifica dopo aver spostato il tuo sito su un altro host, controlla i seguenti elementi del tuo file *configuration.php*. Le impostazioni normali del database sono le seguenti:
 
-	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'yourdbuser';
-	public $password = 'yourdbpassword';
-	public $db = 'yourdbname';
-	public $dbprefix = 't6q6i_';
+    public $dbtype = 'mysqli';
+    public $host = 'localhost';
+    public $user = 'yourdbuser';
+    public $password = 'yourdbpassword';
+    public $db = 'yourdbname';
+    public $dbprefix = 't6q6i_';
 
 Se il problema si verifica in un sito che funzionava correttamente, ci sono diversi motivi possibili, a volte temporanei e a volte accidentali.
 
@@ -24,4 +24,3 @@ Se il problema si verifica in un sito che funzionava correttamente, ci sono dive
 3. Il nome utente o la password del tuo database sono cambiati.
 
 *Tradotto da openai.com*
-

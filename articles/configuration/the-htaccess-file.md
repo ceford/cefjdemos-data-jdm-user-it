@@ -61,12 +61,12 @@ Options -Indexes
 
 ## Nessuna lista delle directory
 <IfModule mod_autoindex.c>
-	IndexIgnore *
+    IndexIgnore *
 </IfModule>
 
 ## Sopprimere il rilevamento del tipo mime nei browser per tipi sconosciuti
 <IfModule mod_headers.c>
-	Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Content-Type-Options "nosniff"
 </IfModule>
 
 ## Proteggere da determinate richieste cross-origin. Maggiori informazioni possono essere trovate qui:
@@ -75,8 +75,8 @@ Sure, I can help translate the text, but it seems like you only provided a link 
 
 ## https://web.dev/why-coop-coep/
 #<IfModule mod_headers.c>
-#	Header always set Cross-Origin-Resource-Policy "same-origin"
-#	Header always set Cross-Origin-Embedder-Policy "require-corp"
+#    Header always set Cross-Origin-Resource-Policy "same-origin"
+#    Header always set Cross-Origin-Embedder-Policy "require-corp"
 #</IfModule>
 
 ## Disabilita JavaScript inline quando apri direttamente file SVG o li embeddi con il tag object
@@ -88,86 +88,86 @@ Sure, I can help translate the text, but it seems like you only provided a link 
 
 ## Queste direttive sono abilitate solo se il modulo mod_rewrite di Apache è abilitato
 <IfModule mod_rewrite.c>
-	RewriteEngine On
+    RewriteEngine On
 
-	## Inizio - Regole di riscrittura per bloccare alcuni exploit comuni.
-	# Se si verificano problemi sul tuo sito, commenta le operazioni elencate
-	# di seguito aggiungendo un # all'inizio della riga.
-	# Questo tenta di bloccare il tipo più comune di `attempts` di exploit su Joomla!
-	#
-	# Blocca qualsiasi script che tenta di base64_encode i dati all'interno dell'URL.
-	RewriteCond %{QUERY_STRING} base64_encode[^(]*\([^)]*\) [OR]
-	# Blocca qualsiasi script che include un tag <script> nell'URL.
-	RewriteCond %{QUERY_STRING} (<|%3C)([^s]*s)+cript.*(>|%3E) [NC,OR]
-	# Blocca qualsiasi script che tenta di impostare una variabile PHP GLOBALS tramite URL.
-	RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
-	# Blocca qualsiasi script che tenta di modificare una variabile _REQUEST tramite URL.
-	RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
-	# Restituisce l'intestazione 403 Forbidden e mostra il contenuto della home page del root
-	RewriteRule .* index.php [F]
-	#
-	## Fine - Regole di riscrittura per bloccare alcuni exploit comuni.
+    ## Inizio - Regole di riscrittura per bloccare alcuni exploit comuni.
+    # Se si verificano problemi sul tuo sito, commenta le operazioni elencate
+    # di seguito aggiungendo un # all'inizio della riga.
+    # Questo tenta di bloccare il tipo più comune di `attempts` di exploit su Joomla!
+    #
+    # Blocca qualsiasi script che tenta di base64_encode i dati all'interno dell'URL.
+    RewriteCond %{QUERY_STRING} base64_encode[^(]*\([^)]*\) [OR]
+    # Blocca qualsiasi script che include un tag <script> nell'URL.
+    RewriteCond %{QUERY_STRING} (<|%3C)([^s]*s)+cript.*(>|%3E) [NC,OR]
+    # Blocca qualsiasi script che tenta di impostare una variabile PHP GLOBALS tramite URL.
+    RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+    # Blocca qualsiasi script che tenta di modificare una variabile _REQUEST tramite URL.
+    RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+    # Restituisce l'intestazione 403 Forbidden e mostra il contenuto della home page del root
+    RewriteRule .* index.php [F]
+    #
+    ## Fine - Regole di riscrittura per bloccare alcuni exploit comuni.
 
-	## Inizio - Reindirizzamenti personalizzati
-	#
-	# Se hai bisogno di reindirizzare alcune pagine, o impostare un reindirizzamento canonico non-www verso
-	# www (o viceversa), inserisci quel codice qui. Assicurati che quei
-	# reindirizzamenti utilizzino la sintassi corretta di RewriteRule e le flag [R=301,L].
-	#
-	## Fine - Reindirizzamenti personalizzati
+    ## Inizio - Reindirizzamenti personalizzati
+    #
+    # Se hai bisogno di reindirizzare alcune pagine, o impostare un reindirizzamento canonico non-www verso
+    # www (o viceversa), inserisci quel codice qui. Assicurati che quei
+    # reindirizzamenti utilizzino la sintassi corretta di RewriteRule e le flag [R=301,L].
+    #
+    ## Fine - Reindirizzamenti personalizzati
 
-	##
-	# Decommenta la riga seguente se l'URL del tuo server web
-	# non è direttamente correlato ai percorsi fisici dei file.
-	# Aggiorna la tua directory di Joomla! (soltanto / per la root).
-	##
+    ##
+    # Decommenta la riga seguente se l'URL del tuo server web
+    # non è direttamente correlato ai percorsi fisici dei file.
+    # Aggiorna la tua directory di Joomla! (soltanto / per la root).
+    ##
 
-	# RewriteBase /
+    # RewriteBase /
 
-	## Inizio - Sezione SEF principale di Joomla!.
-	#
-	# Correzione PHP FastCGI per l'autorizzazione HTTP, richiesta per l'applicazione API
-	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-	# -- URL SEF per l'applicazione API
-	# Se il percorso richiesto inizia con /api, il file non è /api/index.php
-	# e la richiesta non è già stata riscritta internamente verso lo script
-	# api/index.php
-	RewriteCond %{REQUEST_URI} ^/api/
-	RewriteCond %{REQUEST_URI} !^/api/index\.php
-	# e il percorso richiesto e il file non corrispondono direttamente a un file fisico
-	RewriteCond %{REQUEST_FILENAME} !-f
-	# e il percorso richiesto e il file non corrispondono direttamente a una cartella fisica
-	RewriteCond %{REQUEST_FILENAME} !-d
-	# riscrivi internamente la richiesta allo script /api/index.php
-	RewriteRule .* api/index.php [L]
-	# -- URL SEF per l'applicazione frontend pubblica
-	# Se il percorso richiesto e il file non sono /index.php e la richiesta
-	# non è già stata riscritta internamente verso lo script index.php
-	RewriteCond %{REQUEST_URI} !^/index\.php
-	# e il percorso richiesto e il file non corrispondono direttamente a un file fisico
-	RewriteCond %{REQUEST_FILENAME} !-f
-	# e il percorso richiesto e il file non corrispondono direttamente a una cartella fisica
-	RewriteCond %{REQUEST_FILENAME} !-d
-	# riscrivi internamente la richiesta allo script index.php
-	RewriteRule .* index.php [L]
-	#
-	## Fine - Sezione SEF principale di Joomla!.
+    ## Inizio - Sezione SEF principale di Joomla!.
+    #
+    # Correzione PHP FastCGI per l'autorizzazione HTTP, richiesta per l'applicazione API
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+    # -- URL SEF per l'applicazione API
+    # Se il percorso richiesto inizia con /api, il file non è /api/index.php
+    # e la richiesta non è già stata riscritta internamente verso lo script
+    # api/index.php
+    RewriteCond %{REQUEST_URI} ^/api/
+    RewriteCond %{REQUEST_URI} !^/api/index\.php
+    # e il percorso richiesto e il file non corrispondono direttamente a un file fisico
+    RewriteCond %{REQUEST_FILENAME} !-f
+    # e il percorso richiesto e il file non corrispondono direttamente a una cartella fisica
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # riscrivi internamente la richiesta allo script /api/index.php
+    RewriteRule .* api/index.php [L]
+    # -- URL SEF per l'applicazione frontend pubblica
+    # Se il percorso richiesto e il file non sono /index.php e la richiesta
+    # non è già stata riscritta internamente verso lo script index.php
+    RewriteCond %{REQUEST_URI} !^/index\.php
+    # e il percorso richiesto e il file non corrispondono direttamente a un file fisico
+    RewriteCond %{REQUEST_FILENAME} !-f
+    # e il percorso richiesto e il file non corrispondono direttamente a una cartella fisica
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # riscrivi internamente la richiesta allo script index.php
+    RewriteRule .* index.php [L]
+    #
+    ## Fine - Sezione SEF principale di Joomla!.
 </IfModule>
 
 ## Queste direttive sono abilitate solo se il modulo Apache mod_rewrite è disabilitato
 <IfModule !mod_rewrite.c>
-	<IfModule mod_alias.c>
-		# Quando Apache mod_rewrite non è disponibile, istruiamo un reindirizzamento temporaneo
-		# della pagina iniziale al front controller in modo esplicito affinché il sito web
-		# e i link generati possano ancora essere usati.
-		RedirectMatch 302 ^/$ /index.php/
-		# RedirectTemp non può essere usato invece
-	</IfModule>
+    <IfModule mod_alias.c>
+        # Quando Apache mod_rewrite non è disponibile, istruiamo un reindirizzamento temporaneo
+        # della pagina iniziale al front controller in modo esplicito affinché il sito web
+        # e i link generati possano ancora essere usati.
+        RedirectMatch 302 ^/$ /index.php/
+        # RedirectTemp non può essere usato invece
+    </IfModule>
 </IfModule>
 
 ## GZIP & BROTLI
 ## Queste direttive sono attivate solo se il modulo mod_headers di Apache è attivato.
-## Questa sezione verificherà se esiste un file .gz e, in tal caso, lo trasmetterà in streaming 
+## Questa sezione verificherà se esiste un file .gz e, in tal caso, lo trasmetterà in streaming
 ## direttamente o come alternativa comprimere con gzip qualsiasi risorsa al volo
 ## Se il tuo sito inizia a sembrare strano dopo aver abilitato questo file, e vedi
 ## ERR_CONTENT_DECODING_FAILED nella scheda rete della console del tuo browser
@@ -175,28 +175,28 @@ Sure, I can help translate the text, but it seems like you only provided a link 
 ## Blocco abilitato nel tuo .htaccess
 
 <IfModule mod_headers.c>
-	# Servi i file CSS compressi con gzip se esistono
-	# e il client accetta gzip.
-	RewriteCond "%{HTTP:Accept-encoding}" "gzip"
-	RewriteCond "%{REQUEST_FILENAME}\.gz" -s
-	RewriteRule "^(.*)\.css" "$1\.css\.gz" [QSA]
+    # Servi i file CSS compressi con gzip se esistono
+    # e il client accetta gzip.
+    RewriteCond "%{HTTP:Accept-encoding}" "gzip"
+    RewriteCond "%{REQUEST_FILENAME}\.gz" -s
+    RewriteRule "^(.*)\.css" "$1\.css\.gz" [QSA]
 
-	# Servi i file JS compressi con gzip se esistono
-	# e il client accetta gzip.
-	RewriteCond "%{HTTP:Accept-encoding}" "gzip"
-	RewriteCond "%{REQUEST_FILENAME}\.gz" -s
-	RewriteRule "^(.*)\.js" "$1\.js\.gz" [QSA]
+    # Servi i file JS compressi con gzip se esistono
+    # e il client accetta gzip.
+    RewriteCond "%{HTTP:Accept-encoding}" "gzip"
+    RewriteCond "%{REQUEST_FILENAME}\.gz" -s
+    RewriteRule "^(.*)\.js" "$1\.js\.gz" [QSA]
 
-	# Fornisci i tipi di contenuto corretti e previeni la doppia compressione con mod_deflate.
-	RewriteRule "\.css\.gz$" "-" [T=text/css,E=no-gzip:1,E=no-brotli:1]
-	RewriteRule "\.js\.gz$" "-" [T=text/javascript,E=no-gzip:1,E=no-brotli:1]
+    # Fornisci i tipi di contenuto corretti e previeni la doppia compressione con mod_deflate.
+    RewriteRule "\.css\.gz$" "-" [T=text/css,E=no-gzip:1,E=no-brotli:1]
+    RewriteRule "\.js\.gz$" "-" [T=text/javascript,E=no-gzip:1,E=no-brotli:1]
 
-	<FilesMatch "(\.js\.gz|\.css\.gz)$">
-		# Fornisci il tipo di codifica corretto.
-		Header set Content-Encoding gzip
+    <FilesMatch "(\.js\.gz|\.css\.gz)$">
+        # Fornisci il tipo di codifica corretto.
+        Header set Content-Encoding gzip
 
-		# Costringe i proxy a memorizzare nella cache separatamente i file css/js compressi e non compressi.
-		Header append Vary Accept-Encoding
-	</FilesMatch>
+        # Costringe i proxy a memorizzare nella cache separatamente i file css/js compressi e non compressi.
+        Header append Vary Accept-Encoding
+    </FilesMatch>
 </IfModule>
 ```
