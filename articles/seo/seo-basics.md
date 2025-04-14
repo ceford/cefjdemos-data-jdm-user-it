@@ -1,120 +1,119 @@
-<!-- Filename: jdocmanual?manual=user&heading=seo&filename=seo-basics.md / Display title: Fondamenti di SEO   -->
+<!-- Filename: jdocmanual?manual=user&heading=seo&filename=seo-basics.md / Display title: Nozioni di base sulla SEO -->
 
 ## Definizione
 
-L'Ottimizzazione per i Motori di Ricerca (SEO) è il processo di miglioramento di una vasta gamma di caratteristiche di un sito web con l'intenzione di migliorare la posizione in cui si classifica nei motori di ricerca.
+L'ottimizzazione dei motori di ricerca è il processo di miglioramento di una vasta gamma di caratteristiche di un sito web con l'intenzione di migliorare la posizione nella quale si classifica nei motori di ricerca.
 
-Il processo di ottimizzazione di un sito web è multifattoriale poiché ci sono molti fattori che influenzano il posizionamento di una pagina in un motore di ricerca.
+Il processo di ottimizzazione di un sito web è sfaccettato poiché ci sono molti fattori che influenzano la posizione di una pagina nei risultati di un motore di ricerca.
 
-- Garantire che il contenuto abbia una struttura appropriata utilizzando HTML Semantico
+- Garantire che i contenuti abbiano una struttura adeguata utilizzando l'HTML semantico
 - Migliorare la qualità del contenuto delle singole pagine.
-- Assicurarsi che il sito web possa gestire rapidamente le richieste
-- Abilitare URL Amichevoli per i Motori di Ricerca per rendere l'indirizzo web delle pagine 'leggibile da un umano'
-- Aggiungere Markup Semantico Contestuale utilizzando dati di Schema
+- Assicurarsi che il sito web possa gestire le richieste rapidamente.
+- Abilitare URL amichevoli per i motori di ricerca per rendere l'indirizzo web delle pagine *leggibile dall'uomo*.
+- Aggiungere markup semantico contestuale utilizzando i dati Schema.
 
-Risorsa: Guida Introduttiva all'Ottimizzazione per i Motori di Ricerca (SEO)
+Risorsa: [Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
 
 ## Struttura del Sito e URL Descrittivi
 
-Nei primi giorni del web, i siti erano strutturati come singoli file HTML in una gerarchia ad albero. Alcuni siti web sono ancora strutturati in questo modo. I CMS (Content Management Systems) sono diversi. Le singole pagine sono assemblate da contenuti memorizzati in tabelle di database. Gli URL per i primi e i secondi sono diversi, forse qualcosa di simile:
+Nei primi giorni, i siti web erano strutturati come singoli file HTML in una gerarchia ad albero. Alcuni siti web sono ancora strutturati in questo modo. I CMS sono diversi. Le singole pagine sono assemblate da contenuti memorizzati in tabelle di database. Gli URL per i primi e i secondi sono diversi, forse in questo modo:
+
 ```
 https://www.example.com/user/seo/seo-basics.html
 https://www.example.com/index.php?option=com_jdocmanual&view=manual&manual=user&heading=seo&filename=seo-basics
 ```
-Chiaramente, il primo è più facile da ricordare e da digitare. I motori di ricerca li preferiscono.
 
-Nel CMS Joomla, un URL della prima forma può essere configurato come segue:
+Chiaramente il primo è più facile da ricordare e da digitare. I motori di ricerca li preferiscono.
 
-1. Creare una Categoria di Contenuti chiamata **Utente**.
-2. Creare una Categoria di Contenuti chiamata **SEO** che sia figlia di *Utente*.
-3. Creare un articolo e assegnarlo alla categoria *SEO*.
-4. Creare un elemento di menu **Utente** di tipo **Lista Categoria** usando la categoria *Utente*.
-5. Creare un elemento di menu **SEO** di tipo **Lista Categoria** usando la categoria *SEO*.
-6. Configurare la funzionalità SEO di Joomla in *Configurazione Globale*.
+Nel CMS Joomla un URL del primo tipo può essere impostato come segue:
 
-Testalo con il tuo URL SEO: naviga attraverso le liste Utente e SEO fino alla pagina SEO Basics. Il Breadcrumb dovrebbe mostrare: `Sei qui: Home / Utente / SEO / SEO Basics`. Ma non se hai creato un tipo di elemento di menu Articolo Singolo per *SEO Basics*!
+1. Crea una Categoria Contenuto chiamata **Utente**.
+2. Crea una Categoria Contenuto chiamata **SEO** che sia figlia di *Utente*.
+3. Crea un articolo e assegnalo alla categoria *SEO*.
+4. Crea un elemento di menu **Utente** di tipo **Elenco Categoria** utilizzando la categoria *Utente*.
+5. Crea un elemento di menu **SEO** di tipo **Elenco Categoria** utilizzando la categoria *SEO*.
+6. Configura la funzionalità SEO di Joomla in *Configurazione Globale*.
 
-## Riduci la Duplicazione
+Provalo con il tuo URL SEO: naviga tramite gli elenchi Utente e SEO fino alla pagina SEO Basics. I Breadcrumbs dovrebbero mostrare: `Sei qui: Home / Utente / SEO / SEO Basics`. Ma non se hai creato un tipo di voce di menu Articolo Singolo per *SEO Basics*!
 
-Il problema con i CMS è che lo stesso contenuto può essere reso disponibile con URL diversi. Nell'esempio sopra, entrambi gli URL funzioneranno (ma non su questo sito), così come `https://example.com/index.php?option=com_content&view=category&id=18&ItemID=17`. Solo uno di questi dovrebbe essere riconosciuto dai motori di ricerca e impostato come URL **canonico**. Ma quale e come?
+## Ridurre la Duplicazione
 
-Il plugin **System - SEF** fornisce qualche aiuto. Ha tre impostazioni:
+Il problema con i CMS è che lo stesso contenuto può essere reso disponibile con URL diversi. Nell'esempio sopra, entrambe le URL funzioneranno (ma non su questo sito), così come `https://example.com/index.php?option=com_content&view=category&id=18&ItemID=17`. Solo uno di questi dovrebbe essere riconosciuto dai motori di ricerca e impostato come URL **canonico**. Ma quale e come?
 
-* **Dominio del sito:** Se il tuo sito può essere accessibile tramite più di un dominio, inserisci qui il dominio preferito (a volte chiamato canonico). **Nota:** `https://example.com` e `https://www.example.com` sono domini diversi.
-* **Gestione rigorosa di index.php:** Questa opzione consente una gestione più rigorosa di 'index.php' negli URL quando 'Usa riscrittura URL' è abilitata nella Configurazione Globale. Rimuoverà 'index.php' se un URL lo contiene ancora e reindirizzerà le richieste in arrivo con 'index.php' alla versione senza 'index.php'.
-* **Slash finale per gli URL:** Forza Joomla a utilizzare solo URL con o senza slash finale. Quando impostato, forzerà l'URL corretto con reindirizzamenti ed è applicato solo quando 'Aggiungi suffisso all'URL' è disabilitato.
+Il plugin **System - SEF** fornisce alcuni aiuti. Ha tre impostazioni:
 
-**Spiegazione dei Tag Canonici** di Daniel Morell:
+- **Dominio del Sito** Se il tuo sito può essere accessibile tramite più di un dominio, inserisci qui il dominio preferito (a volte chiamato canonico). **Nota:** `https://example.com` e `https://www.example.com` sono domini diversi.
+- **Gestione rigorosa di index.php** Questa opzione abilita una gestione più rigorosa di `index.php` negli URL quando **Usa Riscrittura URL** è abilitato nella Configurazione Globale. Rimuoverà `index.php` se un URL lo contiene ancora e reindirizzerà le richieste in arrivo con `index.php` alla versione senza `index.php`.
+- **Barra finale per URL** Forza Joomla a utilizzare solo URL con o senza barra finale. Quando impostato, questo forzerà l'URL corretto con reindirizzamenti e viene applicato solo quando 'Aggiungi suffisso agli URL' è disabilitato.
 
-* Come Creare Tag Canonici in Joomla
-* Plugin e Documentazione:
-
-Per Joomla 4 e 5, prima di abilitare, il plugin necessita che `if ($app->isAdmin()) {` sia cambiato in `if ($app->isClient('admin')) {` alle righe 72 e 99 di *plugins /system / customcanonical / customcanonical.php*.
-
-In un articolo, seleziona la scheda Pubblicazione e poi il pulsante *URL Canonico* **Auto**. Questo posizionerà un link come il seguente su qualsiasi pagina che visualizza l'articolo singolo:
-```
-    <link href="/jdm3/en/user/seo/seo-basics.html" rel="canonical" />
-```
+Altrimenti, vedi la spiegazione dei **Tag Canonici** di [Daniel Morell](https://www.danielmorell.com/blog/how-to-create-joomla-canonical-tags).
 
 ## Qualità del Contenuto
 
-Rendi ciò che scrivi interessante e facile da leggere. I paragrafi lunghi sono spesso opprimenti e difficili da leggere. I paragrafi di una sola riga sembrano fuori luogo! Forse dovrebbero essere effettivamente punti elenco. Punta a paragrafi di circa tre righe. Leggi ciò che scrivi ed elimina eventuali parole superflue.
+Rendi ciò che scrivi interessante e facile da leggere. I paragrafi lunghi sono spesso opprimenti e difficili da leggere. I paragrafi di una sola riga sembrano sbagliati! Forse dovrebbero essere davvero punti elenco. Mira a paragrafi di circa tre righe. Leggi ciò che scrivi ed elimina le parole non necessarie.
 
 Mantieni il tuo contenuto aggiornato ed evita di copiare informazioni da altri siti. Se possibile, verifica il tuo contenuto.
 
 ### HTML Semantico
 
-Il contenuto dovrebbe consistere in una gerarchia di intestazioni e paragrafi con altri elementi come richiesto (elenchi, tabelle e così via). Non confondere la struttura con l'aspetto - quindi non utilizzare un'intestazione per l'enfasi né l'enfasi per un'intestazione. Questo è un esempio di marcatura semantica di un articolo:
+Il contenuto dovrebbe consistere in una gerarchia di intestazioni e paragrafi con altri elementi secondo necessità (elenchi, tabelle e così via). Non confondere la struttura con l'aspetto - quindi non utilizzare un'intestazione per rendere il testo in grassetto o il testo in grassetto per creare un'intestazione. Questo è un esempio di marcatura semantica di un articolo:
 
 ```html
-  <h2>Uso delle intestazioni</h2>
-  <p>Questo è un articolo sull'importanza delle intestazioni.</p>
+  <h2>Using headings</h2>
+  <p>This is an article about the importance of headings.</p>
 
-  <h2>Perché usare le intestazioni?</h2>
-  <p>È importante usare le intestazioni in modo che i bot dei motori di ricerca possano identificare quale parte del tuo articolo sia <strong>importante</strong>.</p>
+  <h2>Why use headings?</h2>
+  <p>It is important to use headings so that search engine bots can tell what
+  is an <strong>important</strong> part of your article.</p>
 
-  <h3>Tipi di intestazioni</h3>
-  <p>Puoi usare tipi di intestazioni specifici, ma devono essere ordinati e strutturati all'interno della tua pagina. H1 sarà il titolo della pagina inserito da Joomla, con H2 utilizzato per i sottotitoli della pagina. Eventuali intestazioni all'interno dei tuoi sottotitoli dovrebbero scalare utilizzando H3, H4 e H5 se appropriato.</p>
+  <h3>Types of headings</h3>
+  <p>You can use set types of headings, but they should be ordered, and
+  structured, within your page.  H1 will be the page title inserted by Joomla,
+  with H2 being used for sub-headings of the page.  Any headings within your
+  sub-headings should cascade using H3, H4, and H5 as appropriate.</p>
 
-  <h2>È difficile implementare le intestazioni?</h2>
-  <p>È davvero facile implementare le intestazioni, basta usare il codice HTML appropriato.</p>
+  <h2>Is it hard to implement headings?</h2>
+  <p>It is really easy to implement headings, you just use the appropriate
+  HTML code.</p>
 ```
-Nota che un *Titolo* di un articolo diventerà un'intestazione `<h1>` se necessario, quindi non utilizzarlo nel corpo dell'articolo.
 
-## Anticipare i Termini di Ricerca
+Si noti che un articolo *Titolo* diventerà un'intestazione `<h1>` se necessario, quindi non usarlo nel corpo dell'articolo.
 
-Scegli titoli espliciti per le tue pagine e per i titoli all'interno delle pagine. Ad esempio, se non sai cosa sia l’*HTML Semantico* o desideri maggiori informazioni su quell'argomento, quelle sarebbero le parole che inserisci in un motore di ricerca. Pensa alle persone che potrebbero essere interessate alle informazioni che stai fornendo. Cosa cercheranno? Ma mantieni i Titoli e le Intestazioni piuttosto brevi - alcune fonti suggeriscono non più di 60 caratteri.
+## Prevedere i Termini di Ricerca
 
-## Attenzione agli Annunci Pubblicitari
+Scegli titoli espliciti per le tue pagine e intestazioni all'interno delle pagine. Ad esempio, se non sai cosa sia *HTML Semantico* o vuoi ulteriori informazioni su quell'argomento, quelle sarebbero le parole che inserisci in un motore di ricerca. Pensa alle persone che potrebbero essere interessate alle informazioni che stai fornendo. Cosa cercheranno? Ma mantieni i titoli e le intestazioni abbastanza brevi - alcune fonti dicono non più di 60 caratteri.
 
-Niente scoraggerà i visitatori del sito più degli annunci che compaiono qui, lì e ovunque e spostano le informazioni reali davanti ai tuoi occhi. Gli annunci che cambiano ogni pochi secondi sono anche fastidiosi e un peso per le risorse degli utenti finali. Molti useranno i blocchi per gli annunci pubblicitari!
+## Cura con le Pubblicità
 
-## Attenzione ai Link
+Niente scoraggerà di più i visitatori del sito di quanto facciano gli annunci pubblicitari che compaiono qui, lì e ovunque, spostando le vere informazioni davanti ai tuoi occhi. Gli annunci che cambiano ogni pochi secondi sono anche fastidiosi e un consumo di risorse per l'utente finale. Molti utilizzeranno i blocchi per gli annunci!
 
-I link sono sia una benedizione sia una maledizione! Possono influenzare il punteggio SEO del tuo sito in modo positivo o negativo a seconda che tu abbia collegamenti a fonti rispettabili o non rispettabili. E devono essere mantenuti. Potresti avere link a articoli interni o esterni che sono spariti, presentano informazioni obsolete o non sono più rilevanti. Il miglior consiglio: collegati se il target aggiunge un reale vantaggio per i visitatori del tuo sito e utilizza l'attributo `nofollow` per i link se non vuoi che il sito di destinazione sia associato al tuo sito.
+## Attenzione ai link
 
-Ci sono molti strumenti di verifica dei link disponibili, alcuni gratuiti o freemium e altri a pagamento, spesso come parte di un servizio di monitoraggio del sito.
+I collegamenti sono sia una benedizione che una maledizione! Possono influenzare il rating SEO del tuo sito in modo positivo o negativo a seconda che tu abbia collegamenti a fonti affidabili o inaffidabili. E devono essere mantenuti. Potresti avere collegamenti a articoli interni o esterni che sono scomparsi, presentano informazioni obsolete o non sono più pertinenti. Il miglior consiglio: collega se la destinazione apporta un beneficio reale ai visitatori del tuo sito e usa l'attributo di collegamento `nofollow` se non desideri che il sito di destinazione sia associato al tuo sito.
+
+Ci sono molti strumenti di controllo dei link disponibili, alcuni gratuiti o freemium e altri a pagamento, spesso come parte di un servizio di monitoraggio del sito.
 
 ## Titolo della Pagina e Descrizione
 
-Nell'`<head>` di ogni pagina dovrebbe esserci un tag `<title>` e un tag `<description>`. Joomla rende molto facile impostare un titolo diverso per ogni pagina. Sfortunatamente, rende anche molto facile trascurare l'impostazione di un Titolo e una Descrizione adeguati su ogni pagina.
+Nel `<head>` di ogni pagina dovrebbe esserci un tag `<title>` e un tag `<description>`. Joomla rende molto facile impostare un titolo diverso per ogni pagina. Sfortunatamente, rende anche molto facile trascurare di impostare un Titolo e una Descrizione adeguati su ogni pagina.
 
-Come esempio, prendiamo la pagina dell'elenco della categoria **SEO** menzionata sopra. Il `<title>` del sorgente della pagina dice **SEO** e manca la `<description>`. Nel modulo **Menu: Modifica Voce** per questo elemento di menu c'è una scheda **Visualizzazione Pagina** con un campo **Titolo della Pagina del Browser**. Inserisci `SEO - Elenco di Articoli` lì e quello è ciò che appare nel tag `<title>` e nella scheda del browser.
+Ad esempio, prendi la pagina di elenco della categoria **SEO** menzionata sopra. Il codice sorgente della pagina `<title>` dice **SEO** e alla `<description>` manca. Nel modulo **Menu: Modifica Elemento** per questo elemento di menu, c'è una scheda **Visualizzazione Pagina** con un campo **Titolo della Pagina del Browser**. Inserisci `SEO - Elenco degli Articoli` lì e questo è ciò che appare nel tag `<title>` e nella scheda del browser.
 
-Nella scheda **Metadati**, con il campo **Descrizione Meta** impostato su `Elenco di articoli sull'Ottimizzazione per i Motori di Ricerca.`, è esattamente ciò che appare nel campo `<description>`. La Descrizione viene talvolta utilizzata per accompagnare un Titolo di pagina nei risultati di ricerca, quindi dovrebbe essere pertinente.
+Nella scheda **Metadata**, con il campo **Meta Description** impostato su `List of articles on Search Engine Optimisation.`, è esattamente ciò che appare nel campo `<description>`. La Descrizione a volte viene utilizzata per accompagnare il titolo di una pagina nei risultati di ricerca, quindi dovrebbe essere rilevante.
 
-Ulteriori informazioni:
-* Articolo di rivista: Tag titolo SEO di Joomla
-* Esplora il Core: Opzioni SEO Nativi
+Maggiori informazioni:  
+* Articolo della rivista: [Joomla SEO title tags](https://magazine.joomla.org/all-issues/september/joomla-seo-title-tags)  
+* [Esplora il Core: Opzioni SEO Nativi](https://magazine.joomla.org/all-issues/june/explore-the-core-native-seo-options)
 
-## Ottimizzare le Immagini
+## Ottimizzare le immagini
 
 Inutile dire che immagini attraenti possono migliorare enormemente un sito. Ma troppe immagini troppo grandi attirano penalità SEO. Ecco alcuni consigli:
 
-* Posiziona le immagini accanto al testo che illustrano.
-* Usa un testo **alt** descrittivo.
-* Usa parole separate da segni meno per i nomi delle immagini, ad esempio cat-on-hot-tin-roof.jpg.
-* Usa il tipo giusto di immagine per il lavoro: png per manifesti, jpg per fotografie.
-* Usa immagini responsive - c'è un plugin Joomla che crea dinamicamente versioni webp di immagini png e jpg in diverse dimensioni.
+- Posizionare le immagini accanto al testo che illustrano.
+- Utilizzare un testo **alt** descrittivo.
+- Usare nomi di immagini separati da trattini, ad esempio cat-on-hot-tin-roof.jpg.
+- Utilizzare il tipo di immagine giusto per il lavoro: png per i poster, jpg per le fotografie.
+- Usare immagini responsive - c'è un [plugin Joomla](https://responsive-images.dgrammatiko.dev/) che crea dinamicamente versioni webp di immagini png e jpg in diverse dimensioni.
 
 *Tradotto da openai.com*
+
