@@ -54,9 +54,13 @@ Gli elementi in questo pannello sono ben spiegati dall'aiuto in linea. Tuttavia,
 
 ![Scheda server configurazione globale](../../../en/images/configuration/global-configuration-server-tab.png)
 
-### Pannello Mail
+### Pannello di posta
 
-Un sito Joomla dovrebbe poter inviare email in uscita. Tra le altre cose, invierà messaggi automatici al proprietario del sito quando sono disponibili aggiornamenti. Tuttavia, alcuni servizi di hosting limitano i metodi con cui può essere inviata la posta in uscita. Utilizzando il tuo indirizzo email privato nel campo From Email:
+Un sito Joomla dovrebbe essere in grado di inviare email in uscita. Tra le altre cose, invierà messaggi automatici al proprietario del sito quando sono disponibili aggiornamenti. Tuttavia, alcuni servizi di hosting limitano i metodi con cui le email in uscita possono essere inviate.
+
+#### Invia email di prova
+
+Prima di Joomla 5.3, il pulsante **Invia email di prova** inviava un messaggio all'indirizzo configurato nel campo **Email del mittente**. Dalla versione 5.3, l'email di prova viene inviata direttamente all'indirizzo email dell'amministratore connesso.
 
 - Prova prima PHP Mail e seleziona il pulsante *Invia Mail di Test*. Se l'email arriva sei a posto. Altrimenti:
 - Prova l'opzione Sendmail. Se non funziona:
