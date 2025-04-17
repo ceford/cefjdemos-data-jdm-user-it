@@ -26,7 +26,7 @@ I contatti vengono creati tramite la pagina dell'elenco dei contatti. Seleziona 
 
 Nel modulo **Contatti: Modifica**, inserisci i dati disponibili sul contatto.
 
-![screenshot inserimento dati](../../../en/images/contacts/contact-data-entry.png "Screenshot inserimento dati")
+![screenshot inserimento dati](../../../en/images/contacts/contact-data-entry.png)
 
 **Note:**
 
@@ -60,13 +60,13 @@ Camera dei Comuni
 - Commissione Affari
 - Commissione Cultura
 ```
-![tutte le categorie in un albero di categoria](../../../en/images/contacts/contact-all-committees.png "Tutte le Categorie in un Albero di Categoria di Contatti")
+![tutte le categorie in un albero di categoria](../../../en/images/contacts/contact-all-committees.png)
 
 La seconda riga di ciascuna voce proviene dalla Descrizione della Categoria.
 
 Se selezioni uno dei link della Commissione, la pagina della Commissione potrebbe apparire in questo modo:
 
-![contatti in una categoria](../../../en/images/contacts/contact-culture-committee.png "Contatti in una Categoria")
+![contatti in una categoria](../../../en/images/contacts/contact-culture-committee.png)
 
 Il layout non è proprio come desiderato. Sarebbe stato utile includere
 un'anteprima di ciascun individuo e un layout migliore dei dettagli. Questo
@@ -77,7 +77,7 @@ può essere fatto con una sovrascrittura del template (in seguito).
 Per la Commissione Affari c'è un elemento di menu Elenco Contatti in una Categoria.
 Ciò causa l'uso di un layout diverso:
 
-![elenco di categoria contatti](../../../en/images/contacts/contact-category-list.png "Elenco di Categoria Contatti")
+![elenco di categoria contatti](../../../en/images/contacts/contact-category-list.png)
 
 Meglio ma ancora non del tutto corretto! È stata necessaria una sovrascrittura 
 di stile per ridurre lo stile dell'immagine. Ancora una volta sembra che una sovrascrittura del template potrebbe essere utile.
@@ -86,7 +86,7 @@ di stile per ridurre lo stile dell'immagine. Ancora una volta sembra che una sov
 
 Per questo esempio, i Presidenti di tutte le commissioni sono stati contrassegnati come in primo piano.
 
-![contatti in primo piano](../../../en/images/contacts/contact-featured.png "Contatti In Primo Piano")
+![contatti in primo piano](../../../en/images/contacts/contact-featured.png)
 
 ## Ordine di Classificazione
 

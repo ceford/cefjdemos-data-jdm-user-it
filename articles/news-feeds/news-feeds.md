@@ -6,7 +6,7 @@ C'era una volta in cui era pratica comune per un sito web visualizzare notizie p
 
 Il metodo per condividere le notizie è il *Really Simple Syndication*, solitamente abbreviato in **RSS**, e questo ha ancora un posto nella promozione dei siti web. Lo screenshot seguente mostra *NetNewsWire*, un lettore RSS gratuito e open source per Mac. Altri lettori RSS sono disponibili per altre piattaforme. L'illustrazione mostra il feed RSS degli **Annunci di Joomla!** selezionato. Dieci annunci sono elencati con Titolo e breve descrizione. L'annuncio selezionato è mostrato per intero nella colonna di destra.
 
-![Feed RSS degli Annunci di Joomla](../../../en/images/news-feeds/news-netnewswire-display.png "Annunci di Joomla")
+![Feed RSS degli Annunci di Joomla](../../../en/images/news-feeds/news-netnewswire-display.png)
 
 Immagina cosa uno o più feed RSS potrebbero fare per il tuo sito web!
 
@@ -32,13 +32,13 @@ Il Feed RSS non può essere nascosto in una pagina principale degli articoli in 
 
 C'è un modulo core che puoi posizionare sulle pagine Blog in Primo Piano o di Categoria per fornire un link di Syndication. Compila i campi nella scheda Modulo. La maggior parte ha valori predefiniti adatti. Se il campo Etichetta viene lasciato vuoto, l'etichetta predefinita in inglese è *Feed Entries*. Nella scheda *Assegnazione Menu* seleziona **Su tutte le pagine**. Il modulo apparirà solo nelle pagine Blog in Primo Piano e di Categoria.
 
-![Inserimento dati dei feed di syndication](../../../en/images/news-feeds/news-syndication-feeds-form.png "Inserimento dati dei feed di syndication")
+![Inserimento dati dei feed di syndication](../../../en/images/news-feeds/news-syndication-feeds-form.png)
 
 Ricorda di assegnare il modulo a una *Posizione* e di renderlo *Pubblicato*.
 
 Nella vista della pagina del sito, il modulo visualizza un link. Non è inteso per il clic a meno che tu non abbia configurato un Lettore di Notizie locale. Il link deve essere copiato per l'uso in un Lettore di Notizie su un altro sito o applicazione Lettore di Notizie.
 
-![Visualizzazione dei feed di syndication](../../../en/images/news-feeds/news-syndication-feeds-display.png "Visualizzazione dei feed di syndication")
+![Visualizzazione dei feed di syndication](../../../en/images/news-feeds/news-syndication-feeds-display.png)
 
 Nota che il link è per gli elementi di quella pagina. Quindi, se il tuo sito ha diverse pagine blog di categoria, avrai diversi feed RSS.
 

@@ -21,7 +21,7 @@ I valori minimi per il file *php.ini* sono mostrati di seguito:
 
 ### Configurazione del Database
 
-Se non hai ancora impostato un database, fallo ora. È trattato per un servizio di hosting cPanel nel tutorial [Hosting cPanel](jdocmanual?article=user/hosting/cpanel-hosting "Hosting cPanel"). C'è anche un tutorial *Creare un Database per Joomla!* che copre i metodi localhost e phpMyAdmin.
+Se non hai ancora impostato un database, fallo ora. È trattato per un servizio di hosting cPanel nel tutorial [Hosting cPanel](jdocmanual?article=user/hosting/cpanel-hosting). C'è anche un tutorial *Creare un Database per Joomla!* che copre i metodi localhost e phpMyAdmin.
 
 Dovrai annotare le informazioni di base sul database necessarie quando viene avviata l’installazione effettiva di Joomla.
 

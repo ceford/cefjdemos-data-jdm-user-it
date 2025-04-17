@@ -4,11 +4,11 @@
 
 È disponibile un modulo principale *Visualizzazione dei Feed* per mostrare le notizie da altri siti. Lo screenshot seguente mostra il modulo di inserimento dati con l'URL del feed di notizie degli Annunci Joomla. Nota che il Conteggio delle Parole è impostato a 100. Altrimenti, la lunghezza di un annuncio può essere eccessiva per un modulo nella barra laterale.
 
-![Inserimento dati modulo di visualizzazione dei feed](../../../en/images/news-feeds/news-joomla-news-form.png "Inserimento dati modulo di visualizzazione dei feed")
+![Inserimento dati modulo di visualizzazione dei feed](../../../en/images/news-feeds/news-joomla-news-form.png)
 
 Il risultato può essere brutto ma può essere migliorato con alcuni stili personalizzati in user.css:
 
-![Inserimento dati modulo di visualizzazione dei feed](../../../en/images/news-feeds/news-joomla-news-display.png "Inserimento dati modulo di visualizzazione dei feed")   
+![Inserimento dati modulo di visualizzazione dei feed](../../../en/images/news-feeds/news-joomla-news-display.png)   
 
 ## Pagine di Visualizzazione Feed
 
@@ -22,7 +22,7 @@ In alternativa alla visualizzazione delle notizie in un modulo, puoi creare un e
     - La scheda **Opzioni** ha elementi per controllare la *Visualizzazione* del feed.
 * **Salva & Chiudi**
 
-![Inserimento dati del componente NewsFeed](../../../en/images/news-feeds/news-feed-data-entry.png "Inserimento dati del componente NewsFeed")
+![Inserimento dati del componente NewsFeed](../../../en/images/news-feeds/news-feed-data-entry.png)
 
 Crea un elemento di menu a partire dal menu dell'Amministratore:
 
@@ -32,11 +32,11 @@ Crea un elemento di menu a partire dal menu dell'Amministratore:
 * Compila il resto del modulo come appropriato.
 * **Salva & Chiudi**
 
-![Inserimento dati voce di menu NewsFeed](../../../en/images/news-feeds/news-feed-data-entry.png "Inserimento dati voce di menu NewsFeed")
+![Inserimento dati voce di menu NewsFeed](../../../en/images/news-feeds/news-feed-data-entry.png)
 
 Verifica: vai al menu del Sito e seleziona l'elemento del menu Feed.
 
-![Visualizzazione NewsFeed](../../../en/images/news-feeds/news-feed-display.png "Visualizzazione NewsFeed")
+![Visualizzazione NewsFeed](../../../en/images/news-feeds/news-feed-display.png)
 
 Ogni elemento nel feed è un `<li>` all'interno di un tag `<ul>` quindi per impostazione predefinita appare segnato da un punto. Questo non è così evidente se gli elementi sono lunghi. Puoi applicare i tuoi stili in *user.css*. Il seguente codice posizionerà ogni elemento in una casella distinta:
 
@@ -54,7 +54,7 @@ ul.com-newsfeeds-newsfeed__items > li {
 ```
 Che appare così:
 
-![Visualizzazione personalizzata NewsFeed](../../../en/images/news-feeds/news-feed-custom-display.png "Visualizzazione personalizzata NewsFeed")
+![Visualizzazione personalizzata NewsFeed](../../../en/images/news-feeds/news-feed-custom-display.png)
 
 ## Elencare i Feed di Notizie in una Categoria
 
@@ -62,7 +62,7 @@ La pagina *Joomla! RSS News Feeds* elenca otto feed di notizie separati. Potrest
 creare un feed per alcuni o tutti e assegnarli a una Categoria, ad esempio *Joomla
 News*. Poi puoi creare un elemento di menu con il *Tipo di Elemento di Menu* impostato su *Elenca i Feed di Notizie in una Categoria* e la Categoria impostata su *Joomla News*.
 
-![Modulo del menu feed di notizie per categoria](../../../en/images/news-feeds/news-feed-menu-category-form.png "Modulo del menu feed di notizie per categoria")
+![Modulo del menu feed di notizie per categoria](../../../en/images/news-feeds/news-feed-menu-category-form.png)
 
 Prova a vedere il risultato!
 

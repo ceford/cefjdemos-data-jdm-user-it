@@ -48,7 +48,7 @@ Ogni servizio di hosting offre diversi piani a diversi livelli di prezzo. Più p
 
 Non esiste un hosting gratuito! Tuttavia, un servizio di hosting partner di Joomla offre un sito web Joomla gratuito nel dominio joomla.com. Questo ti dà l'opportunità di provare il tuo sito web Joomla completamente funzionante senza alcun costo. È simile a un piano di hosting condiviso, ma con restrizioni e frequenti inviti ad effettuare l'upgrade a un piano a pagamento. Inoltre, il piano gratuito deve essere rinnovato ogni 30 giorni o verrà terminato. Il seguente articolo mostra i passaggi necessari per configurare un sito Joomla gratuito.
 
-* [Hosting Gratuito Joomla](jdocmanual?article=user/hosting/free-hosting "")
+* [Hosting Gratuito Joomla](jdocmanual?article=user/hosting/free-hosting)
 
 Se scopri che ti piace Joomla, puoi passare a un piano a pagamento o cercare altrove un servizio di hosting adatto alle tue esigenze e al tuo budget.
 
@@ -91,7 +91,7 @@ Se hai acquistato un nome di dominio, il tuo servizio di hosting lo configurerà
 
 Il seguente articolo mostra cosa aspettarsi se acquisti un piano di hosting che include un'interfaccia utente cPanel.
 
-* [Hosting cPanel](jdocmanual?article=user/hosting/cpanel-hosting "Hosting cPanel")
+* [Hosting cPanel](jdocmanual?article=user/hosting/cpanel-hosting)
 
 ## Hosting VPS
 
@@ -108,7 +108,7 @@ La maggior parte delle persone che sviluppano siti web mantengono copie locali s
 
 I seguenti articoli descrivono come configurare l'ospitalità locale su diversi tipi di computer desktop o laptop:
 
-* [Ospitalità Locale su Windows](jdocmanual?article=user/hosting/local-hosting-on-windows "Ospitalità Locale su Windows") solo per Windows
-* [Ospitalità Locale con XAMPP](jdocmanual?article=user/hosting/local-hosting-with-xampp "Ospitalità Locale con XAMPP") per Linux, Mac e Windows.
-* [Ospitalità Locale su Linux](jdocmanual?article=user/hosting/local-hosting-on-linux "Ospitalità Locale su Linux")
+* [Ospitalità Locale su Windows](jdocmanual?article=user/hosting/local-hosting-on-windows) solo per Windows
+* [Ospitalità Locale con XAMPP](jdocmanual?article=user/hosting/local-hosting-with-xampp) per Linux, Mac e Windows.
+* [Ospitalità Locale su Linux](jdocmanual?article=user/hosting/local-hosting-on-linux)
 

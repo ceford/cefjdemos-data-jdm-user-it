@@ -194,7 +194,7 @@ controller di base. Per esempio nel controller del tuo componente:
     }
 
 Ci sono anche alcuni urlparams da considerare. Controlla questo
-[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000 "")
+[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000)
 
 Inoltre, sii consapevole che eventuali aggiornamenti (come hit o conteggi di visite)
 NON saranno aggiornati (a meno che non aggiungi questo al di fuori di

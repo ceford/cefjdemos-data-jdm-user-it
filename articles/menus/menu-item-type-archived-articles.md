@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles / Display title: Articoli Archiviati  -->
+<!-- Filename: J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles / Display title: Menu Articoli Archiviati  -->
 
 ## Introduzione
 
@@ -15,9 +15,9 @@ Ma cosa succede se gli articoli più vecchi devono essere resi disponibili ai vi
 5. Cambia qualsiasi altro parametro per soddisfare le tue esigenze. Ad esempio, potresti eliminare **Tutte le Categorie** e scegliere una o più categorie dall'elenco a discesa.
 6. Seleziona **Salva & Chiudi** per creare il nuovo elemento del menu.
 
-![Modulo Menu Articoli Archiviati](../../../en/images/menus/menus-articles-archived.png "Modulo Menu Articoli Archiviati")
+![Modulo Menu Articoli Archiviati](../../../en/images/menus/menus-articles-archived.png)
 
-Ci sono un numero di parametri che puoi cambiare – puoi trovare informazioni più dettagliate nella schermata di [Aiuto](jdocmanual?article=help/menu-items/menu-item-article-archived "Elemento del Menu: Articolo Archiviato").
+Ci sono un numero di parametri che puoi cambiare – puoi trovare informazioni più dettagliate nella schermata di [Aiuto](jdocmanual?article=help/menu-items/menu-item-article-archived).
 
 Dopo aver salvato, il nuovo elemento del menu apparirà nel menu del Sito nell'ordine aggiunto o nell'ordine regolato trascinando e rilasciando o in questa schermata di modifica del menu.
 
@@ -25,7 +25,7 @@ Dopo aver salvato, il nuovo elemento del menu apparirà nel menu del Sito nell'o
 
 Il link *Articoli Archiviati* conduce a una pagina che visualizza un elenco di articoli archiviati:
 
-![Modulo del Menu Articoli Archiviati](../../../en/images/menus/menus-articles-archived-display.png "Modulo del Menu Articoli Archiviati")
+![Modulo del Menu Articoli Archiviati](../../../en/images/menus/menus-articles-archived-display.png)
 
 Questo esempio è l'output predefinito. Puoi scegliere di modificarlo in modo che, ad esempio, mostri solo il titolo collegato e la categoria – Joomla ti consente di modificarlo facilmente. Potresti decidere di mostrare solo il titolo, ma vale la pena sperimentare per configurarlo come desideri.
 

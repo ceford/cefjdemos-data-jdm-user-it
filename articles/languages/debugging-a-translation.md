@@ -52,7 +52,7 @@ Questo plugin di sistema controlla cosa viene visualizzato quando il debug è at
 
 Nella scheda **Lingua**:
 
-![plugin sistema debug](../../../en/images/languages/languages-debug-plugin.png "Sistema - Debug Lingua")
+![plugin sistema debug](../../../en/images/languages/languages-debug-plugin.png)
 
 * **Errori nel Parsing dei File di Lingua** Visualizza un errore se un file di lingua non viene caricato correttamente.
 

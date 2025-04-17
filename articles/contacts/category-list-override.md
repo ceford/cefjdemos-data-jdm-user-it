@@ -43,7 +43,7 @@ classe di contactList:
   padding-left: 0;
 }
 ```
-![business committee stilizzato](../../../en/images/contacts/contact-business-committee-styled.png "Business Committee Stilizzato")
+![business committee stilizzato](../../../en/images/contacts/contact-business-committee-styled.png)
 
 Questo è tutto ciò che si può fare con lo stile. Meglio, ma ancora non abbastanza.
 Per aggiungere più elementi e modificare il layout sarà necessario un override del layout.
@@ -159,7 +159,7 @@ a:has(.contact-thumbnail) {
 
 ### Risultato
 
-![gridded business committee](../../../en/images/contacts/contact-business-committee-grid.png "Comitato Aziendale Grigliato")
+![gridded business committee](../../../en/images/contacts/contact-business-committee-grid.png)
 
 *Tradotto da openai.com*
 

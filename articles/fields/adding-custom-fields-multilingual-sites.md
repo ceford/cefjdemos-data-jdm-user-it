@@ -10,7 +10,7 @@ Se hai un sito multilingue, puoi mostrare le etichette e le descrizioni dei camp
 
 Nel seguente esempio, viene creato un gruppo di campi e un campo Contatto per le preferenze personali di un contatto. Il gruppo di campi è chiamato Preferiti e il campo di esempio è chiamato Auto. Chiaramente, possono essere aggiunti altri campi per altre cose preferite, come cibo o film.
 
-Per seguire questo esempio, si presume che tu abbia impostato un sito multilingue come descritto nel tutorial [Siti Multilingue](jdocmanual?article=user/languages/setup-a-multilingual-site "Siti Multilingue").
+Per seguire questo esempio, si presume che tu abbia impostato un sito multilingue come descritto nel tutorial [Siti Multilingue](jdocmanual?article=user/languages/setup-a-multilingual-site).
 
 ## Costanti di Linguaggio
 
@@ -49,7 +49,7 @@ Dal menu dell'Amministratore:
 
 Lo screenshot seguente mostra un esempio di creazione di un override per una costante della lingua tedesca.
 
-![Creazione di un override in tedesco](../../../en/images/fields/fields-overrides-creation-de.png "Creazione di un override in tedesco")
+![Creazione di un override in tedesco](../../../en/images/fields/fields-overrides-creation-de.png)
 
 ## Definizione del Gruppo di Campi
 
@@ -79,11 +79,11 @@ Dal menu Amministratore:
 
 Con l'inglese selezionato prima dell'accesso come Amministratore, il modulo di inserimento dati del contatto dovrebbe contenere una scheda con il nome inglese del tuo gruppo di campi e i campi in quel gruppo con valori in inglese.
 
-![Inserimento dati in inglese](../../../en/images/fields/fields-overrides-entry.png "Inserimento dati in inglese")
+![Inserimento dati in inglese](../../../en/images/fields/fields-overrides-entry.png)
 
 Con il tedesco selezionato prima dell'accesso come Amministratore, dovresti vedere le traduzioni tedesche delle tue costanti linguistiche:
 
-![Inserimento dati in tedesco](../../../en/images/fields/fields-overrides-entry-de.png "Inserimento dati in tedesco")
+![Inserimento dati in tedesco](../../../en/images/fields/fields-overrides-entry-de.png)
 
 Avvertenza: traduzione tramite translate.google.co.uk!
 
@@ -91,11 +91,11 @@ Avvertenza: traduzione tramite translate.google.co.uk!
 
 In inglese:
 
-![Visualizzazione dei dati in inglese](../../../en/images/fields/fields-overrides-display.png "Visualizzazione dei dati in inglese")
+![Visualizzazione dei dati in inglese](../../../en/images/fields/fields-overrides-display.png)
 
 E in tedesco:
 
-![Visualizzazione dei dati in tedesco](../../../en/images/fields/fields-overrides-display-de.png "Visualizzazione dei dati in tedesco")
+![Visualizzazione dei dati in tedesco](../../../en/images/fields/fields-overrides-display-de.png)
 
 *Tradotto da openai.com*
 

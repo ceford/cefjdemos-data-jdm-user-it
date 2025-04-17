@@ -12,7 +12,7 @@ Ci sono tre passaggi nella creazione di un menu utilizzabile:
 
 Questo screenshot mostra i menu disponibili in un sito Multilingue. In un'installazione iniziale di Joomla, c'è un unico *Menu Principale*.
 
-![Elenco dei menu](../../../en/images/menus/menus-manage.png "Elenco dei menu")
+![Elenco dei menu](../../../en/images/menus/menus-manage.png)
 
 L'elenco ti consente di selezionare uno qualsiasi dei pulsanti verdi o rossi per andare direttamente all'elenco degli elementi del menu in quel menu e stato.
 
@@ -29,7 +29,7 @@ Usa uno dei seguenti passaggi per creare un nuovo menu:
   - **Titolo**: Un titolo appropriato per il menu. Questo è usato per identificare il menu nel Gestore Menu.
   - **Nome Unico**: Questo dovrebbe essere un nome di identificazione unico usato da Joomla! per identificare questo menu. Gli spazi non sono consentiti, ma puoi usare il carattere '-' come in resources-menu.
   - **Descrizione**: Anche se non è richiesta, è spesso utile in un sito con molti menu. Appare sotto il *Titolo* nell'elenco dei menu come illustrato sopra.<br>
-    ![Nuovo Menu](../../../en/images/menus/menus-new.png "Nuovo Menu")
+    ![Nuovo Menu](../../../en/images/menus/menus-new.png)
 - **Salva & Chiudi**
 
 Nell'elenco dei Menu il menu appena creato ha un pulsante etichettato **Aggiungi un modulo per questo menu**, che rappresenta la fase successiva nella creazione del menu. Potresti iniziare ad aggiungere le voci di menu e tornare a creare il modulo del menu in seguito.
@@ -38,7 +38,7 @@ Nell'elenco dei Menu il menu appena creato ha un pulsante etichettato **Aggiungi
 
 Nell'elenco dei Menu, la colonna *Moduli Collegati* consente di selezionare qualsiasi modulo menu esistente a scopo di modifica. Puoi dare un'occhiata e poi *Chiudere* senza apportare alcuna modifica. Per il tuo nuovo menu, seleziona il pulsante **Aggiungi un modulo per questo menu** per aprire un riquadro modale contenente il modulo di inserimento dati del Modulo Menu.
 
-![Modulo di inserimento dati del Modulo Menu](../../../en/images/menus/menus-module.png "Modulo di inserimento dati del Modulo Menu")
+![Modulo di inserimento dati del Modulo Menu](../../../en/images/menus/menus-module.png)
 
 Campi da completare:
 
@@ -71,13 +71,13 @@ Nell'elenco **Menu**, dalla colonna **Elementi del Menu** seleziona l'icona per 
 - Il campo **Stato** dovrebbe essere impostato su **Pubblicato**.
 - Seleziona **Salva & Chiudi**.
 
-![Modulo di inserimento dati dell'elemento del menu](../../../en/images/menus/menus-single-article.png "Modulo di inserimento dati dell'elemento del menu")
+![Modulo di inserimento dati dell'elemento del menu](../../../en/images/menus/menus-single-article.png)
 
 Aggiungi altri Elementi del Menu al nuovo Menu secondo necessità.
 
 Una volta che gli elementi sono stati aggiunti al Menu, controlla che il Menu sia visualizzato sul sito web nella posizione corretta.
 
-![Visualizzazione del menu](../../../en/images/menus/menus-display.png "Visualizzazione del menu")
+![Visualizzazione del menu](../../../en/images/menus/menus-display.png)
 
 *Tradotto da openai.com*
 

@@ -95,7 +95,7 @@ Consigli comuni dai forum di Joomla:
 ## Akeeba Quickstart
 
 Se hai utilizzato Akeeba Backup, usa Akeeba Quickstart per ripristinare il tuo backup.
-* Consulta il [Video Tutorial](http://akee.ba/abrestoreanywhere "").
+* Consulta il [Video Tutorial](http://akee.ba/abrestoreanywhere).
 * Scarica gratuitamente Akeeba Quickstart (PDF 94Kb).
 * Verifica che il sito ripristinato funzioni correttamente!
 

@@ -4,17 +4,17 @@
 
 Questo è un plugin di base che può essere utilizzato per verificare l'accessibilità durante la creazione di contenuti degli articoli. Il seguente screenshot mostra alcune impostazioni del plugin:
 
-![Impostazioni del modulo del plugin](../../../en/images/performance/performance-jooa11y-plugin-form.png "Impostazioni del Plugin")
+![Impostazioni del modulo del plugin](../../../en/images/performance/performance-jooa11y-plugin-form.png)
 
 Con l'opzione **Mostra Sempre** impostata su *On*, l'icona del report appare su ogni pagina del sito. Questo è utile per lo sviluppo, ma non dovrebbe mai essere lasciato attivo per un sito pubblico. Impostalo su **Off**!
 
 Con l'opzione *Mostra Sempre* impostata su *On*, ogni pagina del sito ha un'icona in basso a destra con un conteggio del numero di problemi. Il seguente screenshot mostra l'icona selezionata per visualizzare un pannello di informazioni. Include una Struttura della Pagina, commenti di Leggibilità e Avvertimenti, che possono essere selezionati uno per uno. È stato selezionato il primo problema.
 
-![Verifica dell'accessibilità del sito](../../../en/images/performance/performance-jooa11y-site-display.png "Verifica dell'accessibilità del sito")
+![Verifica dell'accessibilità del sito](../../../en/images/performance/performance-jooa11y-site-display.png)
 
 Il modulo *Articoli: Modifica* dispone di un pulsante **Verifica Accessibilità** nella Barra degli Strumenti. Mostra la verifica per un singolo articolo in una finestra popup:
 
-![Verifica dell'accessibilità dell'editor](../../../en/images/performance/performance-jooa11y-admin-display.png "Verifica dell'accessibilità dell'editor")
+![Verifica dell'accessibilità dell'editor](../../../en/images/performance/performance-jooa11y-admin-display.png)
 
 ## Risoluzione dei problemi
 

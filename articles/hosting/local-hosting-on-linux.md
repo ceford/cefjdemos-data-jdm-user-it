@@ -10,13 +10,13 @@ Questo articolo tratta dell'hosting di Joomla su un computer personale basato su
 
 Dal menu di sistema, contrassegnato con il logo LM, seleziona Amministrazione / Gestore Pacchetti Synaptic. Ti verrà chiesta la password. Inserisci la tua password di accesso per aprire l'interfaccia grafica. In alto a destra si trova un pulsante `Cerca`. Selezionalo, inserisci **apache** e scegli `Cerca`. Seleziona la casella di controllo `apache2` e, nella finestra popup, seleziona `Segna per l'installazione`. Un'altra finestra popup mostrerà un elenco di pacchetti aggiuntivi necessari per supportare apache. Seleziona `Segna`:
 
-![gestore pacchetti synaptic](../../../en/images/hosting/synaptic-package-manager-gui.png "Interfaccia Grafica Gestore Pacchetti Synaptic")
+![gestore pacchetti synaptic](../../../en/images/hosting/synaptic-package-manager-gui.png)
 
 Seleziona il pulsante `Applica` nella barra degli strumenti in alto e il pulsante `Applica` nella finestra di dialogo di riepilogo. Apache sarà installato e configurato, concludendo il processo con una **finestra di dialogo Cambiamenti Applicati**. Seleziona `Chiudi`.
 
 Puoi confermare che Apache è installato e funzionante aprendo il tuo browser, Firefox è predefinito in una nuova installazione di Linux Mint, e inserendo **localhost** nella barra degli URL. Dovresti vedere la pagina predefinita di Ubuntu Apache2:
 
-![pagina predefinita di apache](../../../en/images/hosting/apache-default-page.png "Pagina Predefinita di Apache")
+![pagina predefinita di apache](../../../en/images/hosting/apache-default-page.png)
 
 La pagina contiene alcune informazioni utili sui percorsi dei file che potrebbero non essere facilmente disponibili in seguito, quindi potresti voler stampare questa pagina su carta o in un file pdf.
 

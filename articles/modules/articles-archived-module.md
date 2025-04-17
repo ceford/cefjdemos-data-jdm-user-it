@@ -69,7 +69,7 @@ Quando sei pronto, seleziona il pulsante **Salva e Chiudi**.
 
 Il modulo verrà pubblicato nella barra laterale del sito web e mostrerà un elenco di link determinato dal numero di mesi da visualizzare impostato nel modulo.
 
-![Esempio di Modulo Articoli Archiviati](../../../en/images/modules/modules-archived-articles.png "Esempio di Modulo Articoli Archiviati")
+![Esempio di Modulo Articoli Archiviati](../../../en/images/modules/modules-archived-articles.png)
 
 ## Suggerimenti
 

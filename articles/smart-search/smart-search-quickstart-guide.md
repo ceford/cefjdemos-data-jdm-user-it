@@ -50,7 +50,7 @@ A seconda delle dimensioni del tuo sito, l'indicizzazione può richiedere da poc
 
 La pagina del Contenuto Indicizzato elenca tutti i contenuti indicizzati. Se preferisci che alcuni elementi specifici non vengano visualizzati nei risultati di ricerca, puoi rimuoverli dalla pubblicazione nel database di Smart Search selezionando la casella accanto al titolo dell'elemento e poi premendo il pulsante Rimuovi dalla pubblicazione.
 
-**NOTA IMPORTANTE**: Se il tuo sito ha una grande quantità di contenuti, o elementi di contenuto particolarmente grandi, o ha spazio su disco limitato, dovresti leggere [Smart Search su siti di grandi dimensioni](jdocmanual?article=user/smart-search/smart-search-on-large-sites "Smart Search su siti di grandi dimensioni").
+**NOTA IMPORTANTE**: Se il tuo sito ha una grande quantità di contenuti, o elementi di contenuto particolarmente grandi, o ha spazio su disco limitato, dovresti leggere [Smart Search su siti di grandi dimensioni](jdocmanual?article=user/smart-search/smart-search-on-large-sites).
 
 ## Esposizione della Ricerca Intelligente agli Utenti del Sito
 

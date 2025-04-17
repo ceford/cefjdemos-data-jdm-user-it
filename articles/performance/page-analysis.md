@@ -12,7 +12,7 @@ Puoi utilizzare lo strumento online da questo sito di PageSpeed Insights.
 
 Lo screenshot seguente mostra la prima parte del report di PageSpeed Insights:
 
-![Report di PageSpeed Insights](../../../en/images/performance/performance-pagespeed-insights.png "Report di PageSpeed Insights")
+![Report di PageSpeed Insights](../../../en/images/performance/performance-pagespeed-insights.png)
 
 ## Miglioramenti delle Prestazioni
 
