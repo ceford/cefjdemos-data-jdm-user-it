@@ -28,10 +28,11 @@ Se l'indicizzatore sta esaurendo la memoria, prova a fare i seguenti aggiustamen
 
 1. Riduci la dimensione del batch. Se hai contenuti particolarmente grandi, l'indicizzatore può esaurire la memoria anche con un singolo elemento di contenuto, quindi prova inizialmente a portarlo a 5 e, se la memoria si esaurisce ancora, riducilo a 1.  
    
-2. Se sei in grado di allocare più memoria all'indicizzatore, fallo. Puoi aumentare la memoria allocata all'indicizzatore da linea di comando utilizzando un parametro extra sulla linea di comando. Ad esempio, per aumentare il limite di memoria a 256 Mb usa il seguente comando, sostituendo *256M* con quanta più memoria puoi allocare in sicurezza a un processo sul tuo sistema.<br>  
-   *php -d memory_limit=256M finder_indexer.php*  
-   
-5. Cerca di identificare quali elementi di contenuto stanno causando l'esaurimento della memoria dell'indicizzatore. Se non è evidente, potresti provare a disabilitare tutti i plugin di Smart Search tranne uno. Eseguire l'indicizzatore con un solo plugin abilitato alla volta dovrebbe rivelare quale o quali tipi di contenuto stanno causando il problema. Come ultima risorsa, considera di suddividere alcuni elementi di contenuto eccezionalmente grandi in elementi separati. Se il problema riguarda un tipo di contenuto personalizzato, esamina il codice del plugin e considera l'opzione di indicizzare meno del contenuto disponibile per elemento.
+2. Se sei in grado di allocare più memoria all'indicizzatore, fallo. Puoi aumentare la memoria allocata all'indicizzatore da linea di comando utilizzando un parametro extra sulla linea di comando. Ad esempio, per aumentare il limite di memoria a 256 Mb usa il seguente comando, sostituendo *256M* con quanta più memoria puoi allocare in sicurezza a un processo sul tuo sistema.
+```php
+    php -d memory_limit=256M joomla.php finder:index
+```
+3. Cerca di identificare quali elementi di contenuto stanno causando l'esaurimento della memoria dell'indicizzatore. Se non è evidente, potresti provare a disabilitare tutti i plugin di Smart Search tranne uno. Eseguire l'indicizzatore con un solo plugin abilitato alla volta dovrebbe rivelare quale o quali tipi di contenuto stanno causando il problema. Come ultima risorsa, considera di suddividere alcuni elementi di contenuto eccezionalmente grandi in elementi separati. Se il problema riguarda un tipo di contenuto personalizzato, esamina il codice del plugin e considera l'opzione di indicizzare meno del contenuto disponibile per elemento.
 
 ## Problemi di Spazio su Disco Esaurito
 
