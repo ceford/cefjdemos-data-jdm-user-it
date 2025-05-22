@@ -128,5 +128,13 @@ di visualizzazione dell'elemento di contenuto. Questo potrebbe portare alla divu
 
 ### Scheda Permessi
 
+Le autorizzazioni per ciascun gruppo di utenti sono autoesplicative per le azioni *Elimina*, *Modifica* e *Modifica stato*. Le autorizzazioni indicano chi può fare cosa con l'intero campo, ad esempio eliminarlo, modificarlo o annullarne la pubblicazione.
+
 ![Parametri dei campi, scheda permessi](../../../en/images/fields/fields-parameters-permissions-tab.png)
 
+L'autorizzazione *Modifica valore campo personalizzato* può creare confusione. Indica chi può modificare il contenuto del campo. Per impostazione predefinita, è configurata su **Non consentito (Ereditato)** per tutti i gruppi, tranne che per i Super User. Due esempi:
+
+* **Dati personalizzati di registrazione utente**
+  Supponiamo di creare un campo utente per il *Genere* da aggiungere a un modulo di registrazione. Potrebbe trattarsi di un elenco o di un pulsante di opzione che consente all'utente di selezionare *Maschio* o *Femmina*. In questo caso, l'autorizzazione per il gruppo Pubblico deve essere impostata su *Consentito*. Altrimenti, un utente ospite non potrà selezionare un genere. Poiché tutti gli altri gruppi ereditano dal gruppo Pubblico, un utente registrato potrà modificare la scelta del genere nel proprio profilo dopo l'accesso.
+* **Commento all’articolo**
+  Supponiamo di voler consentire a un Autore di aggiungere un commento a un articolo. Potrebbe essere un campo di testo a lunghezza limitata. In questo caso, l'autorizzazione per il gruppo Autore deve essere impostata su *Consentito*. I gruppi Editore e Publisher erediteranno questa impostazione al salvataggio del modulo. I gruppi Manager e Amministratore hanno il permesso di modificare gli articoli, ma non i valori dei campi personalizzati, a meno che l'autorizzazione per il gruppo Manager non sia anch’essa impostata su *Consentito*.
