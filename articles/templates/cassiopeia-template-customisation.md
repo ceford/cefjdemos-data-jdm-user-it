@@ -114,7 +114,12 @@ L'illustrazione di seguito mostra due gruppi di cartelle. Il primo gruppo consis
 
 ![Modifica file di Cassiopeia](../../../en/images/templates/cassiopeia-customisation-edit-files.png)
 
-Nota che non c'è un file *user.css* presente nella cartella *css*. Questo è un file che crei tu stesso per poter sovrascrivere gli stili già definiti. Se non è presente, crealo ora selezionando la cartella *css* e poi il pulsante *Nuovo*. Nella finestra di dialogo "Nuovo File", seleziona la cartella *css*, altrimenti il nuovo file apparirà nel posto sbagliato. Inserisci user (in minuscolo e senza *.css*) nel campo Nome File e seleziona *.css* dal campo Tipo File. Seleziona il pulsante Crea per creare il file. Se *user.css* è già presente, selezionalo per aprire il modulo di modifica.
+Si noti che in una nuova installazione di Joomla non è presente alcun file ***user.css*** nella cartella **css**. Si tratta di un file che viene creato dall’utente per poter sovrascrivere gli stili definiti in precedenza. Se ***user.css*** è già presente, selezionarlo per aprire il modulo di modifica. Se non è presente, crearlo ora:
+
+1. Selezionare il pulsante **New File**.
+2. Nella finestra di dialogo modale **New File**, selezionare la cartella **css**, altrimenti il nuovo file verrà creato nella posizione sbagliata.
+3. Inserire `user` (in minuscolo e senza `.css`) nel campo **File Name** e selezionare `.css` nel campo **File Type**.
+4. Selezionare il pulsante **Create** per creare il file.
 
 ### Intestazioni
 
