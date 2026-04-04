@@ -36,3 +36,4 @@ Supponiamo che tu abbia installato Joomla nella seguente cartella: public_html/t
     Sistema / Cache e cancella tutti i file della cache.
 
 *Tradotto da openai.com*
+
