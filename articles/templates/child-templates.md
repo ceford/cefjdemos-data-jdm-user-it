@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Child_Templates / Display title: Template Figli -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Child_Templates",
+  "title": "Template Figli ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -14,7 +21,7 @@ A partire da **Sistema → Pannello Modelli → Modelli del Sito**
 - Seleziona il pulsante *Crea Modello Figlio*.
 - Compila il popup di dialogo del Modello Figlio e seleziona il pulsante Crea Modello Figlio:
 
-![modulo di creazione modello figlio](../../../en/images/templates/child-templates-create-green.png)
+![modulo di creazione modello figlio](../../../en/images/templates/child-templates/01-child-templates-create-green.png)
 
 La selezione di Cassiopeia - Default nel campo Stili di Modello Aggiuntivi sembra superflua (è un bug?).
 
@@ -31,7 +38,7 @@ A questo punto c'è una struttura di cartelle ma solo un file: templateDetails.x
 - Seleziona il Tipo di File `.css`.
 - Seleziona il pulsante *Crea*.
 
-![form creazione user css del modello figlio](../../../en/images/templates/child-templates-create-green-user-css.png)
+![form creazione user css del modello figlio](../../../en/images/templates/child-templates/02-child-templates-create-green-user-css.png)
 
 Il file user.css è vuoto, pronto per inserire alcuni stili personalizzati. Inserisci il seguente codice per iniziare il tema verde:
 ```css
@@ -80,7 +87,7 @@ A questo punto è necessario un elemento del menu per utilizzare il modello figl
 - Seleziona un tipo di voce del menu dalla finestra di dialogo popup Tipo di Voce del Menu - Articoli in Primo Piano in questo esempio.
 - Seleziona *cassiopeia_manual - Default* dal campo modulo Stile del Modello.
 
-![modulo di modifica dell'elemento del menu del modello figlio](../../../en/images/templates/child-templates-create-green-menu-item.png)
+![modulo di modifica dell'elemento del menu del modello figlio](../../../en/images/templates/child-templates/03-child-templates-create-green-menu-item.png)
 
 - Ai fini della seguente schermata, il Layout del Blog è stato impostato su Articoli in Primo Piano: 0, Articoli di Introduzione: 3 e Direzione Multicolonna: Orizzontale.
 
@@ -88,7 +95,7 @@ A questo punto è necessario un elemento del menu per utilizzare il modello figl
 
 - nella pagina Home del tuo sito seleziona il nuovo elemento del menu creato.
 
-![sito che mostra il modello di tema verde personalizzato](../../../en/images/templates/child-templates-green-site-result.png)
+![sito che mostra il modello di tema verde personalizzato](../../../en/images/templates/child-templates/04-child-templates-green-site-result.png)
 
 ### Modifica lo Stile
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:User_Registration / Display title: Registrazione Utente   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:User_Registration",
+  "title": "Registrazione Utente   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Politica di Registrazione
 
@@ -25,7 +32,7 @@ può essere consentita con alcune semplici modifiche al modulo *Utenti: Opzioni*
     notificato via email. L'Amministratore del Sito dovrà poi attivare
     l'account dell'utente.
 
-![Opzioni utente della scheda di configurazione utente](../../../en/images/users/users-configuration-user-options.png)
+![Opzioni utente della scheda di configurazione utente](../../../en/images/users/user-registration/01-users-configuration-user-options.png)
 
 - **Salva & Chiudi**
 - Aggiungi un modulo *Login*. Oppure
@@ -43,7 +50,7 @@ Se l'auto-registrazione non è consentita, ogni nuovo utente deve essere creato 
 - Selezionare **Utenti**→**Gestisci +** dal menu Amministratore.
 - Compilare il modulo **Dettagli Nuovo Utente**. La maggior parte dei campi ha valori di default adeguati.
 
-![Pagina di inserimento dati per il nuovo utente](../../../en/images/users/users-new-user.png)
+![Pagina di inserimento dati per il nuovo utente](../../../en/images/users/user-registration/02-users-new-user.png)
 
 - Selezionare la scheda **Gruppi Utenti Assegnati** e spuntare la casella del gruppo utente desiderato. Registrato è selezionato di default.
 - **Salva & Chiudi**.
@@ -59,7 +66,7 @@ Per bloccare un utente:
 - Trova l'utente nell'elenco *Utenti*. Utilizza il filtro testuale se necessario.
 - Seleziona l'icona Abilitato che appare come un segno di spunta verde vicino al nome utente. Un'etichetta **Blocca** appare al passaggio del mouse.
 
-![Pagina di inserimento dati nuovo utente](../../../en/images/users/users-hover-block.png)
+![Pagina di inserimento dati nuovo utente](../../../en/images/users/user-registration/03-users-hover-block.png)
 
 - Seleziona l'icona *Abilitato*. La pagina si ricaricherà con l'icona Abilitato che appare come una croce grigia.  
 

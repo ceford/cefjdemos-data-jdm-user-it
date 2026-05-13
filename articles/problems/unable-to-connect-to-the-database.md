@@ -1,4 +1,11 @@
-<!-- Filename: Unable_to_connect_to_the_database / Display title: Connessione al Database  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Unable_to_connect_to_the_database",
+  "title": "Connessione al Database  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Errore di Connessione
 

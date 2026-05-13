@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Cassiopeia_templateDetails.xml / Display title: Cassiopeia templateDetails.xml  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Cassiopeia_templateDetails.xml",
+  "title": "Cassiopeia templateDetails.xml  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Posizione e Scopo
 
@@ -40,11 +47,11 @@ La prima sezione dei dati del template di solito definisce le informazioni sul t
 
 Si noti che un template che può avere template figli ha il valore inheritable impostato a 1. I template figli hanno questo valore impostato a 0. Questi dati sono utilizzati nella lista Template: Templates (Sito) come mostrato di seguito.
 
-![lista template siti](../../../en/images/templates/templates-list.png)
+![lista template siti](../../../en/images/templates/cassiopeia-templatedetails-xml/01-templates-list.png)
 
 La descrizione contiene una chiave di lingua e non la stringa di testo descrittiva effettiva. La chiave viene sostituita dal testo ottenuto da un file di lingua a tempo di esecuzione. I file di lingua sono definiti nella sezione lingue di `templateDetails.xml`.
 
-![form modifica stile template](../../../en/images/templates/templates-edit-style.png)
+![form modifica stile template](../../../en/images/templates/cassiopeia-templatedetails-xml/02-templates-edit-style.png)
 
 ### Cartelle e File
 
@@ -70,7 +77,7 @@ Le cartelle e i file per il template Cassiopeia sono memorizzati in due posizion
 
 Questo è il modello visto in tutti i template moderni di Joomla 4 e 5. La struttura può essere vista nel modulo Template: Personalizza (Cassiopeia):
 
-![pagina personalizzazione template cassiopeia](../../../en/images/templates/templates-customise-cassiopeia.png)
+![pagina personalizzazione template cassiopeia](../../../en/images/templates/cassiopeia-templatedetails-xml/03-templates-customise-cassiopeia.png)
 
 ### Posizioni dei Moduli
 
@@ -101,11 +108,11 @@ Ogni tag crea una posizione modulo disponibile dalla lista posizione in un modul
 
 Cassiopeia ha abbastanza posizioni nel template! Se pensi di aver bisogno di una in più, probabilmente ti sbagli. Ricorda che un qualsiasi numero di moduli può essere assegnato a una singola posizione e ordinato in ordine nella pagina lista Moduli. Posizioni disponibili:
 
-![diagramma delle posizioni del template Cassiopeia](../../../en/images/templates/cassiopeia-template-positions.png)
+![diagramma delle posizioni del template Cassiopeia](../../../en/images/templates/cassiopeia-templatedetails-xml/04-cassiopeia-template-positions.png)
 
 Puoi anche vedere le posizioni dei moduli in qualsiasi template: da **Sistema → Template del Sito** seleziona il pulsante Opzioni nella barra degli strumenti. Nel modulo Opzioni imposta il campo Anteprima Posizioni Modulo su Abilitato. Salva e Chiudi. Vai al tuo sito e aggiungi ?tp=1 alla fine di qualsiasi URL (o &tp=1 se c'è già un ? nell'URL). Joomla mostrerà tutte le posizioni del template disponibili, anche quelle che non sono state utilizzate:
 
-![posizioni del template Cassiopeia](../../../en/images/templates/templates-template-positions-by-tp.png)
+![posizioni del template Cassiopeia](../../../en/images/templates/cassiopeia-templatedetails-xml/05-templates-template-positions-by-tp.png)
 
 ### Lingue
 
@@ -124,7 +131,7 @@ I file di lingua per la lingua predefinita inglese GB sono memorizzati in site/l
 
 Un template può offrire opzioni di visualizzazione che possono essere scelte dall'Amministratore nel modulo Template: Modifica Stile. Ad esempio, la scheda Avanzate del template Cassiopeia consente a un Amministratore di cambiare il Brand, aggiungere un Logo, selezionare uno Schema di Font e altro ancora.
 
-![scheda avanzate del modulo modifica stile template](../../../en/images/templates/templates-edit-style-advanced.png)
+![scheda avanzate del modulo modifica stile template](../../../en/images/templates/cassiopeia-templatedetails-xml/06-templates-edit-style-advanced.png)
 
 Le opzioni del template sono definite all'interno di una struttura che crea campi all'interno di fieldset. Ogni fieldset appare come una scheda nel modulo di modifica. Questa è la struttura che crea la scheda Avanzate vista sopra.
 

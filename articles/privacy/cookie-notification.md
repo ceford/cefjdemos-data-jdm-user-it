@@ -1,4 +1,11 @@
-<!-- Filename: Cookie_notification / Display title: Biscotti -->
+<!--
+{
+  "source": "https://docs.joomla.org/Cookie_notification",
+  "title": "Biscotti ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Riepilogo dell'uso dei cookie su un sito Joomla!
 

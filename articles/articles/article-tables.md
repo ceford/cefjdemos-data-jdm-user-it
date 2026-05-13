@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Tables / Display title: Articolo: Modifica - Tabelle  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Tables",
+  "title": "Articolo: Modifica - Tabelle  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## A proposito delle tabelle
 
@@ -100,7 +107,7 @@ Qui, le classi di Bootstrap hanno i seguenti effetti:
 
 Il seguente screenshot del sito mostra una tabella per un programma di conferenze con gli stili inline predefiniti di TinyMCE e una tabella simile con gli stili di Bootstrap:
 
-![Tabelle di esempio](../../../en/images/articles/articles-site-tables.png)
+![Tabelle di esempio](../../../en/images/articles/article-tables/01-articles-site-tables.png)
 
 Consulta la documentazione di Bootstrap su [Tabelle](https://getbootstrap.com/docs/5.3/content/tables/) per maggiori opzioni.
 

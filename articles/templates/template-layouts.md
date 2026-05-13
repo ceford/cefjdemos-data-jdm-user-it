@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Layouts / Display title: Layout dei Modelli  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Layouts",
+  "title": "Layout dei Modelli  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Strutture dei File di Layout
 
@@ -68,7 +75,7 @@ La tua sessione scadrà alle <br><?php echo $endTime; ?>
 
 Chiudi i file di Cassiopeia. Seleziona **Contenuto** → **Moduli del Sito** e apri il modulo Login. Nella scheda Avanzato, nell'elemento Layout troverai che hai una scelta tra **-- Dal Modulo -- / Default** e **-- Dal Template Cassiopeia -- / expires**.
 
-![modulo login che mostra layout alternativi](../../../en/images/templates/layouts-module-login.png)
+![modulo login che mostra layout alternativi](../../../en/images/templates/template-layouts/01-layouts-module-login.png)
 
 Un modo in cui potresti utilizzare questa funzione è avere due moduli di Login, uno con accesso Pubblico e l'altro con accesso Super Utenti. In quest'ultimo seleziona l'opzione **expires** e solo i Super Utenti vedranno il promemoria del tempo di scadenza della sessione.
 
@@ -83,11 +90,11 @@ Puoi tradurre il nome del file usando le Sovrascrizioni di Lingua. Prova la segu
 - Seleziona il pulsante **Nuovo** e compila il modulo. In questo esempio la chiave della lingua è **TPL_CASSIOPEIA_MOD_LOGIN_LAYOUT_EXPIRES** e il testo potrebbe essere **Login / Logout con tempo di scadenza**
 - Salva e chiudi, poi torna al modulo Login.
 
-![form modifica sovrascrizione lingue](../../../en/images/templates/layouts-language-override-form.png)
+![form modifica sovrascrizione lingue](../../../en/images/templates/template-layouts/02-layouts-language-override-form.png)
 
 Il campo del modulo di selezione del layout con **expires** tradotto:
 
-![modulo layout alternativi selezione](../../../en/images/templates/layouts-example-translated.png)
+![modulo layout alternativi selezione](../../../en/images/templates/template-layouts/03-layouts-example-translated.png)
 
 ## Layout alternativi dei componenti
 
@@ -95,11 +102,11 @@ I layout alternativi dei componenti funzionano in modo simile ai layout dei modu
 
 È possibile impostare un valore globale per i layout dei componenti nella finestra Opzioni del componente. Ad esempio, nella finestra Opzioni dell’Articolo, c'è un parametro *Scegli un Layout* come mostrato di seguito:
 
-![modulo opzioni articoli con elenco di layout alternativi](../../../en/images/templates/layouts-articles-options.png)
+![modulo opzioni articoli con elenco di layout alternativi](../../../en/images/templates/template-layouts/04-layouts-articles-options.png)
 
 Come per i layout dei moduli, i layout dei componenti sono mostrati come opzioni di parametro nella schermata di modifica individuale del componente. Ad esempio, per un articolo, il parametro appare nella scheda Opzioni di Modifica Articoli come mostrato di seguito.
 
-![modulo modifica articoli che mostra l'elenco dei layout alternativi](../../../en/images/templates/layout-article-edit.png)
+![modulo modifica articoli che mostra l'elenco dei layout alternativi](../../../en/images/templates/template-layouts/05-layout-article-edit.png)
 
 Come per altri parametri, l'impostazione Usa Globale utilizzerà il valore dall’opzione parametro. L'impostazione Dal predefinito del componente utilizzerà il layout predefinito del componente. I layout alternativi che hai creato per diversi template sono mostrati sotto ciascuna intestazione di template.
 
@@ -121,11 +128,11 @@ I layout alternativi delle categorie funzionano come i layout dei componenti. Le
 
 Puoi impostare i layout delle categorie a livello globale, nella schermata Opzioni di ciascun componente. Di seguito è riportato un esempio tratto da Contatti: Opzioni / Modulo Categoria:
 
-![modulo opzioni componente contatti che mostra layout alternativi](../../../en/images/templates/layouts-contacts-options.png)
+![modulo opzioni componente contatti che mostra layout alternativi](../../../en/images/templates/template-layouts/06-layouts-contacts-options.png)
 
 I layout alternativi delle categorie appaiono quando aggiungi o modifichi una categoria nel Componente: Modifica Categoria / Formulario Opzioni, come mostrato di seguito.
 
-![modulo opzioni componente contatti che mostra layout alternativi](../../../en/images/templates/layouts-contacts-category-options.png)
+![modulo opzioni componente contatti che mostra layout alternativi](../../../en/images/templates/template-layouts/07-layouts-contacts-category-options.png)
 
 I layout alternativi delle categorie possono essere utilizzati per articoli, banner, contatti e feed di notizie.
 
@@ -140,7 +147,7 @@ Se è stato configurato un elemento di menu per una categoria specifica, verrà 
 
 Per gli articoli, sono disponibili due layout principali di categoria: Blog ed Elenco. Ognuno di questi layout appare nella scheda Categoria del modulo Opzioni Articoli sotto l'intestazione "Dal Componente". Layout alternativi appaiono anche nella lista, permettendo di selezionare i layout di Blog, Elenco o altri template alternativi come layout di categoria predefiniti, sia a livello globale che durante la modifica di una singola categoria di articoli.
 
-![opzioni del modulo componente contatti che mostrano layout alternativi](../../../en/images/templates/layouts-articles-options-category.png)
+![opzioni del modulo componente contatti che mostrano layout alternativi](../../../en/images/templates/template-layouts/08-layouts-articles-options-category.png)
 
 Questo significa che, come per altre opzioni di layout, puoi controllare se i link delle categorie di articoli utilizzano i layout blog o elenco. È importante comprendere che, come altri parametri di layout, questa opzione avrà effetto solo quando non c'è un elemento di menu a singola categoria per la categoria.
 
@@ -152,7 +159,7 @@ Il file XML segue lo stesso formato dei file XML degli Elementi di Menu fondamen
 
 Gli Elementi di Menu Alternativi appaiono quando selezioni un Tipo di Elemento di Menu come mostrato sotto.
 
-![lista di selezione elemento di menu](../../../en/images/templates/layouts-menu-blog-menu-creation.png)
+![lista di selezione elemento di menu](../../../en/images/templates/template-layouts/09-layouts-menu-blog-menu-creation.png)
 
 Gli Elementi di Menu Alternativi vengono utilizzati e funzionano allo stesso modo degli elementi di menu standard. Poiché sono già basati su layout personalizzati, le sovrascritture dei template non si applicano agli elementi di menu alternativi.
 

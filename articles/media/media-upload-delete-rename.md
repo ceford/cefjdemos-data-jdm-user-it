@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Upload_Delete_Rename / Display title: Carica Elimina Rinomina -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename",
+  "title": "Carica Elimina Rinomina ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Funzioni Semplici di Media
 

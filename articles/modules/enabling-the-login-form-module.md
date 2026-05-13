@@ -1,4 +1,11 @@
-<!-- Filename: Enabling_the_Login_Form_module / Display title: Modulo di Accesso  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Enabling_the_Login_Form_module",
+  "title": "Modulo di Accesso  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Metodi di Accesso al Sito
 
@@ -40,7 +47,7 @@ Puoi far apparire il modulo di modulo di accesso su una o più pagine assegnando
   - **Su tutte le pagine tranne quelle selezionate:** Il modulo di accesso apparirà su tutte le pagine non selezionate.
 - **Selezione Menù**: Mostra un elenco di tutti i Menù e Voci di Menù dai quali è possibile selezionare uno o più elementi. Questo campo è utilizzato solo se il campo **Menù** è impostato su **Seleziona Voci di Menù dall'elenco**.
 
-  ![assegnazione menù del modulo](../../../en/images/modules/modules-login-menu-assignment.png)
+  ![assegnazione menù del modulo](../../../en/images/modules/enabling-the-login-form-module/01-modules-login-menu-assignment.png)
 
 ## Personalizzare il modulo di accesso
 

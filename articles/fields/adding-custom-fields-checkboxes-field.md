@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Checkboxes_Field / Display title: Campo delle caselle di controllo -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo delle caselle di controllo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -9,7 +16,7 @@ Il campo delle caselle di controllo fornisce una o più caselle da selezionare i
 * L'**Etichetta** si basa sul Titolo e appare nell'output prima dell'elenco dei valori selezionati.
 * Le caselle di controllo vengono aggiunte una alla volta, ognuna con Testo e Valore. Il Testo appare nell'output. Il valore viene utilizzato nel modulo di inserimento dati e ciascuno deve essere diverso.
 
-![Creazione del campo delle caselle di controllo](../../../en/images/fields/fields-checkboxes-edit.png)
+![Creazione del campo delle caselle di controllo](../../../en/images/fields/adding-custom-fields-checkboxes-field/01-fields-checkboxes-edit.png)
 
 **Nota:** In questo esempio, l'inclusione del tipo di campo nel Titolo è solo a scopo dimostrativo. Omettila nei titoli dei tuoi campi.
 
@@ -17,7 +24,7 @@ Il campo delle caselle di controllo fornisce una o più caselle da selezionare i
 
 Si tratta semplicemente di selezionare gli elementi che devono apparire nell'output.
 
-![Inserimento dati dei campi delle caselle di controllo](../../../en/images/fields/fields-checkboxes-data-entry.png)
+![Inserimento dati dei campi delle caselle di controllo](../../../en/images/fields/adding-custom-fields-checkboxes-field/02-fields-checkboxes-data-entry.png)
 
 I campi appaiono in un articolo solo se popolati nel modulo di inserimento dati dell'articolo.
 
@@ -25,7 +32,7 @@ I campi appaiono in un articolo solo se popolati nel modulo di inserimento dati 
 
 Lo screenshot del sito seguente mostra il campo visualizzato in un articolo. L'opzione *Visualizzazione automatica* è responsabile della posizione del campo e il tuo template è responsabile del design del campo.
 
-![visualizzazione campo checkbox sito](../../../en/images/fields/fields-checkboxes-site.png)
+![visualizzazione campo checkbox sito](../../../en/images/fields/adding-custom-fields-checkboxes-field/03-fields-checkboxes-site.png)
 
 *Tradotto da openai.com*
 

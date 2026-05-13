@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Edit_Configure_Edit_Screen / Display title: Articolo: Modifica - Configura Schermata di Modifica  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Edit_Configure_Edit_Screen",
+  "title": "Articolo: Modifica - Configura Schermata di Modifica  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -6,7 +13,7 @@ Le schermate di modifica degli articoli hanno layout differenti nel backend e ne
 
 ## Schermata
 
-![La scheda di modifica della configurazione](../../../en/images/articles/articles-edit-configure-edit-screen-tab.png)
+![La scheda di modifica della configurazione](../../../en/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
 
 ## Configurare il pannello di modifica schermo
 

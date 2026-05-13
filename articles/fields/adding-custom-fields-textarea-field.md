@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Textarea_Field / Display title: Campo di Testo -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo di Testo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -13,7 +20,7 @@ Le opzioni speciali all'interno di questo campo sono:
 - **Lunghezza Massima** Il numero massimo di caratteri che possono essere inseriti.
 - **Filtro** Permette al sistema di salvare determinati tag html o dati grezzi.
 
-![creazione del campo textarea](../../../en/images/fields/fields-textarea-edit.png)
+![creazione del campo textarea](../../../en/images/fields/adding-custom-fields-textarea-field/01-fields-textarea-edit.png)
 
 **Nota:** In questo esempio, l'inclusione del tipo di campo nel Titolo è solo a scopo dimostrativo. Escludilo nei titoli dei tuoi campi.
 
@@ -21,13 +28,13 @@ Le opzioni speciali all'interno di questo campo sono:
 
 Semplice: inserisci il testo da visualizzare.
 
-![inserimento dati nel campo di testo](../../../en/images/fields/fields-textarea-data-entry.png)
+![inserimento dati nel campo di testo](../../../en/images/fields/adding-custom-fields-textarea-field/02-fields-textarea-data-entry.png)
 
 ## Visualizzazione dei Dati
 
 Lo screenshot del sito seguente mostra il campo visualizzato in un articolo. L'opzione *Visualizzazione automatica* è responsabile della posizione del campo e il tuo template è responsabile del design del campo.
 
-![visualizzazione del campo textarea del sito](../../../en/images/fields/fields-textarea-site.png)
+![visualizzazione del campo textarea del sito](../../../en/images/fields/adding-custom-fields-textarea-field/03-fields-textarea-site.png)
 
 L'etichetta del campo inizia un singolo blocco di testo a meno che non siano stati inseriti tag HTML come `<p>...</p>`.
 

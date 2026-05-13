@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=migration&filename=migration-basics.md / Display title: Fondamenti della Migrazione -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=migration&filename=migration-basics.md",
+  "title": "Fondamenti della Migrazione ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Terminologia
 

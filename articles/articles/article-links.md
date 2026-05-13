@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Links / Display title: Articolo: Modifica - Collegamenti   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Links",
+  "title": "Articolo: Modifica - Collegamenti   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Collegamenti Accessibili
 

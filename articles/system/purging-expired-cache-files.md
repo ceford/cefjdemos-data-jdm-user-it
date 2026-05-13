@@ -1,4 +1,11 @@
-<!-- Filename: Purging_expired_cache_files / Display title: Purgare la cache scaduta  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Purging_expired_cache_files",
+  "title": "Purgare la cache scaduta  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## File di Cache
 

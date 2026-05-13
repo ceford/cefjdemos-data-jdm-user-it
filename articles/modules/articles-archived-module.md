@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module / Display title: Articoli Archiviati  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module",
+  "title": "Articoli Archiviati  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -69,7 +76,7 @@ Quando sei pronto, seleziona il pulsante **Salva e Chiudi**.
 
 Il modulo verrà pubblicato nella barra laterale del sito web e mostrerà un elenco di link determinato dal numero di mesi da visualizzare impostato nel modulo.
 
-![Esempio di Modulo Articoli Archiviati](../../../en/images/modules/modules-archived-articles.png)
+![Esempio di Modulo Articoli Archiviati](../../../en/images/modules/articles-archived-module/01-modules-archived-articles.png)
 
 ## Suggerimenti
 

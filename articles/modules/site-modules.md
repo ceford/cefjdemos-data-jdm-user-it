@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Site_Modules / Display title: Moduli del Sito -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Site_Modules",
+  "title": "Moduli del Sito ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -12,7 +19,7 @@ Possono esserci più istanze dello stesso modulo. Ad esempio, puoi utilizzare un
 
 I moduli sono assegnati a una posizione su una pagina definita dal modello in uso. La seguente illustrazione mostra un layout schematico del modello Cassiopeia:
 
-![Diagramma delle posizioni del modello Cassiopeia](../../../en/images/modules/cassiopeia-template-positions.png)
+![Diagramma delle posizioni del modello Cassiopeia](../../../en/images/modules/site-modules/01-cassiopeia-template-positions.png)
 
 E la seguente lista mostra le posizioni dei moduli disponibili per nome:
 
@@ -41,15 +48,15 @@ E la seguente lista mostra le posizioni dei moduli disponibili per nome:
 
 I moduli core sono quelli forniti con una nuova installazione di Joomla. Ci sono migliaia di moduli aggiuntivi disponibili da fornitori terzi. Supponiamo che desideri mostrare un'immagine casuale per rendere il tuo sito più interessante per i visitatori. Dal menu dell'Amministratore seleziona **Contenuto → Moduli del Sito** per vedere l'elenco dei moduli del sito già in uso:
 
-![Elenco Moduli del Sito](../../../en/images/modules/cassiopeia-modules-list.png)
+![Elenco Moduli del Sito](../../../en/images/modules/site-modules/02-cassiopeia-modules-list.png)
 
 Seleziona il pulsante Nuovo per vedere un elenco dei moduli del sito disponibili per l'installazione:
 
-![Moduli del Sito disponibili](../../../en/images/modules/cassiopeia-modules-available.png)
+![Moduli del Sito disponibili](../../../en/images/modules/site-modules/03-cassiopeia-modules-available.png)
 
 Scorri verso il basso e seleziona il modulo Immagine Casuale. Si aprirà il modulo di modifica **Moduli: Immagine Casuale** pronto per essere compilato.
 
-![Modulo immagine casuale](../../../en/images/modules/cassiopeia-module-random-image.png)
+![Modulo immagine casuale](../../../en/images/modules/site-modules/04-cassiopeia-module-random-image.png)
 
 - **Titolo** Questo è un campo obbligatorio.
 - **Tipo Immagine** Il predefinito è jpg.
@@ -69,7 +76,7 @@ Dopo aver salvato, potresti dover cambiare l'ordine dei moduli nella posizione s
 
 ## Visualizza il Sito
 
-![Visualizzazione del sito del modulo immagine casuale](../../../en/images/modules/cassiopeia-module-random-image-site.png)
+![Visualizzazione del sito del modulo immagine casuale](../../../en/images/modules/site-modules/05-cassiopeia-module-random-image-site.png)
 
 Controlla l'aspetto del Sito. In questo caso, potrebbe essere una buona idea centrare l'immagine. Può essere fatto nel seguente modo:
 

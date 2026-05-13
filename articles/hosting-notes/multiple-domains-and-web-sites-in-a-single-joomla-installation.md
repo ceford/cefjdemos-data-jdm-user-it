@@ -1,4 +1,11 @@
-<!-- Filename: Multiple_Domains_and_Web_Sites_in_a_single_Joomla!_installation / Display title: Più domini e siti web in un'unica installazione di Joomla! -->
+<!--
+{
+  "source": "https://docs.joomla.org/Multiple_Domains_and_Web_Sites_in_a_single_Joomla!_installation",
+  "title": "Più domini e siti web in un'unica installazione di Joomla! ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 **Nota:** Questo articolo è stato aggiornato l'ultima volta nel 2012!
 

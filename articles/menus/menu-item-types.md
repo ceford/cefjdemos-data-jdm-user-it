@@ -1,10 +1,17 @@
-<!-- Filename: J4.x:Menu_Item_Types / Display title: Tipi di Voci di Menu  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Item_Types",
+  "title": "Tipi di Voci di Menu  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Informazioni sui Tipi di Voci di Menu
 
 I tipi di voci di menu sono definiti in ogni componente che ha viste del sito. Il nucleo di Joomla ha circa 10 di questi componenti, ognuno con diverse viste che danno un totale di oltre 30 tipi. Lo screenshot seguente mostra i componenti con i tipi di voci di menu. Ogni componente si espande alla selezione per visualizzare un elenco di tipi definiti da quel componente:
 
-![selezione tipo voce di menu](../../../en/images/menus/menus-menu-item-type-select.png)
+![selezione tipo voce di menu](../../../en/images/menus/menu-item-types/01-menus-menu-item-type-select.png)
 
 ### Articoli
 

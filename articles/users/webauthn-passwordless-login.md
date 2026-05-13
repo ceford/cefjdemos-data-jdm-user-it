@@ -1,4 +1,11 @@
-<!-- Filename: WebAuthn_Passwordless_Login / Display title: Accesso WebAuthn -->
+<!--
+{
+  "source": "https://docs.joomla.org/WebAuthn_Passwordless_Login",
+  "title": "Accesso WebAuthn ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Accesso Senza Password con WebAuthn
 
@@ -23,11 +30,11 @@ WebAuthn è il futuro dell'autenticazione. Facile, sicuro e senza complicazioni.
 
 L'immagine seguente mostra un dispositivo hardware inserito nella porta USB di un computer portatile. È costato £15 a febbraio 2022.
 
-![fotografia del dispositivo Hardware](../../../en/images/users/passwordless-login-hardware-device.jpg)
+![fotografia del dispositivo Hardware](../../../en/images/users/webauthn-passwordless-login/01-passwordless-login-hardware-device.jpg)
 
 WebAuthn utilizza un plugin di sistema abilitato per default. Un pulsante di **Autenticazione Web** sarà presente nei moduli di accesso predefiniti di Joomla 4 e versioni successive, come illustrato nella schermata di accesso dell'Amministratore:
 
-![form di login sicuro dell'amministratore](../../../en/images/users/passwordless-login-login-form.jpg)
+![form di login sicuro dell'amministratore](../../../en/images/users/webauthn-passwordless-login/02-passwordless-login-login-form.jpg)
 
 ## Configurazione utente
 
@@ -38,11 +45,11 @@ L'utente deve prima registrarsi con un normale Nome utente e Password. Dopo aver
 
 La presentazione esatta del passaggio successivo dipende dal tuo browser. Tipicamente, vedrai un avviso, un messaggio o una finestra che ti chiede di selezionare un tipo di autenticatore o, se stai utilizzando un autenticatore hardware collegato al tuo dispositivo, ti ricorda di premere il pulsante sull'autenticatore hardware. Per ragioni di sicurezza e pratiche, c'è un intervallo di tempo relativamente breve consentito per l'attivazione dell'autenticatore: 60 secondi.
 
-![prompt hardware del login sicuro amministratore](../../../en/images/users/passwordless-login-hardware-propmpt.png)
+![prompt hardware del login sicuro amministratore](../../../en/images/users/webauthn-passwordless-login/03-passwordless-login-hardware-propmpt.png)
 
 Una volta sbloccato il tuo autenticatore, toccando un pulsante, scansionando la tua impronta digitale/faccia, inserendo un PIN o una combinazione dei precedenti a seconda del tuo autenticatore, il messaggio scompare, l'autenticatore è registrato e lo schermo appare come segue:
 
-![autenticatore registrato del login sicuro amministratore](../../../en/images/users/passwordless-login-registered-authenticator.png)
+![autenticatore registrato del login sicuro amministratore](../../../en/images/users/webauthn-passwordless-login/04-passwordless-login-registered-authenticator.png)
 
 È molto importante notare che puoi registrare o rimuovere gli autenticatori solo sul tuo account utente. Per motivi di sicurezza, anche un Superutente non è autorizzato a registrare, modificare o aggiungere autenticatori su altri account utente.
 

@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=modules&filename=module-styles.md / Display title: Stili dei Moduli -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=modules&filename=module-styles.md",
+  "title": "Stili dei Moduli ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Concetti di Stile
 
@@ -60,7 +67,7 @@ Ora l'intestazione del modulo è in blu scuro. Ci sono diversi modi per specific
 * Cambia anche il bordo inferiore dell'intestazione.
 * Applica questo stile a diversi moduli invece che uno alla volta.
 
-![Esempio di Modulo Articoli Archiviati](../../../en/images/modules/modules-archived-articles.png)
+![Esempio di Modulo Articoli Archiviati](../../../en/images/modules/module-styles/01-modules-archived-articles.png)
 
 *Tradotto da openai.com*
 

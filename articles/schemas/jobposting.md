@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_JobPosting_-_Using_JobPosting_Plugin / Display title: Schema.org - JobPosting -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - JobPosting ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -29,7 +36,7 @@ La sezione *Generic Field* consente di inserire coppie di *Titolo* e *Valore* ol
 
 Di seguito è riportato un esempio di uno schema JobPosting in un modulo di modifica Articolo.
 
-![A jobposting schema edit form](../../../en/images/schemas/edit-schema-jobposting.png)
+![A jobposting schema edit form](../../../en/images/schemas/jobposting/01-edit-schema-jobposting.png)
 
 *Tradotto da openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Help / Display title: Dashboard di Aiuto -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Help",
+  "title": "Dashboard di Aiuto ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -6,7 +13,7 @@ La schermata di Aiuto non è intitolata come una Dashboard, ma ha tutte le funzi
 
 ## Screenshot
 
-![Dashboard di aiuto](../../../en/images/dashboards/help-dashboard.png)
+![Dashboard di aiuto](../../../en/images/dashboards/help-dashboard/01-help-dashboard.png)
 
 *Tradotto da openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Joomla_Core_Features / Display title: Funzionalità Core di Joomla -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Joomla_Core_Features",
+  "title": "Funzionalità Core di Joomla ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Gestione dei contenuti
 

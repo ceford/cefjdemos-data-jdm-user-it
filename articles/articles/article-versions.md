@@ -1,4 +1,11 @@
-<!-- Filename: Help4.x:Components_Version_History / Display title: Articolo: Versioni  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Help4.x:Components_Version_History",
+  "title": "Articolo: Versioni  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -16,7 +23,7 @@ Seleziona il pulsante **Versioni** sulla barra degli strumenti mentre modifichi 
 
 ## Screenshot
 
-![Finestra di dialogo delle versioni](../../../en/images/articles/articles-versions.png)
+![Finestra di dialogo delle versioni](../../../en/images/articles/article-versions/01-articles-versions.png)
 
 ## Intestazioni di Colonna
 
@@ -33,9 +40,9 @@ In cima alla pagina, vedrai la barra degli strumenti mostrata nello screenshot s
 
 - **Ripristina** La versione attuale dell'elemento è contrassegnata con una stella a destra della data. Se desideri ripristinare una delle altre versioni salvate, seleziona la casella di controllo per la versione desiderata e clicca sul pulsante *Ripristina*. La versione attuale dell'elemento verrà sostituita con la versione selezionata e lo schermo di modifica si ricaricherà con la versione ripristinata caricata nell'editor.
 - **Anteprima** Per visualizzare in anteprima una versione, seleziona l'elemento nella colonna Data oppure spunta la casella di controllo e clicca sul pulsante Anteprima. Una finestra del browser separata si caricherà mostrando la versione selezionata dell'elemento, simile allo screenshot qui sotto. Dopo aver visualizzato la versione, chiudi la finestra del browser.
-![Dialogo di anteprima delle versioni](../../../en/images/articles/articles-versions-preview.png)
+![Dialogo di anteprima delle versioni](../../../en/images/articles/article-versions/02-articles-versions-preview.png)
 - **Confronta** Per confrontare due versioni per vedere cosa è stato cambiato, seleziona le caselle di controllo per ciascuna delle versioni e clicca sul pulsante Confronta. Si aprirà una nuova finestra del browser, come mostrato nello screenshot qui sotto. La prima colonna è il nome del campo, la seconda è la versione più vecchia, la terza è la versione più recente e l'ultima colonna evidenzia le differenze tra le due versioni.
-![Dialogo di confronto delle versioni](../../../en/images/articles/articles-versions-compare.png)
+![Dialogo di confronto delle versioni](../../../en/images/articles/article-versions/03-articles-versions-compare.png)
 - **Blocco On/Off** Questo pulsante ti consente di attivare o disattivare la funzione di Conserva per Sempre per una versione. Normalmente, la versione più vecchia di un elemento verrà eliminata automaticamente quando il numero massimo di versioni (impostato nelle Opzioni per il componente) sarà stato superato. Se imposti la proprietà Conserva per Sempre per una versione, non verrà mai eliminata automaticamente.
 - **Elimina** Questo pulsante ti consente di eliminare manualmente una o più versioni. Seleziona la casella di controllo per le versioni che desideri eliminare e poi clicca sul pulsante Elimina. Tieni presente che questo *non* elimina l'elemento in fase di modifica. Cancella solo la versione selezionata dell'elemento.
 

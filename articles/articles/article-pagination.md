@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Pagination / Display title: Articolo: Modifica - Paginazione  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Pagination",
+  "title": "Articolo: Modifica - Paginazione  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Articoli Lunghi
 
@@ -15,12 +22,12 @@ Per aggiungere interruzioni di pagina, apri prima un articolo nell'editor di tes
   - *Alias Sommario* - questo verrà utilizzato come testo nel Sommario. Esempio: Capitolo 2
 - Seleziona il pulsante **Inserisci Interruzione di Pagina**.
 
-![Modulo della finestra di dialogo di interruzione di pagina](../../../en/images/articles/articles-edit-pagination.png)
+![Modulo della finestra di dialogo di interruzione di pagina](../../../en/images/articles/article-pagination/01-articles-edit-pagination.png)
 
 - Ripeti per ogni interruzione di pagina che desideri creare.
 - Salva l'articolo e dai un'occhiata all'Anteprima o alla vista del Sito.
 
-![Vista del sito della paginazione dell'articolo](../../../en/images/articles/articles-site-pagination.png)
+![Vista del sito della paginazione dell'articolo](../../../en/images/articles/article-pagination/02-articles-site-pagination.png)
 
 ## Modificare o Spostare un'interruzione di pagina
 
@@ -39,7 +46,7 @@ Puoi selezionare un'interruzione di pagina ed eliminarla. Tuttavia, non puoi rit
 
 L'editor del codice sorgente si trova in una finestra di dialogo popup:
 
-![Editor del codice sorgente](../../../en/images/articles/articles-edit-pagination-source-code.png)
+![Editor del codice sorgente](../../../en/images/articles/article-pagination/03-articles-edit-pagination-source-code.png)
 
 *Tradotto da openai.com*
 

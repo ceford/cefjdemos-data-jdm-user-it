@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:User_Profile / Display title: Profilo Utente -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:User_Profile",
+  "title": "Profilo Utente ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Dati di Registrazione
 
@@ -10,7 +17,7 @@ Le informazioni dell'utente raccolte utilizzando il modulo di registrazione uten
 - Nella seconda parte del modulo, impostare su Disabilitato qualsiasi elemento che non dovrebbe apparire nel modulo del profilo utente.
 - Salva e Chiudi
 
-![plugin profilo utente](../../../en/images/users/user-profile-plugin.png)
+![plugin profilo utente](../../../en/images/users/user-profile/01-user-profile-plugin.png)
 
 - Se è consentita l'auto-registrazione, aprire il modulo di registrazione utente per verificare che i campi extra del profilo utente siano presenti.
 - Dal menu dell'amministratore, creare un nuovo utente o modificare un utente esistente. Selezionare la scheda **Profilo utente** e verificare che siano presenti i campi extra del profilo utente.  
@@ -28,11 +35,11 @@ Dal menu dell'Amministratore:
 - Imposta il campo **Accesso** su **Registrato**. Questo è IMPORTANTE! l'elemento di menu dovrebbe essere visibile solo quando si è effettuato l'accesso.
 - Salva e Chiudi.
 
-![form elemento di menu profilo utente](../../../en/images/users/user-profile-menu-item-form.png)
+![form elemento di menu profilo utente](../../../en/images/users/user-profile/02-user-profile-menu-item-form.png)
 
 - Accedi al sito e utilizza il link per controllare il Profilo Utente.
 
-![riepilogo profilo utente](../../../en/images/users/user-profile-summary.png)
+![riepilogo profilo utente](../../../en/images/users/user-profile/03-user-profile-summary.png)
 
 - Prova il pulsante **Modifica Profilo**.
 

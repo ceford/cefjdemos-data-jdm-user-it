@@ -1,4 +1,11 @@
-<!-- Filename: Installing_Joomla!_using_BitNami_Joomla!_stack / Display title: Installazione di Bitnami -->
+<!--
+{
+  "source": "https://docs.joomla.org/Installing_Joomla!_using_BitNami_Joomla!_stack",
+  "title": "Installazione di Bitnami ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Prefazione
 

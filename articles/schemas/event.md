@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Event_-_Using_Event_Plugin / Display title: Schema.org - Evento -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Evento ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -21,7 +28,7 @@ La sezione *Generic Field* consente di inserire coppie di *Title* e *Value* oltr
 
 Di seguito è riportato un esempio di schema di Evento in un modulo di modifica Articolo.
 
-![An event schema edit form](../../../en/images/schemas/edit-schema-event.png)
+![An event schema edit form](../../../en/images/schemas/event/01-edit-schema-event.png)
 
 *Tradotto da openai.com*
 

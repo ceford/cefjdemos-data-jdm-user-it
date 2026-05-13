@@ -1,4 +1,11 @@
-<!-- Filename: Customising_the_Smart_Search_results_page / Display title: Override Layout di Ricerca Intelligente  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Customising_the_Smart_Search_results_page",
+  "title": "Override Layout di Ricerca Intelligente  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Pagine dei Risultati
 

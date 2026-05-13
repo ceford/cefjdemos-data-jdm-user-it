@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Integer_Field / Display title: Campo Intero -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo Intero ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -14,7 +21,7 @@ Opzioni speciali per questo campo:
 - **Passo** L'incremento per ogni passo nella lista.
 - **Classe del Campo** Imposta su *w-auto* per rendere la lista abbastanza larga per la sua lista di interi.
 
-![Creazione del campo intero](../../../en/images/fields/fields-integer-edit.png)
+![Creazione del campo intero](../../../en/images/fields/adding-custom-fields-integer-field/01-fields-integer-edit.png)
 
 **Nota:** In questo esempio, l'inclusione del tipo di campo nel Titolo è solo a scopo dimostrativo. Evitala nei titoli dei tuoi campi.
 
@@ -22,12 +29,12 @@ Opzioni speciali per questo campo:
 
 Seleziona l'intero richiesto dalla lista, oppure più di uno da una lista a selezione multipla. Nota che senza w-auto il campo di selezione dell'intero occupa l'intera larghezza del modulo.
 
-![Inserimento dati nel campo intero](../../../en/images/fields/fields-integer-data-entry.png)
+![Inserimento dati nel campo intero](../../../en/images/fields/adding-custom-fields-integer-field/02-fields-integer-data-entry.png)
 
 ## Visualizzazione dei Dati
 
 Lo screenshot del sito seguente mostra il campo visualizzato in un articolo. L'opzione *Visualizzazione automatica* è responsabile della posizione del campo e il tuo template è responsabile del design del campo.
 
-![Visualizzazione campo intero del sito](../../../en/images/fields/fields-integer-site.png)
+![Visualizzazione campo intero del sito](../../../en/images/fields/adding-custom-fields-integer-field/03-fields-integer-site.png)
 
 *Tradotto da openai.com*

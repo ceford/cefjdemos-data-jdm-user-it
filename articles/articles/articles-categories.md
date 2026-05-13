@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Create_and_Manage_Article_Categories / Display title: Articoli: Categorie  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories",
+  "title": "Articoli: Categorie  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -54,11 +61,11 @@ Lo screenshot seguente mostra il link *Categorie Articoli* nella Dashboard Home
 che porta all'elenco delle categorie e il *Simbolo Più* adiacente che porta al
 modulo *Articoli: Nuova Categoria*.
 
-![L'icona per aggiungere una categoria evidenziata nella dashboard home](../../../en/images/articles/category-add-via-home-dashboard.png)
+![L'icona per aggiungere una categoria evidenziata nella dashboard home](../../../en/images/articles/articles-categories/01-category-add-via-home-dashboard.png)
 
 ## Gli Articoli: Modulo Nuova Categoria
 
-![Il modulo di modifica nuova categoria degli articoli](../../../en/images/getting-started/article-category-edit.png)
+![Il modulo di modifica nuova categoria degli articoli](../../../en/images/articles/articles-categories/02-article-category-edit.png)
 
 Lo screenshot sopra mostra il modulo compilato. Ci sono solo due campi che necessitano di contenuto. Tutto il resto ha valori predefiniti o nulli che puoi lasciare per ora e compilare successivamente quando necessario.
 
@@ -91,7 +98,7 @@ Le impostazioni in questa scheda influenzano l'aspetto della categoria nelle pag
 
 Chiudere il modulo di modifica porta alla pagina elenco **Articoli: Categorie**.
 
-![Un elenco di categorie filtrato per il tag Natura](../../../en/images/articles/categories-list.png)
+![Un elenco di categorie filtrato per il tag Natura](../../../en/images/articles/articles-categories/03-categories-list.png)
 
 ### Salva nel Menu come Lista
 
@@ -107,7 +114,7 @@ Nella scheda *Visualizzazione Pagina* prova a impostare il campo *Mostra Intesta
 
 Lo screenshot seguente mostra la visualizzazione del sito di una pagina blog di categoria in fase di sviluppo.
 
-![Pagina blog categoria Mammiferi](../../../en/images/articles/article-mammals-articles-blog-site-view.png)
+![Pagina blog categoria Mammiferi](../../../en/images/articles/articles-categories/04-article-mammals-articles-blog-site-view.png)
 
 ## Consigli
 

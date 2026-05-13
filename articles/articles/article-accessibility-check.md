@@ -1,4 +1,11 @@
-<!-- Filename: Help6.x:_Article_Accessibility_Check / Display title: Articolo: Verifica dell'Accessibilità -->
+<!--
+{
+  "source": "https://docs.joomla.org/Help6.x:_Article_Accessibility_Check",
+  "title": "Articolo: Verifica dell'Accessibilità ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -20,7 +27,7 @@ deve essere abilitato!
 
 ## Screenshot
 
-![Controllo accessibilità](../../../en/images/articles/articles-accessibility-check.png)
+![Controllo accessibilità](../../../en/images/articles/article-accessibility-check/01-articles-accessibility-check.png)
 
 Lo strumento di controllo è azionato con l'icona del cerchio blu in basso a destra dello schermo. Selezionalo per aprire o chiudere un report. Seleziona il segno di spunta verde (o la croce gialla) per visualizzare ciascun elemento che è stato testato.
 

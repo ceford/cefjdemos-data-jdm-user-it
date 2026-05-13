@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_and_Menu_Styles / Display title: Stili di Modulo e Menu  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_and_Menu_Styles",
+  "title": "Stili di Modulo e Menu  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Informazioni sui Cascading Style Sheets
 
@@ -20,7 +27,7 @@ Ma cosa succede se vuoi stilizzare un modulo o un'intera pagina? Ad esempio, pot
 
 Questo semplice esempio applica stili personalizzati al modulo di Login e al suo titolo. Lo screenshot seguente mostra i nomi degli stili inseriti nella scheda Avanzate del modulo di modifica Login. La Classe Modulo è stata impostata su `make-me-light-green` e la Classe Header è stata impostata su `make-me-dark-green`. Nota che puoi includere segni meno o sottolineature nei nomi delle classi, ma gli spazi separano nomi di classi diversi.
 
-![modulo di modifica login scheda avanzate che mostra la classe personalizzata](../../../en/images/templates/templates-edit-module-style.png)
+![modulo di modifica login scheda avanzate che mostra la classe personalizzata](../../../en/images/template-tips/module-and-menu-styles/01-templates-edit-module-style.png)
 
 Le seguenti dichiarazioni di stile sono utilizzate nel file user.css:
 ```css
@@ -35,7 +42,7 @@ Le seguenti dichiarazioni di stile sono utilizzate nel file user.css:
 ```
 Attenzione al punto (.) che viene utilizzato in css per definire una classe con quel nome. Il punto non deve essere usato nel modulo di inserimento dati. Il risultato in questo esempio è il seguente:
 
-![aspetto del sito del modulo personalizzato con strumenti di sviluppo](../../../en/images/templates/templates-edit-module-style-result.png)
+![aspetto del sito del modulo personalizzato con strumenti di sviluppo](../../../en/images/template-tips/module-and-menu-styles/02-templates-edit-module-style-result.png)
 
 Il fondo dell'immagine mostra il pannello degli Strumenti per Sviluppatori del browser con il tag `<div>` di chiusura del modulo Login selezionato. Puoi vedere che lo stile personalizzato Classe Modulo è stato aggiunto agli stili già definiti nel template del modulo. La linea successiva mostra il tag `<h3>`, anch'esso con la Classe Header personalizzata aggiunta agli stili già definiti.
 
@@ -65,6 +72,6 @@ succede inserendo `make-me-aliceblue` in questo campo? E nel file user.css viene
 ```
 La classe viene aggiunta al tag body della pagina:
 
-![aspetto del sito della pagina personalizzata con strumenti per sviluppatori](../../../en/images/templates/templates-edit-page-class-result.png)
+![aspetto del sito della pagina personalizzata con strumenti per sviluppatori](../../../en/images/template-tips/module-and-menu-styles/03-templates-edit-page-class-result.png)
 
 *Tradotto da openai.com*

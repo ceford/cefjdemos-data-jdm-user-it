@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:System_Dashboard / Display title: Dashboard di Sistema -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:System_Dashboard",
+  "title": "Dashboard di Sistema ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -19,7 +26,7 @@ Gli elementi individuali sono trattati in altri tutorial.
 
 ## Schermata
 
-![Cruscotto di sistema](../../../en/images/dashboards/system-dashboard.png)
+![Cruscotto di sistema](../../../en/images/dashboards/system-dashboard/01-system-dashboard.png)
 
 *Tradotto da openai.com*
 

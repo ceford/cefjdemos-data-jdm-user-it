@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Dashboard / Display title: Dashboard del Menu -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Dashboard",
+  "title": "Dashboard del Menu ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -8,7 +15,7 @@ Puoi avere quanti menu del Sito e dell'Amministratore desideri, in quasi qualsia
 
 ## Schermata
 
-![Menu dashboard](../../../en/images/dashboards/menus-dashboard.png)
+![Menu dashboard](../../../en/images/dashboards/menu-dashboard/01-menus-dashboard.png)
 
 *Tradotto da openai.com*
 

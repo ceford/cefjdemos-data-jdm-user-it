@@ -1,4 +1,11 @@
-<!-- Filename: Article_Images_and_Links / Display title: Articolo: Modifica - Immagini e Collegamenti  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Article_Images_and_Links",
+  "title": "Articolo: Modifica - Immagini e Collegamenti  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -12,7 +19,7 @@ Altri articoli hanno descritto come incorporare immagini e collegamenti nel cont
 
 Per questo articolo, a partire da un'immagine di una rana arboricola verde larga 1024 pixel, sono state create due immagini più piccole, rispettivamente di 128 e 256 pixel di larghezza. Nota: è meglio preparare le immagini nel tuo strumento preferito di elaborazione delle immagini, come *Gimp*. Le immagini di piccola e media dimensione sono state utilizzate per creare i seguenti screenshot.
 
-![Modulo di modifica articolo, scheda immagini e collegamenti](../../../en/images/articles/articles-edit-images-and-links-tab.png)
+![Modulo di modifica articolo, scheda immagini e collegamenti](../../../en/images/articles/article-images-and-links/01-articles-edit-images-and-links-tab.png)
 
 ## Campi del Modulo
 
@@ -49,11 +56,11 @@ Esattamente gli stessi dati di inserimento del Link A.
 
 Lo screenshot qui sotto mostra un layout di blog di categoria con l'*Immagine Introduttiva*. Potrebbe essere stato meglio utilizzare un'immagine panoramica con la stessa altezza ma una larghezza molto maggiore per sfruttare lo spazio bianco vuoto.
 
-![Pagina del blog della categoria Anfibi](../../../en/images/articles/articles-site-amphibians-blog.png)
+![Pagina del blog della categoria Anfibi](../../../en/images/articles/article-images-and-links/02-articles-site-amphibians-blog.png)
 
 Lo screenshot qui sotto mostra la pagina di un singolo articolo con l'*Immagine dell'Articolo Completo* e il Link A. L'immagine è stata allineata a destra e la didascalia visibile aggiunge qualcosa a quanto detto nella Descrizione affinché abbia senso per i lettori di schermo.
 
-![Pagina del singolo articolo Rane](../../../en/images/articles/articles-site-amphibians-frogs.png)
+![Pagina del singolo articolo Rane](../../../en/images/articles/article-images-and-links/03-articles-site-amphibians-frogs.png)
 
 *Tradotto da openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Add_a_class_selector_to_the_create_link_dialog / Display title: Articolo: Modifica - Stili di link -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Add_a_class_selector_to_the_create_link_dialog",
+  "title": "Articolo: Modifica - Stili di link ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Descrizione
 
@@ -11,7 +18,7 @@ Classi di collegamento personalizzate aggiunte alle opzioni dell'editor TinyMCE 
 3. Aggiungi classi alla *Lista Classi Collegamento*. Ad esempio, classi di Bootstrap per creare pulsanti eleganti. Potrebbe essere necessario scorrere la lista da sinistra a destra o cambiare l'ingrandimento dello schermo per vedere i pulsanti di aggiunta, rimozione e ordinamento alla fine.
 4. Salva e Chiudi.
 
-![Set link classes in tinymce](../../../en/images/articles/article-edit-link-style-tinymce.png)
+![Set link classes in tinymce](../../../en/images/articles/article-link-styles/01-article-edit-link-style-tinymce.png)
 
 Puoi trovare esempi di modelli che utilizzano nativamente Bootstrap nella [documentazione ufficiale di Bootstrap](https://getbootstrap.com/docs/5.3/components/buttons/).
 
@@ -52,11 +59,11 @@ Puoi anche utilizzare le varianti dei pulsanti con contorno:
 6. Salva l'Articolo.
 7. Anteprima dell'Articolo.
 
-![Apply link style in an article](../../../en/images/articles/article-edit-link-style-apply.png)
+![Apply link style in an article](../../../en/images/articles/article-link-styles/02-article-edit-link-style-apply.png)
 
 E questo è un esempio in cui la classe del pulsante di collegamento è stata impostata su `btn btn-sm btn-outline-info` e il testo collegato è *Bootstrap*:
 
-![Preview of a custom Link Button](../../../en/images/articles/article-edit-link-style-preview.png)
+![Preview of a custom Link Button](../../../en/images/articles/article-link-styles/03-article-edit-link-style-preview.png)
 
 ## Uso avanzato: Applicazione di classi personalizzate
 

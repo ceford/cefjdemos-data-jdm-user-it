@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Recipe_-_Using_Recipe_Plugin / Display title: Schema.org - Ricetta -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Ricetta ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -30,7 +37,7 @@ La sezione *Generic Field* consente di inserire coppie di *Title* e *Value* oltr
 
 Di seguito è riportato un esempio di schema di ricetta in un modulo di modifica dell'articolo.
 
-![A recipe schema edit form](../../../en/images/schemas/edit-schema-recipe.png)
+![A recipe schema edit form](../../../en/images/schemas/recipe/01-edit-schema-recipe.png)
 
 *Tradotto da openai.com*
 

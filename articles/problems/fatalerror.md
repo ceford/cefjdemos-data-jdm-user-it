@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:FatalError / Display title: ErroreFatale -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:FatalError",
+  "title": "ErroreFatale ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -11,11 +18,11 @@ che ti aspettavi. Ci sono due tipi di pagine di errore:
 
 ### Pagina di Errore del Sistema
 
-![Pagina di errore fatale del sistema](../../../en/images/problems/fatal-error.png)
+![Pagina di errore fatale del sistema](../../../en/images/problems/fatalerror/01-fatal-error.png)
 
 ### Pagina di Errore del Modello
 
-![Pagina di errore del modello](../../../en/images/problems/template-error.png)
+![Pagina di errore del modello](../../../en/images/problems/fatalerror/02-template-error.png)
 
 ## Come Risolvere
 
@@ -41,7 +48,7 @@ Se la tua interfaccia di Amministrazione **non** sta funzionando, modifica il fi
 
 Con le modifiche fatte, ricarica la pagina che causava l'errore. Ora dovresti vedere un tracciato dello stack. Esempio:
 
-![Pagina di errore del template](../../../en/images/problems/template-error-stack-trace.png)
+![Pagina di errore del template](../../../en/images/problems/fatalerror/03-template-error-stack-trace.png)
 
 Il primo elemento nel tracciato dello stack indica dove l'errore è stato attivato. A volte è sufficiente per identificare l'Estensione difettosa. A volte l'Estensione difettosa è più in basso nel tracciato dello stack. Potrebbe non significare molto per te, ma il tracciato dello stack è inestimabile per gli esperti che rispondono alle domande nei Forum di Joomla.
 

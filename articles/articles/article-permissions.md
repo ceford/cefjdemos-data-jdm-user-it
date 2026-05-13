@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Access_Control / Display title: Articolo: Modifica - Autorizzazioni -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Access_Control",
+  "title": "Articolo: Modifica - Autorizzazioni ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -8,7 +15,7 @@ La descrizione qui riguarda la scheda *Permessi* del modulo *Articolo: Modifica*
 
 ## Screenshot
 
-![La scheda delle autorizzazioni dell'articolo con autore selezionato](../../../en/images/articles/articles-edit-permissions-tab.png)
+![La scheda delle autorizzazioni dell'articolo con autore selezionato](../../../en/images/articles/article-permissions/01-articles-edit-permissions-tab.png)
 
 Può essere sorprendente che un Autore non sembri avere il permesso di modificare un articolo!
 

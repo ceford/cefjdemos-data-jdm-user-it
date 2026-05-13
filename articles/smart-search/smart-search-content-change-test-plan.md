@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_content_change_test_plan / Display title: Piano di Test per la Ricerca Intelligente -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_content_change_test_plan",
+  "title": "Piano di Test per la Ricerca Intelligente ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Il seguente è un piano di test approssimativo che copre (principalmente) l'aggiornamento dell'indice di Ricerca Intelligente quando si verificano vari tipi di aggiornamenti dei contenuti.
 

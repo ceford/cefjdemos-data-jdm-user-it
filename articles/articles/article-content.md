@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_New_Article / Display title: Articolo: Modifica - Contenuto  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_New_Article",
+  "title": "Articolo: Modifica - Contenuto  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -6,7 +13,7 @@ L'articolo *Aggiungere un articolo* è stato trattato in un articolo della serie
 
 Lo screenshot seguente mostra il modulo di modifica con un articolo che è già stato salvato.
 
-![Il modulo di modifica del contenuto](../../../en/images/articles/articles-edit-content.png)
+![Il modulo di modifica del contenuto](../../../en/images/articles/article-content/01-articles-edit-content.png)
 
 ## Inserimento dati
 

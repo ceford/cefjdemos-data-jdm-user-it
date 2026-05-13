@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Optional_Technical_Requirements / Display title: Requisiti Tecnici Opzionali -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Optional_Technical_Requirements",
+  "title": "Requisiti Tecnici Opzionali ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Questa pagina elenca i requisiti tecnici *opzionali* che non sono richiesti per installare ed eseguire Joomla!, ma sono necessari per alcune API interne. L'elenco è stato creato per Joomla 4.
 

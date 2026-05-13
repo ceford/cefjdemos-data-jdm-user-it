@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Submenus / Display title: Sottomenu  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Submenus",
+  "title": "Sottomenu  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Nozioni di base sui menu
 
@@ -26,7 +33,7 @@ Supponiamo che tu abbia una serie di articoli sugli animali. Potrebbero essere a
 
 Gli elenchi potrebbero essere piuttosto lunghi, quindi potresti voler mostrare solo un elenco di razze di gatti su pagine sui gatti e solo un elenco di razze di cani su pagine sui cani. La seguente schermata mostra il layout obiettivo che l'utente vorrebbe raggiungere:
 
-![obiettivi dei sottomenu animali gatti](../../../en/images/menus/submenus-objectives-animals-cats.png)
+![obiettivi dei sottomenu animali gatti](../../../en/images/menus/submenus/01-submenus-objectives-animals-cats.png)
 
 In questo esempio, quando l'utente seleziona l'elemento del menu Animali, si carica la pagina Animali e il modulo del menu Gatti scompare (anche il modulo Cani non appare). Seleziona l'elemento del menu Gatti e il modulo del menu Gatti appare accanto alla pagina Gatti. Seleziona l'elemento del menu Burmese e appare la pagina Burmese. Seleziona l'elemento del menu Cani e il modulo del menu Gatti viene sostituito da un modulo del menu Cani accanto alla pagina Cani.
 
@@ -53,7 +60,7 @@ Dal menu Amministratore:
 - In alcuni casi potresti avere bisogno di ricordarti a cosa serve questo menu. Quindi compila il campo di descrizione.
 - Salva o Salva & Chiudi.
 
-![nuovo menu sottomenu](../../../en/images/menus/submenus-new-menu.png)
+![nuovo menu sottomenu](../../../en/images/menus/submenus/02-submenus-new-menu.png)
 
 ## Creare Elementi di Menu
 
@@ -97,7 +104,7 @@ Continua fino a quando non avrai sette elementi di menu, uno per ogni articolo.
 
 Quando hai creato tutti i tuoi elementi del menu, verifica che abbiano le relazioni parent-child corrette e che siano nell'ordine giusto. Puoi ordinare nella colonna Ordinamento (la seconda colonna) e utilizzare le maniglie di trascinamento (ellissi verticali) per spostare gli elementi nell'ordine corretto. Se un elemento ha un genitore sbagliato, seleziona semplicemente il titolo dell'elemento e cambia il genitore nel modulo Menu: Modifica Elemento.
 
-![lista degli elementi del menu dei sottomenu](../../../en/images/menus/submenus-menu-items-list.png)
+![lista degli elementi del menu dei sottomenu](../../../en/images/menus/submenus/03-submenus-menu-items-list.png)
 
 ## Moduli del Menu
 
@@ -123,7 +130,7 @@ Dal menu Amministratore:
     Cani)
   - Posizione: barra laterale-sinistra (o dove preferisci)
 
-![modulo sottomenu animali](../../../en/images/menus/submenus-animals-module.png)
+![modulo sottomenu animali](../../../en/images/menus/submenus/04-submenus-animals-module.png)
 
 ### Assegnazione Menu Animali
 
@@ -138,7 +145,7 @@ questo caso solo su tre pagine. Dalla scheda Assegnazione Menu:
 - Assicurati che nessun'altra casella sia selezionata.
 - Salva e Chiudi
 
-![assegnazione menu modulo sottomenu animali](../../../en/images/menus/submenus-animals-module-menu-assignment.png)
+![assegnazione menu modulo sottomenu animali](../../../en/images/menus/submenus/05-submenus-animals-module-menu-assignment.png)
 
 ## Modulo Sottomenu Gatti
 
@@ -181,7 +188,7 @@ Finora tutto bene! Ma non c'è nessun collegamento alla pagina Animali dal Menu 
   - Tipo di Voce di Menu: Alias Voce di Menu
   - Voce di Menu: Animali - selezionato dall'elenco delle voci di menu esistenti.
 
-![alias sottomenu animali](../../../en/images/menus/submenus-animals-alias.png)
+![alias sottomenu animali](../../../en/images/menus/submenus/06-submenus-animals-alias.png)
 
 - Salva
 - Ordinamento - dopo il salvataggio, l'ordine può essere modificato. In questo esempio è posizionata per prima.
@@ -190,5 +197,5 @@ Finora tutto bene! Ma non c'è nessun collegamento alla pagina Animali dal Menu 
 
 Visualizza le pagine nel tuo sito. In questo esempio, la maggior parte delle pagine non mostrerà i sottomenu nella posizione a sinistra. Il link Animali nel menu in alto aprirà la pagina degli animali da cui è possibile navigare verso le pagine dei Gatti o dei Cani:
 
-![sottomenu obiettivi animali cani](../../../en/images/menus/submenus-objectives-animals-dogs.png)
+![sottomenu obiettivi animali cani](../../../en/images/menus/submenus/07-submenus-objectives-animals-dogs.png)
 

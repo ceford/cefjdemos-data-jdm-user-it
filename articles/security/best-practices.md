@@ -1,4 +1,11 @@
-<!-- Filename: https://magazine.joomla.org/all-issues/april-2021/best-practices-to-secure-your-joomla-website / Display title: Migliori Pratiche  -->
+<!--
+{
+  "source": "https://docs.joomla.org/https:",
+  "title": "Migliori Pratiche  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Articoli sulla Sicurezza
 

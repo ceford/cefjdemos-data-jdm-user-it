@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Switching_Templates / Display title: Modifica dei modelli   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Switching_Templates",
+  "title": "Modifica dei modelli   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Template del sito e dell'amministratore
 
@@ -13,7 +20,7 @@ Uno dei tuoi modelli deve essere contrassegnato come predefinito. Viene utilizza
 - Seleziona **Sistema → Pannello Modelli → Stili Modello del Sito** dal menu Amministratore.
 - Seleziona uno dei pulsanti nella colonna Predefinito.
 
-![pagina elenco stili modelli sito](../../../en/images/templates/switch-templates-styles-list.png)
+![pagina elenco stili modelli sito](../../../en/images/template-tips/switching-templates/01-switch-templates-styles-list.png)
 
 Dai un'occhiata al tuo sito per vedere che tutte le pagine stanno utilizzando il modello predefinito.
 
@@ -30,7 +37,7 @@ Dalla lista Stili dei Template:
 - Seleziona singole voci di menu o attiva tutte le voci di un menu.
 - Salva
 
-![scheda assegnazione menu modifica stile template](../../../en/images/templates/switch-templates-styles-edit-style-menu-assignment.png)
+![scheda assegnazione menu modifica stile template](../../../en/images/template-tips/switching-templates/02-switch-templates-styles-edit-style-menu-assignment.png)
 
 In questo esempio, tutte le voci di menu nel menu `Main Menu Testing` sono state selezionate. Torna al tuo sito e seleziona una qualsiasi delle voci di menu che dovrebbe utilizzare il template selezionato.
 
@@ -43,7 +50,7 @@ Questo metodo viene utilizzato per impostare il template per singole voci di men
 - Nel campo **Stile del Template**, seleziona lo stile di template desiderato.
 - Salva
 
-![modulo di modifica voce menu template stile selezione](../../../en/images/templates/switch-templates-styles-edit-menu-style.png)
+![modulo di modifica voce menu template stile selezione](../../../en/images/template-tips/switching-templates/03-switch-templates-styles-edit-menu-style.png)
 
 Torna al tuo sito e seleziona la voce di menu modificata per verificare che sia visualizzata con lo stile di template selezionato.
 

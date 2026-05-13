@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Workflow / Display title: Flusso di Pubblicazione  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Workflow",
+  "title": "Flusso di Pubblicazione  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -20,7 +27,7 @@ Esiste una pagina tutorial contenente passaggi per la creazione di un esempio di
 
 Quando i flussi di lavoro sono abilitati, l'elenco dei flussi di lavoro disponibili può essere visualizzato selezionando **Contenuto → Flussi di lavoro** dal menu dell'amministratore.
 
-![Elenco dei flussi di lavoro](../../../en/images/workflows/workflows-list.png)
+![Elenco dei flussi di lavoro](../../../en/images/workflows/workflow/01-workflows-list.png)
 
 - Lo **Stato** di un flusso di lavoro può essere Abilitato, Disabilitato o Cestinato.
 - Il **Nome** è un collegamento al modulo di modifica del flusso di lavoro.
@@ -36,17 +43,17 @@ Quando i flussi di lavoro sono abilitati, l'elenco dei flussi di lavoro disponib
 
 Le fasi sono accessibili tramite l'elenco *Flussi di lavoro*. Seleziona il pulsante giallo che mostra il numero di fasi.
 
-![Elenco fasi del flusso di lavoro](../../../en/images/workflows/workflow-stages-list.png)
+![Elenco fasi del flusso di lavoro](../../../en/images/workflows/workflow/02-workflow-stages-list.png)
 
 Seleziona il nome di una fase per modificarla.
 
-![Modulo di modifica della fase del flusso di lavoro](../../../en/images/workflows/workflow-stage-edit.png)
+![Modulo di modifica della fase del flusso di lavoro](../../../en/images/workflows/workflow/03-workflow-stage-edit.png)
 
 ## Transizioni
 
 Nei flussi di lavoro, gli articoli passano da una fase all'altra. Le transizioni sono gestite attraverso la lista delle *Transizioni*.
 
-![La lista delle transizioni](../../../en/images/workflows/workflow-transitions-list.png)
+![La lista delle transizioni](../../../en/images/workflows/workflow/04-workflow-transitions-list.png)
 
 - La *Fase Attuale* definisce dove inizia questa transizione.
 - La *Fase di Destinazione* definisce dove termina questa transizione.
@@ -55,18 +62,18 @@ Nei flussi di lavoro, gli articoli passano da una fase all'altra. Le transizioni
 
 Le fasi *Attuale* e di *Destinazione* sono impostate nel modulo di *Modifica Transizione*:
 
-![Modulo di modifica transizione](../../../en/images/workflows/workflow-transition-edit.png)
+![Modulo di modifica transizione](../../../en/images/workflows/workflow/05-workflow-transition-edit.png)
 
 La scheda *Azioni di Transizione* viene utilizzata per definire lo *Stato* in cui si troverà l'elemento dopo il completamento della transizione.
 
-![Scheda azioni modulo di modifica transizione](../../../en/images/workflows/workflow-transition-edit-actions-tab.png)
+![Scheda azioni modulo di modifica transizione](../../../en/images/workflows/workflow/06-workflow-transition-edit-actions-tab.png)
 
 - **Stato in Evidenza** Se l'elemento sarà o meno *Evidenziato*.
 - **Stato di Pubblicazione** Seleziona dallo elenco lo stato di destinazione.
 
 La scheda *Notifiche di Transizione* viene utilizzata per definire se viene inviata una notifica per quello stato. Ad esempio, se un articolo è stato scritto ma necessita di revisione, potrebbe essere inviato un'email per notificare l'editor.
 
-![Scheda notifiche modulo di modifica transizione](../../../en/images/workflows/workflow-transition-edit-notifications-tab.png)
+![Scheda notifiche modulo di modifica transizione](../../../en/images/workflows/workflow/07-workflow-transition-edit-notifications-tab.png)
 
 - **Invia Notifica** Se impostato su *Sì* appariranno campi extra.
 - **Testo Messaggio Aggiuntivo** Aggiungi testo messaggio aggiuntivo o utilizza una stringa lingua per rendere il testo del messaggio traducibile.
@@ -81,7 +88,7 @@ La scheda dei permessi controlla l'accesso a questa transizione da parte dei gru
 
 I plugin del flusso di lavoro sono usati per azioni invocate dalle transizioni. Vai a **Sistema → Plugin** e cambia il filtro *- Seleziona Tipo -* in *flusso di lavoro*. Ognuno di questi plugin può essere disattivato se non richiesto.
 
-![Lista dei plugin del flusso di lavoro](../../../en/images/workflows/workflow-plugins.png)
+![Lista dei plugin del flusso di lavoro](../../../en/images/workflows/workflow/08-workflow-plugins.png)
 
 - **Evidenziazione del Flusso di Lavoro** Questa azione implementa il cambiamento dello stato *Evidenziato* di un articolo da *Sì* a *No*.
 - **Notifica del Flusso di Lavoro** Questa azione implementa la notifica a un utente che un cambio di fase richiede attenzione.
@@ -91,7 +98,7 @@ I plugin del flusso di lavoro sono usati per azioni invocate dalle transizioni. 
 
 Gli articoli possono essere assegnati a categorie. Esse corrispondono a un certo flusso di lavoro e possono essere personalizzate in vari modi. È possibile impostare uno stato, una categoria principale e anche limitare l'accesso così come i permessi. Questa opzione non si trova nella schermata dei flussi di lavoro. Per accedere a questa opzione è necessario andare su **Contenuto → Categorie**. Una volta lì, apri qualsiasi categoria e vedrai una scheda *Flussi di lavoro*.
 
-![Flusso di lavoro modifica categorie articoli](../../../en/images/workflows/workflow-categories-blog.png)
+![Flusso di lavoro modifica categorie articoli](../../../en/images/workflows/workflow/09-workflow-categories-blog.png)
 
 ### Esempio
 

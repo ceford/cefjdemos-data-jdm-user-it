@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Lists / Display title: Articolo: Modifica - Elenchi  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Lists",
+  "title": "Articolo: Modifica - Elenchi  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Tipi di Elenchi
 
@@ -22,7 +29,7 @@ rientrati diventino difficili da leggere, quindi è meglio limitarsi a uno o due
 
 Lo screenshot seguente mostra un elenco non ordinato con due livelli di indentazione. Mostra anche l'intero set di strumenti, aperto selezionando il pulsante con i tre puntini (...) alla fine della prima riga di icone degli strumenti.
 
-![Elenchi nidificati non ordinati](../../../en/images/articles/articles-edit-lists.png)
+![Elenchi nidificati non ordinati](../../../en/images/articles/article-lists/01-articles-edit-lists.png)
 
 Questo screenshot verrà utilizzato per spiegare come è stato creato l'elenco puntato utilizzando gli strumenti *Elenco puntato* e *Aumenta indentazione* o *Riduci indentazione*:
 
@@ -38,7 +45,7 @@ Sono disponibili tre stili:
 
 Il chevron verso il basso a destra dell'icona dell'elenco puntato apre un piccolo pannello che consente di selezionare lo stile preferito per un elemento dell'elenco selezionato:
 
-![Strumenti di manipolazione degli elenchi puntati](../../../en/images/articles/articles-edit-list-bullets.png)
+![Strumenti di manipolazione degli elenchi puntati](../../../en/images/articles/article-lists/02-articles-edit-list-bullets.png)
 
 L'icona dell'elenco funziona come un interruttore. Se il cursore si trova in un paragrafo e viene selezionata una pallottola, il paragrafo diventa un elemento dell'elenco. Se la pallottola viene selezionata di nuovo, l'elemento dell'elenco torna a essere un paragrafo.
 
@@ -65,7 +72,7 @@ Sono disponibili sei stili:
 - Lettere maiuscole: A, B, C ...
 - Numeri romani maiuscoli: I, II, III ...
 
-![Strumenti di manipolazione degli elenchi numerati](../../../en/images/articles/articles-edit-list-numbers.png)
+![Strumenti di manipolazione degli elenchi numerati](../../../en/images/articles/article-lists/03-articles-edit-list-numbers.png)
 
 Gli elenchi numerati funzionano in modo leggermente diverso. Quando un elemento dell'elenco è rientrato, assume il primo valore numerico e i numeri nel resto dell'elenco salgono in modo che l'elenco sia sempre in ordine numerico corretto.
 

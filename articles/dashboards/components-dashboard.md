@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Components_Dashboard / Display title: Dashboard dei Componenti   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Components_Dashboard",
+  "title": "Dashboard dei Componenti   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -6,7 +13,7 @@ Per aprire il Dashboard dei Componenti, seleziona l'icona del dashboard alla des
 
 ## Schermata
 
-![Dashboard dei componenti](../../../en/images/dashboards/components-dashboard.png)
+![Dashboard dei componenti](../../../en/images/dashboards/components-dashboard/01-components-dashboard.png)
 
 *Tradotto da openai.com*
 

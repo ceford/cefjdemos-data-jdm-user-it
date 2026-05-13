@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Login_and_Logout_Redirects / Display title: Reindirizzamenti per Accesso e Disconnessione  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Login_and_Logout_Redirects",
+  "title": "Reindirizzamenti per Accesso e Disconnessione  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Impostazioni Predefinite
 
@@ -10,7 +17,7 @@ Questo articolo copre le opzioni di reindirizzamento disponibili dopo un login o
 
 Il comportamento predefinito di un modulo di login è di rimanere sulla stessa pagina dopo il login e il logout. L'unico inconveniente di questo comportamento è che un utente che esce da una pagina riservata verrà invitato a effettuare nuovamente il login. Se questo è fastidioso, una soluzione semplice è selezionare la pagina Home a cui reindirizzare nel campo Impostazioni del Modulo Pagina di Reindirizzamento Logout.
 
-![modulo menu di logout limitato all'accesso registrato](../../../en/images/users/login-redirects-login-form.png)
+![modulo menu di logout limitato all'accesso registrato](../../../en/images/users/login-and-logout-redirects/01-login-redirects-login-form.png)
 
 Suggerimento: Potresti utilizzare due moduli di login. Uno con accesso **Ospite** intitolato **Login**. Il secondo con accesso **Registrato** intitolato **Logout**.  
 
@@ -20,7 +27,7 @@ Il tipo di voce di menu di accesso può essere utilizzato per il login e il logo
 
 Il tipo di voce di menu Accesso consente una scelta di Tipo di Reindirizzamento di Accesso: per Voce di Menu o per URL Interno. Per impostazione predefinita, è selezionata Voce di Menu ma non è impostata e l'accesso porta alla pagina del Profilo Utente. Puoi selezionare una voce di menu o puoi fornire l'URL di una pagina. Ad esempio, potresti avere una pagina di Stato del Sistema con un messaggio del giorno personalizzato.
 
-![modulo di logout limitato all'accesso registrato](../../../en/images/users/login-redirects-login-menu-options.png)
+![modulo di logout limitato all'accesso registrato](../../../en/images/users/login-and-logout-redirects/02-login-redirects-login-menu-options.png)
 
 Il comportamento predefinito di Logout è di reindirizzare alla pagina iniziale del sito. Potresti reindirizzare a qualcos'altro, come un messaggio di Congedo collegato da una voce di menu o un URL interno.
 
@@ -28,7 +35,7 @@ Il comportamento predefinito di Logout è di reindirizzare alla pagina iniziale 
 
 La voce di menu Logout è semplice. L'impostazione predefinita è rimanere sulla stessa pagina dopo il logout. Se risulta scomodo, selezionare la pagina Home del sito.
 
-![modulo di menu di logout limitato ad accesso registrato](../../../en/images/users/login-redirects-logout-menu-options.png)
+![modulo di menu di logout limitato ad accesso registrato](../../../en/images/users/login-and-logout-redirects/03-login-redirects-logout-menu-options.png)
 
 *Tradotto da openai.com*
 

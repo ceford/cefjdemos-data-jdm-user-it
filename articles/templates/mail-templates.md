@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Managing_Mail_Template_Layout / Display title: Modelli di Posta Elettronica -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Managing_Mail_Template_Layout",
+  "title": "Modelli di Posta Elettronica ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -6,7 +13,7 @@ I modelli di posta vengono utilizzati per inviare messaggi email di sistema in *
 
 Lo screenshot seguente mostra una selezione dei 26 modelli di posta standard disponibili. L'elenco è disponibile selezionando **Sistema -> Modelli di posta** dal menu Amministratore.
 
-![mail templates list](../../../en/images/templates/mail-templates-list.png)
+![mail templates list](../../../en/images/templates/mail-templates/01-mail-templates-list.png)
 
 I messaggi di posta possono essere personalizzati per modificare il layout, l'aspetto e il testo in base alle esigenze del tuo sito. Ad esempio, potresti voler utilizzare il logo del sito e lo schema di colori in quelle email inviate ai clienti. La personalizzazione delle email inviate agli amministratori è meno importante.
 
@@ -16,7 +23,7 @@ Ci sono due metodi di personalizzazione: tramite *Mail Template: Options* per tu
 
 Seleziona il pulsante **Opzioni** nella barra degli strumenti della lista *Modelli di Posta* per accedere alle impostazioni generali del modello di posta. Seleziona il pulsante *Attiva/Disattiva Guida in Linea* per vedere se uno qualsiasi dei campi del modulo ha un aiuto extra.
 
-![mail templates options](../../../en/images/templates/mail-templates-options.png)
+![mail templates options](../../../en/images/templates/mail-templates/02-mail-templates-options.png)
 
 ### Formato Email
 
@@ -32,7 +39,7 @@ Nell'elenco dei Modelli Email puoi selezionare qualsiasi modello da modificare. 
 
 ### La scheda Posta
 
-![edit mail template form](../../../en/images/templates/mail-template-edit.png)
+![edit mail template form](../../../en/images/templates/mail-templates/03-mail-template-edit.png)
 
 I contenuti delle aree Oggetto e Corpo sono inizialmente memorizzati in stringhe di lingua. Questo rende facile *Ripristinare l'Oggetto Predefinito* o il *Corpo*. Tuttavia, una volta che un modello di posta specifico è stato modificato, i suoi campi Oggetto e Corpo vengono memorizzati nella tabella `#__mail_templates`.
 
@@ -44,7 +51,7 @@ I valori segnaposto disponibili variano da una mail all'altra. Potresti aggiunge
 
 Questa scheda è presente solo se *Impostazioni Email per Modello* è impostato su *Sì* in *Modelli di Email: Opzioni*. L'illustrazione seguente mostra uno screenshot con *Impostazioni Email* impostato su *No*. Se impostato su *Sì* compaiono più campi modulo che sostituiscono le opzioni di Mail impostate nella Configurazione Globale, scheda Server.
 
-![edit mail template form](../../../en/images/templates/mail-template-edit-options.png)
+![edit mail template form](../../../en/images/templates/mail-templates/04-mail-template-edit-options.png)
 
 Se desideri inviare una copia nascosta di un'email in uscita a un indirizzo email specifico, puoi inserirlo nel campo *Invia Copia a Email*.
 

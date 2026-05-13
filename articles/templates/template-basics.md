@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Basics / Display title: Nozioni di Base sui Modelli -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Basics",
+  "title": "Nozioni di Base sui Modelli ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -6,7 +13,7 @@ In Joomla! un template è una raccolta di file che insieme definiscono l'aspetto
 
 Un tipico template per siti contiene file PHP per disporre il contenuto e file CSS per stilizzare il contenuto. Spesso ci sono file aggiuntivi come immagini utilizzate nel layout e file JavaScript usati per interagire con le funzionalità del sito come collegamenti e pulsanti. Il seguente screenshot mostra le cartelle e i file del template Cassiopeia in una nuova installazione di Joomla 4:
 
-![templates customise cassiopeia page](../../../en/images/templates/templates-customise-cassiopeia.png)
+![templates customise cassiopeia page](../../../en/images/templates/template-basics/01-templates-customise-cassiopeia.png)
 
 Nota che i file php si trovano nella cartella /templates del sito e i file multimediali si trovano nella cartella /media del sito.
 
@@ -14,7 +21,7 @@ Nota che i file php si trovano nella cartella /templates del sito e i file multi
 
 Il modello del sito definisce le posizioni del contenuto principale, ad esempio un articolo individuale o un layout di blog con articoli in evidenza, e di eventuali moduli da visualizzare sopra, sotto, a sinistra o a destra del contenuto principale. La seguente illustrazione mostra le posizioni disponibili in Cassiopeia:
 
-![diagramma delle posizioni del template](../../../en/images/templates/cassiopeia-template-positions.png)
+![diagramma delle posizioni del template](../../../en/images/templates/template-basics/02-cassiopeia-template-positions.png)
 
 Inoltre, è possibile vedere le posizioni del template in qualsiasi template impostando Anteprima delle posizioni dei moduli su Abilitato nel modulo Opzioni Template e quindi aggiungendo ?tp=1 all'URL. Se c'è già una stringa di query aggiunta all'URL, allora aggiungi &tp=1 invece.
 
@@ -43,7 +50,7 @@ dell'estensione che puoi modificare per adattarlo ai tuoi scopi. Lo
 screenshot seguente mostra il Modello: il modulo 'Personalizza Crea
 Sostituzioni':
 
-![sostituzioni del modello](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![sostituzioni del modello](../../../en/images/templates/template-basics/03-cassiopeia-customisation-create-overrides.png)
 
 Cassiopeia ha già alcune sostituzioni installate. Questo potrebbe sembrare un problema. Se modifichi uno qualsiasi dei file predefiniti di Cassiopeia, le tue modifiche verranno sovrascritte (e quindi perse) al prossimo aggiornamento di Joomla. La soluzione è nei modelli figli.
 

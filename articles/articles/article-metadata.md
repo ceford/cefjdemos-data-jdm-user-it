@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Metadata / Display title: Articolo: Modifica - Metadati  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Metadata",
+  "title": "Articolo: Modifica - Metadati  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -43,7 +50,7 @@ In Joomla, per una singola pagina il titolo dell'articolo diventa il titolo dell
 
 L'articolo *Meta Description* è un campo nella scheda *Publishing* del modulo di inserimento dati dell'articolo:
 
-![La scheda di modifica dell'articolo nella scheda di pubblicazione](../../../en/images/articles/articles-edit-publishing-tab.png)
+![La scheda di modifica dell'articolo nella scheda di pubblicazione](../../../en/images/articles/article-metadata/01-articles-edit-publishing-tab.png)
 
 Se non c'è una descrizione dei metadati dell'articolo, verrà utilizzata una descrizione dei metadati dell'elemento menu dell'articolo singolo se è impostata. Se non c'è una descrizione dei metadati dell'elemento menu, allora si utilizza la descrizione meta globale del sito, se è impostata. Altrimenti, il campo della descrizione dei metadati viene omesso.
 

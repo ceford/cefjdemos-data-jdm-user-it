@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Check-out_and_Check-in / Display title: Articolo: Check-in   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Check-out_and_Check-in",
+  "title": "Articolo: Check-in   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -32,7 +39,7 @@ Dal menu Amministratore:
   **Sistema → Pannello di Manutenzione → Check-in Globale**.
 - L'elenco mostra il numero di elementi estratti.
 
-![Pagina di check-in globale](../../../en/images/articles/global-checkin.png)
+![Pagina di check-in globale](../../../en/images/articles/article-check-in/01-global-checkin.png)
 
 - Dall'elenco delle tabelle del database seleziona la casella di controllo per il tipo di elemento da registrare.
 - Seleziona *Check-in* dalla Toolbar.

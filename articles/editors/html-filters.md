@@ -1,4 +1,11 @@
-<!-- Filename: Entering_raw_HTML_in_editors / Display title: Filtri HTML  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Entering_raw_HTML_in_editors",
+  "title": "Filtri HTML  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Tag HTML Textarea
 
@@ -23,7 +30,7 @@ Puoi selezionare uno degli editor disponibili, incluso Nessuno, dal tuo Profilo 
 
 Dalla Dashboard Principale, seleziona Configurazione Globale e poi la scheda Filtri di Testo. Le impostazioni predefinite hanno *Nessun HTML* selezionato per i gruppi di utenti Ospite, Pubblico e Registrato. Qualsiasi di questi gruppi potrebbe avere l'opportunità di compilare un campo di area testo, ad esempio in un modulo di contatto che richiede informazioni aggiuntive su un problema, quindi la rimozione automatica di tutti i tag HTML è solitamente appropriata. Altri gruppi, ad eccezione dei Super Utenti, sono limitati dall'Elenco Predefinito delle Restrizioni. I Super Utenti non hanno filtri.
 
-![configurazione globale dei filtri di testo](../../../en/images/configuration/global-configuration-filters-tab.png)
+![configurazione globale dei filtri di testo](../../../en/images/editors/html-filters/01-global-configuration-filters-tab.png)
 
 Le note spiegano cosa è incluso nell'elenco predefinito delle restrizioni e come utilizzare gli altri elenchi.  
 

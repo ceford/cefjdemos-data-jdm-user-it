@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Preview / Display title: Articolo: Anteprima   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Preview",
+  "title": "Articolo: Anteprima   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -29,7 +36,7 @@ Dopo aver effettuato l'accesso all'interfaccia Amministratore:
 - Se ricevi il messaggio *La pagina richiesta non può essere trovata*, accedi al Frontend e riprova.
 - Per chiudere la finestra di Anteprima, seleziona il pulsante *X* nell'angolo in alto a destra.
 
-![La finestra di anteprima](../../../en/images/getting-started/article-edit-preview.png)
+![La finestra di anteprima](../../../en/images/articles/article-preview/01-article-edit-preview.png)
 
 *Tradotto da openai.com*
 

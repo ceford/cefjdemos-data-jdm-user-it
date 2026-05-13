@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Language_Overrides / Display title: Sostituzioni di Lingua  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Language_Overrides",
+  "title": "Sostituzioni di Lingua  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Posizioni dei File di Lingua
 
@@ -70,11 +77,11 @@ Ora la nuova chiave può essere tradotta in ogni lingua. Le traduzioni saranno s
 - Salva & Chiudi il modulo.
 - Ripeti il processo di traduzione per ogni lingua.
 
-![form modifica sostituzioni lingue](../../../en/images/languages/language-overrides-edit.png)
+![form modifica sostituzioni lingue](../../../en/images/languages/language-overrides/01-language-overrides-edit.png)
 
 Infine, verifica che la traduzione sia stata implementata.
 
-![Risultato Sostituzione nel modulo di login del sito](../../../en/images/languages/language-overrides-custom-logout.png)
+![Risultato Sostituzione nel modulo di login del sito](../../../en/images/languages/language-overrides/02-language-overrides-custom-logout.png)
 
 *Tradotto da openai.com*
 

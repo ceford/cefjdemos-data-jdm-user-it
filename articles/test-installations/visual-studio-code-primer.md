@@ -1,4 +1,11 @@
-<!-- Filename: Visual_Studio_Code_Primer / Display title: Introduzione a Visual Studio Code -->
+<!--
+{
+  "source": "https://docs.joomla.org/Visual_Studio_Code_Primer",
+  "title": "Introduzione a Visual Studio Code ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## VS Code - Un Popolare IDE Gratuito
 
@@ -96,7 +103,7 @@ Nella Configurazione Globale di Joomla, imposta *Debug System* su *Yes* e *Error
 
 Quando apri una pagina contenente il modulo difettoso vedrai un tracciamento dello stack che ti indica dove è stato attivato un errore.
 
-![tracciamento dello stack vscode](../../../en/images/test-installations/vscode-primer-stack-trace.png)
+![tracciamento dello stack vscode](../../../en/images/test-installations/visual-studio-code-primer/01-vscode-primer-stack-trace.png)
 
 A volte l'errore di codifica è sulla prima linea del tracciamento dello stack. Altrimenti, se l'errore è attivato nel codice della libreria, ad esempio passando dati non validi a una funzione del database, l'errore di codifica potrebbe essere più in basso nella lista delle chiamate di funzione.
 
@@ -104,7 +111,7 @@ A volte l'errore di codifica è sulla prima linea del tracciamento dello stack. 
 
 In VS Code, usa l'elemento di menu File / Apri Cartella per individuare e aprire la cartella contenente la tua copia locale del codice dell'estensione *mod_debugme*. Dovresti vedere qualcosa di simile al seguente:
 
-![visualizzazione cartella vscode](../../../en/images/test-installations/vscode-primer-screen.png)
+![visualizzazione cartella vscode](../../../en/images/test-installations/visual-studio-code-primer/02-vscode-primer-screen.png)
 
 Potresti essere in grado di diagnosticare il problema semplicemente leggendo il codice. Nel caso dell'errore *Classe "DebugHelper" non trovata*, vedrai che una dichiarazione *use* è stata commentata qualche riga prima. Dimenticare di inserire una dichiarazione *use* è un errore comune durante lo sviluppo iniziale!
 
@@ -258,7 +265,7 @@ Alcuni problemi non così ovvi:
 
 Quando tutto è risolto, ecco cosa potresti vedere:
 
-![visualizzazione del modulo risolto in vscode](../../../en/images/test-installations/vscode-primer-debugme-fixed.png)
+![visualizzazione del modulo risolto in vscode](../../../en/images/test-installations/visual-studio-code-primer/03-vscode-primer-debugme-fixed.png)
 
 Giorni speciali?  
 

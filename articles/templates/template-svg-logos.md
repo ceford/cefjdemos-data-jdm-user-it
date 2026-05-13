@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_SVG_Logos / Display title: Modelli di Loghi SVG  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_SVG_Logos",
+  "title": "Modelli di Loghi SVG  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Logo di Cassiopeia
 
@@ -8,7 +15,7 @@ Il modello di sito predefinito di Joomla 4, Cassiopeia, utilizza la parola CASSI
 
 Inkscape è un'applicazione di grafica vettoriale open source e multipiattaforma, il che significa che puoi scaricarla gratuitamente e usarla su Linux, Mac o Windows. Quindi, per iniziare, vai al sito web di Inkscape e scarica la versione per il tuo laptop o computer desktop. Avvia Inkscape e sei pronto per creare un Logo Branding SVG. Lo screenshot qui sotto mostra Inkscape a metà della creazione di un nuovo Logo SVG.
 
-![creazione logo con inkscape](../../../en/images/templates/templates-svg-logos-inkscape.png)
+![creazione logo con inkscape](../../../en/images/templates/template-svg-logos/01-templates-svg-logos-inkscape.png)
 
 ## Istruzioni
 
@@ -51,7 +58,7 @@ altezza:
 26. Nella scheda Avanzate, nel campo Logo utilizza Seleziona per trovare il tuo logo appena creato
 27. Salva e ricarica la pagina del tuo Sito
 
-![risultato della creazione del logo con inkscape](../../../en/images/templates/templates-svg-logos-inkscape-result.png)
+![risultato della creazione del logo con inkscape](../../../en/images/templates/template-svg-logos/02-templates-svg-logos-inkscape-result.png)
 
 *Tradotto da openai.com*
 

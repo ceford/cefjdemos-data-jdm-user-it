@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Read_More_Links / Display title: Articolo: Modifica - Leggi di più -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Read_More_Links",
+  "title": "Articolo: Modifica - Leggi di più ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Layout di Blog e Articoli in Evidenza
 

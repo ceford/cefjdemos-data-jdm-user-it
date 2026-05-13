@@ -1,4 +1,11 @@
-<!-- Filename: How_do_UNIX_file_permissions_work%3F / Display title: Permessi dei file UNIX -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F",
+  "title": "Permessi dei file UNIX ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 I permessi dei file Unix/Linux possono essere complicati. I permessi di base di UNIX sono di tre tipi:
 

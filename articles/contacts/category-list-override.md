@@ -1,4 +1,11 @@
-<!-- Filename: category-list-override.md / Display title: Elenco delle Categorie Sovrascritte  -->
+<!--
+{
+  "source": "https://docs.joomla.org/category-list-override.md",
+  "title": "Elenco delle Categorie Sovrascritte  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Voce di Menu "Elenca Contatti in una Categoria"
 
@@ -43,7 +50,7 @@ classe di contactList:
   padding-left: 0;
 }
 ```
-![business committee stilizzato](../../../en/images/contacts/contact-business-committee-styled.png)
+![business committee stilizzato](../../../en/images/contacts/category-list-override/01-contact-business-committee-styled.png)
 
 Questo è tutto ciò che si può fare con lo stile. Meglio, ma ancora non abbastanza.
 Per aggiungere più elementi e modificare il layout sarà necessario un override del layout.
@@ -159,7 +166,7 @@ a:has(.contact-thumbnail) {
 
 ### Risultato
 
-![gridded business committee](../../../en/images/contacts/contact-business-committee-grid.png)
+![gridded business committee](../../../en/images/contacts/category-list-override/02-contact-business-committee-grid.png)
 
 *Tradotto da openai.com*
 

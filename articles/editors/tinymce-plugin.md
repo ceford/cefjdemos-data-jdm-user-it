@@ -1,4 +1,11 @@
-<!-- Filename: Content_editors / Display title: Plugin TinyMCE  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Content_editors",
+  "title": "Plugin TinyMCE  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -12,19 +19,19 @@ TinyMCE è configurato con 3 diversi set di pulsanti della barra degli strumenti
 
 Questo set di strumenti è il più esteso ed è assegnato di default ai gruppi *Amministratore*, *Editore* e *Super Utenti*.
 
-![Plugin TinyMCE che mostra il set di pulsanti 2](../../../en/images/editors/tinymce-set0.png)
+![Plugin TinyMCE che mostra il set di pulsanti 2](../../../en/images/editors/tinymce-plugin/01-tinymce-set0.png)
 
 ### Set di Strumenti 1
 
 Questo set di strumenti è assegnato ai gruppi *Manager* e *Registrato*.
 
-![Plugin TinyMCE che mostra il set di pulsanti 2](../../../en/images/editors/tinymce-set1.png)
+![Plugin TinyMCE che mostra il set di pulsanti 2](../../../en/images/editors/tinymce-plugin/02-tinymce-set1.png)
 
 ### Set di Strumenti 2
 
 Questo set ha strumenti minimi ed è assegnato al gruppo *Pubblico*. Sarebbe utilizzato per la compilazione di moduli pubblici.
 
-![Plugin TinyMCE che mostra il set di pulsanti 2](../../../en/images/editors/tinymce-set2.png)
+![Plugin TinyMCE che mostra il set di pulsanti 2](../../../en/images/editors/tinymce-plugin/03-tinymce-set2.png)
 
 ## Altre Impostazioni
 

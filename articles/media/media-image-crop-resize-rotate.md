@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Image_Crop_Resize_Rotate / Display title: Ritaglia, Ridimensiona, Ruota Immagine  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate",
+  "title": "Ritaglia, Ridimensiona, Ruota Immagine  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -12,7 +19,7 @@ Questi sono i problemi che il componente Media può gestire.
 
 Ad esempio, l'immagine seguente mostra un gruppo di animali che è un po' troppo grande per lo scopo previsto. Potrebbe essere ritagliata oppure ridimensionata.
 
-![Immagine di animali](../../../en/images/media/media-crop-serengeti.png)
+![Immagine di animali](../../../en/images/media/media-image-crop-resize-rotate/01-media-crop-serengeti.png)
 
 ## Ritaglia
 

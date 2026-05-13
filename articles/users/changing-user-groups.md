@@ -1,4 +1,11 @@
-<!-- Filename: Changing_user_groups / Display title: Modifica dei Gruppi dell'Utente   -->
+<!--
+{
+  "source": "https://docs.joomla.org/Changing_user_groups",
+  "title": "Modifica dei Gruppi dell'Utente   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Ereditarietà dei Gruppi
 

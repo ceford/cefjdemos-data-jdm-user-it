@@ -1,4 +1,11 @@
-<!-- Filename: Debugging_a_translation / Display title: Debugging di una Traduzione  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Debugging_a_translation",
+  "title": "Debugging di una Traduzione  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## File di Lingua di Joomla
 
@@ -52,7 +59,7 @@ Questo plugin di sistema controlla cosa viene visualizzato quando il debug è at
 
 Nella scheda **Lingua**:
 
-![plugin sistema debug](../../../en/images/languages/languages-debug-plugin.png)
+![plugin sistema debug](../../../en/images/languages/debugging-a-translation/01-languages-debug-plugin.png)
 
 * **Errori nel Parsing dei File di Lingua** Visualizza un errore se un file di lingua non viene caricato correttamente.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_Custom_Administrator_Menu / Display title: Menu Personalizzato dell'Amministratore  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_Custom_Administrator_Menu",
+  "title": "Menu Personalizzato dell'Amministratore  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -77,13 +84,13 @@ Nell'elenco dei menu, seleziona il pulsante **Moduli Collegati** nel record del 
 
 ## Schermata
 
-![selezione componente menu amministratore personalizzato](../../../en/images/menus/menus-custom-administrator-menu.png)
+![selezione componente menu amministratore personalizzato](../../../en/images/menus/adding-a-custom-administrator-menu/01-menus-custom-administrator-menu.png)
 
 ## Risultato
 
 Crea un utente nel Gruppo di Filiali per te stesso per effettuare un test. Accedi all'interfaccia amministrativa come quell'utente per vedere il risultato:
 
-![risultato menu amministratore personalizzato](../../../en/images/menus/menus-custom-administrator-menu-result.png)
+![risultato menu amministratore personalizzato](../../../en/images/menus/adding-a-custom-administrator-menu/02-menus-custom-administrator-menu-result.png)
 
 ## Note
 

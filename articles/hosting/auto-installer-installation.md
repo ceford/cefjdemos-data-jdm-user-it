@@ -1,4 +1,11 @@
-<!-- Filename: Installing_Joomla_using_an_Auto_Installer / Display title: Installazione dell'Installatore Automatico  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Installing_Joomla_using_an_Auto_Installer",
+  "title": "Installazione dell'Installatore Automatico  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Panoramica
 
@@ -21,7 +28,7 @@ Forum di Joomla raccomandano di evitare gli installatori automatici. Possono ess
 2. Seleziona il link per una *Nuova Installazione* nella panoramica di Joomla!.
 3. Compila i vari dettagli e invia. Per ogni passaggio, continua a selezionare Invia!
 
-![Modulo di installazione Joomla di Fantastico](../../../en/images/hosting/auto-installer-fantastico.jpg)
+![Modulo di installazione Joomla di Fantastico](../../../en/images/hosting/auto-installer-installation/01-auto-installer-fantastico.jpg)
 
 ## Softaculous
 
@@ -30,7 +37,7 @@ Forum di Joomla raccomandano di evitare gli installatori automatici. Possono ess
 3. Compila i vari dettagli. Ci sarà un'opzione per importare i Dati di Esempio inclusi in Joomla.
 4. Dopo aver completato i Dettagli, seleziona Invia.
 
-![Modulo di installazione Joomla in Softaculous](../../../en/images/hosting/auto-installer-softaculous.jpg)
+![Modulo di installazione Joomla in Softaculous](../../../en/images/hosting/auto-installer-installation/02-auto-installer-softaculous.jpg)
 
 È davvero veloce installare e aggiornare utilizzando gli Auto Installers.
 

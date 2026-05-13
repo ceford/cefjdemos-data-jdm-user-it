@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Logging_in_to_Joomla / Display title: Accesso a Joomla -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Logging_in_to_Joomla",
+  "title": "Accesso a Joomla ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -16,7 +23,7 @@ Di seguito viene illustrato come effettuare l'accesso e la disconnessione sia da
 
 Vai alla pagina di Login Amministratore. Questo è l'indirizzo web del sito a cui si aggiunge /administrator, ad esempio, my-joomla-website.com/administrator, che apre la pagina di login dell'Amministratore di Joomla:
 
-![Modulo di login dell'amministratore](../../../en/images/getting-started/logging-in-to-joomla-administrator-login-form.png)
+![Modulo di login dell'amministratore](../../../en/images/getting-started/logging-in-to-joomla/01-logging-in-to-joomla-administrator-login-form.png)
 
 1. Inserisci il tuo **Nome utente**
 2. Inserisci la tua **Password**
@@ -33,7 +40,7 @@ Seleziona il pulsante **Accedi** per essere portato alla Home Dashboard di Jooml
 
 Per disconnettersi, seleziona il **Menu Utente** e poi **Esci**.
 
-![Link per il logout dell'amministratore](../../../en/images/getting-started/logging-in-to-joomla-logout-link.png)
+![Link per il logout dell'amministratore](../../../en/images/getting-started/logging-in-to-joomla/02-logging-in-to-joomla-logout-link.png)
 
 ### Login del Sito
 
@@ -41,7 +48,7 @@ Se l'accesso frontend è abilitato, un modulo di login sarà stato aggiunto al s
 
 Questo esempio utilizza un modulo di login situato nella barra laterale destra.
 
-![Modulo di login del sito](../../../en/images/getting-started/logging-in-to-joomla-site-login-form.png)
+![Modulo di login del sito](../../../en/images/getting-started/logging-in-to-joomla/03-logging-in-to-joomla-site-login-form.png)
 
 Nel **Modulo di Login**
 
@@ -54,7 +61,7 @@ Quando accedi dal frontend del sito, potresti rimanere sulla stessa pagina da cu
 
 ### Logout del Sito
 
-![Modulo di logout del sito](../../../en/images/getting-started/logging-in-to-joomla-site-logout-form.png)
+![Modulo di logout del sito](../../../en/images/getting-started/logging-in-to-joomla/04-logging-in-to-joomla-site-logout-form.png)
 
 Per disconnettersi, vai al modulo di login e seleziona il pulsante **Esci**.  
 

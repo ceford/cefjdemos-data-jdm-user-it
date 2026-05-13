@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Text_Field / Display title: Campo di Testo -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo di Testo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -14,7 +21,7 @@ Le opzioni speciali all'interno di questo campo sono:
 - **Prefisso** Questo appare prima del testo nell'output dell'Articolo. Esempio: £.
 - **Suffisso** Questo appare dopo il testo nell'output dell'Articolo, Esempio: EUR.
 
-![creazione campo di testo](../../../en/images/fields/fields-text-edit.png)
+![creazione campo di testo](../../../en/images/fields/adding-custom-fields-text-field/01-fields-text-edit.png)
 
 **Nota:** In questo esempio, l'inclusione del tipo di campo nel Titolo è solo a scopo dimostrativo. Omettilo nei tuoi titoli di campo.
 
@@ -22,13 +29,13 @@ Le opzioni speciali all'interno di questo campo sono:
 
 Semplice: Digita il tuo testo.
 
-![inserimento dati nel campo di testo](../../../en/images/fields/fields-text-data-entry.png)
+![inserimento dati nel campo di testo](../../../en/images/fields/adding-custom-fields-text-field/02-fields-text-data-entry.png)
 
 ## Visualizzazione dei Dati
 
 Lo screenshot del sito seguente mostra il campo visualizzato in un articolo. L'opzione *Visualizzazione automatica* è responsabile della posizione del campo e il tuo template è responsabile del design del campo.
 
-![visualizzazione del campo di testo del sito](../../../en/images/fields/fields-text-site.png)
+![visualizzazione del campo di testo del sito](../../../en/images/fields/adding-custom-fields-text-field/03-fields-text-site.png)
 
 Il campo Testo segue il campo Etichetta.
 *Tradotto da openai.com*

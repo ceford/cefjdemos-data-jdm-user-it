@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Content_Dashboard / Display title: Dashboard dei Contenuti -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Content_Dashboard",
+  "title": "Dashboard dei Contenuti ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -13,7 +20,7 @@ pannello vuoto **Aggiungi modulo alla dashboard**.
 
 ## Screenshot
 
-![Dashboard dei contenuti](../../../en/images/dashboards/content-dashboard.png)
+![Dashboard dei contenuti](../../../en/images/dashboards/content-dashboard/01-content-dashboard.png)
 
 *Tradotto da openai.com*
 

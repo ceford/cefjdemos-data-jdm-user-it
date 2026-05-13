@@ -1,4 +1,11 @@
-<!-- Filename: Localhost / Display title: Schema.org - Articolo -->
+<!--
+{
+  "source": "https://docs.joomla.org/Localhost",
+  "title": "Schema.org - Articolo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -29,7 +36,7 @@ La sezione *Generic Field* consente di inserire coppie di *Title* e *Value* oltr
 
 Di seguito è riportato un esempio di schema di Articolo in un modulo di modifica dell'Articolo.
 
-![An article schema edit form](../../../en/images/schemas/edit-schema-article.png)
+![An article schema edit form](../../../en/images/schemas/article/01-edit-schema-article.png)
 
 *Tradotto da openai.com*
 

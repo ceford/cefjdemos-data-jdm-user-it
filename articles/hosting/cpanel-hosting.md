@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Hosting_Setup / Display title: Hosting cPanel  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Hosting_Setup",
+  "title": "Hosting cPanel  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -6,7 +13,7 @@
 
 Quando accedi al tuo servizio di hosting cPanel, questo è ciò che dovresti aspettarti di vedere:
 
-![pannello di controllo hosting cpanel](../../../en/images/hosting/cpanel-hosting.png)
+![pannello di controllo hosting cpanel](../../../en/images/hosting/cpanel-hosting/01-cpanel-hosting.png)
 
 ### Configurazione del Database
 
@@ -24,7 +31,7 @@ Questo è tutto - ora hai un database pronto per un'installazione di Joomla.
 
 A un certo punto avrai scaricato il file zip del codice sorgente di Joomla sul tuo laptop o desktop. Ora devi decidere come strutturare il tuo sito. La radice del documento per il tuo sito è la cartella *public_html*. Potresti mettere Joomla lì. Tuttavia, ciò ti impedisce di utilizzare un'altra applicazione sullo stesso sito. Ad esempio, potresti avere due installazioni Joomla completamente separate, una per la produzione (visualizzazione pubblica) e una per il test (visualizzazione privata). Quindi potresti creare una cartella all'interno di *public_html*, chiamata *j4* ad esempio, e caricare Joomla lì. Potresti avere un'altra cartella chiamata *j4test* e mettere un'altra copia di Joomla lì. L'illustrazione sottostante mostra tale impostazione con due siti web Joomla.
 
-![gestore file hosting cpanel](../../../en/images/hosting/cpanel-file-manager.png)
+![gestore file hosting cpanel](../../../en/images/hosting/cpanel-hosting/02-cpanel-file-manager.png)
 
 Quando hai deciso la tua struttura, seleziona la cartella Joomla scelta in File Manager e clicca sul pulsante Carica. Nel modulo di caricamento, seleziona il file zip del codice sorgente di Joomla sul tuo computer locale per caricarlo nella cartella selezionata. Dopo il caricamento, torna a File Manager, seleziona il file *zip* e clicca sul pulsante Estrai. Dopo l'estrazione, puoi selezionare ed eliminare il file *zip*.
 

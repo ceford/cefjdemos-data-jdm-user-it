@@ -1,4 +1,11 @@
-<!-- Filename: Nginx / Display title: Nginx -->
+<!--
+{
+  "source": "https://docs.joomla.org/Nginx",
+  "title": "Nginx ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 <a href="http://nginx.org/"
 rel="nofollow noreferrer noopener">Nginx</a> è un server Web leggero

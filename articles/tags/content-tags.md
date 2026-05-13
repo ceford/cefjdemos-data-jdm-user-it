@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_To_Use_Content_Tags_in_Joomla / Display title: Tag dei Contenuti   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
+  "title": "Tag dei Contenuti   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -22,7 +29,7 @@ La visualizzazione dei tag potrebbe essere disattivata! Questo potrebbe sembrare
 
 - Seleziona **Componenti → Tag** dal menu Amministratore.
 
-![la pagina dell'elenco dei tag](../../../en/images/tags/tags-list.png)
+![la pagina dell'elenco dei tag](../../../en/images/tags/content-tags/01-tags-list.png)
 
 Indipendentemente da come sono creati, i tag possono essere trovati in questo elenco.
 
@@ -32,7 +39,7 @@ Indipendentemente da come sono creati, i tag possono essere trovati in questo el
 
 Seleziona il pulsante **Nuovo** nella toolbar dell'elenco dei tag.
 
-![nuovo tag chiamato predator](../../../en/images/tags/new-tag-predator.png)
+![nuovo tag chiamato predator](../../../en/images/tags/content-tags/02-new-tag-predator.png)
 
 - **Titolo** Questo è l'unico campo *obbligatorio*.
 - **Alias** Questo viene creato dal Titolo al momento del salvataggio.
@@ -67,7 +74,7 @@ Ogni volta che aggiungi nuovi Tag all'interno di Joomla, essi appariranno tutti 
 
 ### Il Filtro della Lista dei Tag
 
-![filtro della lista dei tag per tipo](../../../en/images/tags/tags-list-filter.png)
+![filtro della lista dei tag per tipo](../../../en/images/tags/content-tags/03-tags-list-filter.png)
 
 Puoi manipolare la lista in diversi modi:
 
@@ -98,11 +105,11 @@ Nel modulo di modifica del tag:
 
 Una volta creati i tag sul tuo sito, saranno disponibili per l'uso non solo nei contenuti, ma anche in alcuni utili moduli come **Tag Popolari** e **Tag Simili**. I seguenti esempi mostrano come appaiono in un'installazione standard utilizzando il template predefinito **Cassiopeia**.
 
-![esempio di utilizzo dei tag sito labrador giallo](../../../en/images/tags/tag-examples-yellow-labrador.png)
+![esempio di utilizzo dei tag sito labrador giallo](../../../en/images/tags/content-tags/04-tag-examples-yellow-labrador.png)
 
 Quando clicchi su uno dei tag, sarai portato a una pagina che elenca tutti gli elementi assegnati a quel particolare tag:
 
-![esempio di utilizzo dei tag sito labrador nero](../../../en/images/tags/tag-examples-black-labrador.png)
+![esempio di utilizzo dei tag sito labrador nero](../../../en/images/tags/content-tags/05-tag-examples-black-labrador.png)
 
 Cliccando su un tag verrai portato a una pagina che visualizza un elenco di tutti gli elementi assegnati a quel particolare tag - in pratica è una lista filtrata del contenuto del tuo sito web taggato. È fornita una casella di filtro per facilitare la ricerca degli elementi man mano che la lista cresce. Puoi anche impostare il numero di risultati che desideri vedere in una singola vista.
 

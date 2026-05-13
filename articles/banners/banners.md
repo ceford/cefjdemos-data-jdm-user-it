@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Banners / Display title: Striscioni  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Banners",
+  "title": "Striscioni  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Informazioni sui Banner
 

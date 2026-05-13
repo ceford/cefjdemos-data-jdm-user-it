@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_an_Article / Display title: Aggiunta di un Articolo -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article",
+  "title": "Aggiunta di un Articolo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -14,7 +21,7 @@ Fino a quando un articolo non viene creato, la pagina Articoli mostra una pagina
 
 Su quasi ogni pagina, subito sotto la barra del titolo, c'è una barra contenente pulsanti di azione. Questa è conosciuta come la Barra degli Strumenti. I pulsanti variano da pagina a pagina e a volte sono inattivi, apparendo grigi, fino a quando un elemento non viene selezionato nell'elenco degli elementi. Lo screenshot seguente mostra la lista degli *Articoli* con una casella di controllo dell'articolo selezionata. Il pulsante *Azione* è un elenco a discesa che è stato selezionato per mostrare le opzioni disponibili.
 
-![Lista degli articoli con pulsante azione abilitato](../../../en/images/getting-started/articles-list.png)
+![Lista degli articoli con pulsante azione abilitato](../../../en/images/getting-started/adding-an-article/01-articles-list.png)
 
 Seleziona il pulsante *Nuovo* nella *Barra degli Strumenti* della pagina *Articoli* per aprire un modulo di modifica dell'articolo.  
 
@@ -22,7 +29,7 @@ Seleziona il pulsante *Nuovo* nella *Barra degli Strumenti* della pagina *Artico
 
 Fino a quando un articolo non è stato salvato, l'etichetta della *Barra del Titolo* è *Articoli: Nuovo* e ha pochi pulsanti nella Barra degli Strumenti. Il pulsante *Annulla* può essere usato per annullare la creazione di un articolo. Non viene visualizzato alcun messaggio di avviso. Qualsiasi contenuto inserito viene scartato. Dopo il salvataggio, l'etichetta della Barra del Titolo è *Articoli: Modifica* e la Barra degli Strumenti ha molti altri pulsanti.
 
-![Modulo di modifica articolo](../../../en/images/getting-started/article-edit-form.png)
+![Modulo di modifica articolo](../../../en/images/getting-started/adding-an-article/02-article-edit-form.png)
 
 Ci sono un numero sconcertante di campi del modulo nella pagina di Modifica, ma tutti, tranne due, hanno valori predefiniti sensati. I campi da compilare sono:
 
@@ -36,7 +43,7 @@ Ci sono un numero sconcertante di campi del modulo nella pagina di Modifica, ma 
 
 Per vedere come appare, puoi selezionare il pulsante *Anteprima* nella barra degli strumenti.
 
-![Elenco degli articoli con pulsante azioni attivato](../../../en/images/getting-started/article-edit-preview.png)
+![Elenco degli articoli con pulsante azioni attivato](../../../en/images/getting-started/adding-an-article/03-article-edit-preview.png)
 
 Nota i metadati dell'articolo: le informazioni tra il Titolo e il Contenuto. Puoi configurare quali informazioni appaiono e dove appaiono con quegli altri campi del modulo articolo. Più tardi...  
 
@@ -56,7 +63,7 @@ Una nuova installazione di Joomla ha un menu del Sito con un solo elemento di me
 
 Lo screenshot seguente mostra una vista del sito della prima parte dell'articolo descritto sopra. Il tuo nuovo sito Joomla! avrà solo il *Menu Principale*, il *Modulo di Accesso* e il tuo articolo. Questo screenshot è per un sito multilingue che mostra la stessa pagina in molte lingue diverse e ha altri contenuti utilizzati in tutorial successivi.
 
-![Vista del sito usando il layout del blog di categoria](../../../en/images/getting-started/article-site-view.png)
+![Vista del sito usando il layout del blog di categoria](../../../en/images/getting-started/adding-an-article/04-article-site-view.png)
 
 ### Breadcrumb
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Privacy_Setup / Display title: Configurazione della Privacy  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Privacy_Setup",
+  "title": "Configurazione della Privacy  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Componente Privacy
 
@@ -19,7 +26,7 @@ Il dashboard della privacy fornisce un riepilogo delle **Richieste di Privacy** 
 
 - Seleziona **Utenti → Privacy** dal menu Amministratore.
 
-![dashboard della privacy](../../../en/images/privacy/privacy-dashboard.png)
+![dashboard della privacy](../../../en/images/privacy/privacy-setup/01-privacy-dashboard.png)
 
 Ci sono due moduli visualizzati per default nel Dashboard della Privacy:
 
@@ -52,7 +59,7 @@ Per impostare i consensi:
   il plugin Privacy - Consensi).
 - Seleziona per aprire il modulo di inserimento dati del plugin.
 
-![plugin sistema consenso alla privacy](../../../en/images/privacy/plugin-system-privacy-consent.png)
+![plugin sistema consenso alla privacy](../../../en/images/privacy/privacy-setup/02-plugin-system-privacy-consent.png)
 
 - Imposta lo **Stato** su **Abilitato**.
 - Facoltativo: Seleziona o Crea un articolo da collegare dal modulo di Registrazione.
@@ -98,7 +105,7 @@ Questo plugin non è abilitato per impostazione predefinita. Per abilitare:
 
 Insieme, i due plugin appaiono sul modulo di Registrazione Utente come nel seguente screenshot:
 
-![visualizzazione consensi alla privacy](../../../en/images/privacy/privacy-consents-site.png)
+![visualizzazione consensi alla privacy](../../../en/images/privacy/privacy-setup/03-privacy-consents-site.png)
 
 ## Voce di Menu: Richiesta di Informazioni sulla Privacy
 
@@ -134,13 +141,13 @@ Dai un'occhiata alle altre voci del menu del Componente Privacy.
 
 Questa schermata è il punto centrale per elaborare e gestire le richieste di informazioni degli utenti. Si prega di consultare l'articolo correlato sul Workflow della Privacy per indicazioni sull'elaborazione delle richieste.
 
-![richieste di informazioni sulla privacy](../../../en/images/privacy/privacy-information-requests.png)
+![richieste di informazioni sulla privacy](../../../en/images/privacy/privacy-setup/04-privacy-information-requests.png)
 
 ### Capacità delle Estensioni
 
 Questa schermata raccoglie e visualizza le informazioni sulle capacità relative alla privacy segnalate dalle singole estensioni. È intesa ad assistere nella preparazione di documentazione come un articolo sulla politica sulla privacy o un articolo sui termini di servizio.
 
-![richieste di informazioni sulla privacy](../../../en/images/privacy/privacy-extension-capabilities.png)
+![richieste di informazioni sulla privacy](../../../en/images/privacy/privacy-setup/05-privacy-extension-capabilities.png)
 
 I contenuti della pagina provengono da stringhe di lingua nel core, nel componente privacy e nei plugin che implementano l'evento onPrivacyCollectAdminCapabilities. Questo include:
 
@@ -157,7 +164,7 @@ Le informazioni saranno visualizzate nella lingua selezionata per l'accesso dell
 
 Questa schermata visualizza un elenco di consensi, dal più recente. Sarà nella lingua utilizzata nel modulo di consenso, tipicamente durante la registrazione. Puoi cercare un utente specifico per nome. Si noti che il consenso all'accettazione dei Termini e Condizioni del sito non è registrato qui. Questo è solo nel Registro delle Azioni dell'Utente.
 
-![consensi sulla privacy](../../../en/images/privacy/privacy-consents.png)
+![consensi sulla privacy](../../../en/images/privacy/privacy-setup/06-privacy-consents.png)
 
 *Tradotto da openai.com*
 

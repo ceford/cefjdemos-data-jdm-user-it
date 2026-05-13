@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Home_Page_in_Different_Style / Display title: Pagina Principale in Stile Diverso  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Home_Page_in_Different_Style",
+  "title": "Pagina Principale in Stile Diverso  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Pagina Iniziale del Sito
 
@@ -16,7 +23,7 @@ Supponiamo che tu voglia dare alla tua Pagina Iniziale un aspetto distintivo, un
 
 I dati campione di Cassiopeia creano una pagina Home utilizzando un tipo di voce di menu **Articoli in Evidenza**. È disposta con l'aspetto mostrato nello screenshot qui sotto (sono state apportate alcune piccole modifiche agli articoli individuali per ottenere uno screenshot migliore qui).
 
-![pagina home usando cassiopeia e dati campione](../../../en/images/templates/templates-home-page-style-cassiopeia-sample-data.png)
+![pagina home usando cassiopeia e dati campione](../../../en/images/template-tips/home-page-in-different-style/01-templates-home-page-style-cassiopeia-sample-data.png)
 
 Ecco come è stato ottenuto il layout:
 
@@ -24,11 +31,11 @@ Ecco come è stato ottenuto il layout:
 
 La grande immagine sotto la barra menu si trova in un modulo personalizzato chiamato Immagine assegnato alla posizione banner nel template Cassiopeia.
 
-![modulo personalizzato utilizzato nello stile dei dati campione](../../../en/images/templates/templates-home-page-style-custom-module-image.png)
+![modulo personalizzato utilizzato nello stile dei dati campione](../../../en/images/template-tips/home-page-in-different-style/02-templates-home-page-style-custom-module-image.png)
 
 Nella scheda Assegnazione Menu il modulo è assegnato solo a Home:
 
-![scheda assegnazione menu modulo personalizzato](../../../en/images/templates/templates-home-page-style-custom-module-menu-assignment.png)
+![scheda assegnazione menu modulo personalizzato](../../../en/images/template-tips/home-page-in-different-style/03-templates-home-page-style-custom-module-menu-assignment.png)
 
 L'immagine di sfondo è selezionata nella scheda Opzioni del modulo: Modulo personalizzato nel form di modifica.
 
@@ -44,7 +51,7 @@ Esistono articoli separati su Overrides e Layouts.
 
 Sotto la grande immagine ci sono tre piccoli box ognuno con un'immagine e del testo sotto. Sono creati utilizzando un modulo Articoli - Newsflash nella posizione template top-a. Il modulo è impostato per visualizzare 3 elementi. La sua Assegnazione Menu è solo Home. La scheda Avanzato ha Layout impostato su orizzontale e Stile Modulo impostato su noCard.
 
-![modulo newsflash](../../../en/images/templates/templates-home-page-style-newsflash-module-image.png)
+![modulo newsflash](../../../en/images/template-tips/home-page-in-different-style/04-templates-home-page-style-newsflash-module-image.png)
 
 Questo conclude la spiegazione di come è stata creata la pagina Home dei dati campione di Cassiopeia.  
 

@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Esempio di Sovrascritture del Modello -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Esempio di Sovrascritture del Modello ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Visualizzazione Automatica del Campo
 

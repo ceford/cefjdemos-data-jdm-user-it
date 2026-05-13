@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Category / Display title: Aggiungere una Categoria  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category",
+  "title": "Aggiungere una Categoria  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -50,7 +57,7 @@ Le voci di menu sono trattate in un articolo successivo.
 
 Il seguente esempio utilizza una categoria Mammiferi ispirata all'elenco sopra per dimostrare come creare una nuova Categoria:
 
-![Modulo di modifica della categoria](../../../en/images/getting-started/article-category-edit.png)
+![Modulo di modifica della categoria](../../../en/images/articles/articles-categories/02-article-category-edit.png)
 
 - Seleziona la voce **Contenuti** dal menu dell'Amministratore per espanderla.
 - Seleziona l'icona **+** accanto alla voce di menu *Categorie* per aprire il modulo di modifica della Categoria.

@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Workflow_Scenarios_Example_1 / Display title: Esempio di Workflow 1  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Workflow_Scenarios_Example_1",
+  "title": "Esempio di Workflow 1  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -6,7 +13,7 @@ Un flusso di lavoro consiste in *fasi* e *transizioni* tra queste fasi. Per qual
 
 Un singolo sito può avere molti flussi di lavoro. Qui, un *Flusso di Lavoro per una Newsletter* viene utilizzato come esempio per spiegare come tre individui con ruoli diversi possano essere coinvolti nella produzione di un articolo per la newsletter. L'esempio utilizza i gruppi utenti predefiniti di Joomla: Autore, Editore e Pubblicatore. Ciò presenta un problema: un Autore può vedere solo articoli Pubblicati, quindi non può modificare nuovamente gli articoli Non Pubblicati. Un metodo per evitare questo problema è trattato in [Esempio 2](jdocmanual?article=user/workflows/workflow-example-2).
 
-![Elenco flussi di lavoro](../../../en/images/workflows/example-1-workflows-list.png)
+![Elenco flussi di lavoro](../../../en/images/workflows/workflow-example-1/01-example-1-workflows-list.png)
 
 Da notare che il *Flusso di Lavoro Base* è impostato come *Predefinito*. Questo può avere conseguenze problematiche che verranno trattate più avanti in questo articolo!
 
@@ -30,7 +37,7 @@ Da notare che il *Flusso di Lavoro Base* è impostato come *Predefinito*. Questo
 
 Ci sono quattro fasi in questo Flusso di Lavoro:
 
-![Elenco dei flussi di lavoro](../../../en/images/workflows/example-1-workflow-stages.png)
+![Elenco dei flussi di lavoro](../../../en/images/workflows/workflow-example-1/02-example-1-workflow-stages.png)
 
 - **Bozza** è la fase creata da Arthur per un nuovo articolo.
 - **Revisione** è la fase in cui Eddie si occupa di correggere il contenuto.
@@ -43,7 +50,7 @@ I moduli di inserimento dati per le fasi necessitano di poche spiegazioni, solo 
 
 Sono necessarie due transizioni tra ogni fase: una per tornare alla fase precedente se è necessario più lavoro nella fase precedente; e una seconda per migrare alla fase successiva. Sono necessarie transizioni extra per gestire la cessazione di un articolo:
 
-![Elenco dei flussi di lavoro](../../../en/images/workflows/example-1-workflow-transitions.png)
+![Elenco dei flussi di lavoro](../../../en/images/workflows/workflow-example-1/03-example-1-workflow-transitions.png)
 
 - **Bozza/Revisione** per passare dalla fase Bozza alla Revisione.
 - **Revisione/Bozza** per riportare la fase dalla Revisione alla Bozza.
@@ -61,7 +68,7 @@ Le ultime tre transizioni permettono a Pru di cambiare lo stato di un articolo q
 
 Il modulo di inserimento data ha quattro schede iniziando con la scheda *Transizione*:
 
-![Elenco dei flussi di lavoro](../../../en/images/workflows/example-1-edit-transition.png)
+![Elenco dei flussi di lavoro](../../../en/images/workflows/workflow-example-1/04-example-1-edit-transition.png)
 
 - **Nome** È meglio usare le fasi Corrente e Destinazione nel nome.
 - **Fase Corrente** La fase prima che avvenga la transizione.
@@ -70,14 +77,14 @@ Il modulo di inserimento data ha quattro schede iniziando con la scheda *Transiz
 
 #### La scheda *Azioni di Transizione*:
 
-![Elenco dei flussi di lavoro](../../../en/images/workflows/example-1-edit-transition-actions.png)
+![Elenco dei flussi di lavoro](../../../en/images/workflows/workflow-example-1/05-example-1-edit-transition-actions.png)
 
 - **Stato Evidenziato** Definisce lo stato evidenziato che un elemento dovrebbe avere dopo l'esecuzione di questa transizione. Lasciare su *-Non Selezionato-* se è probabile che l'utente che esegue questa transizione non abbia il permesso di mettere in evidenza articoli.
 - **Stato di Pubblicazione** Definisce lo stato pubblicato che un elemento dovrebbe avere dopo l'esecuzione di questa transizione. Lasciare su *-Non Selezionato-* se è probabile che l'utente che esegue questa transizione non abbia il permesso di cambiare lo stato dell'articolo.
 
 #### La scheda *Notifiche*:
 
-![Elenco dei flussi di lavoro](../../../en/images/workflows/example-1-edit-transition-notification.png)
+![Elenco dei flussi di lavoro](../../../en/images/workflows/workflow-example-1/06-example-1-edit-transition-notification.png)
 
 - **Invia Notifica** Impostare su *Sì* dove le notifiche sono necessarie, ad esempio quando Arthur deve informare Eddie che un articolo è pronto per la revisione.
 - **Testo Messaggio Aggiuntivo** Questo è testo aggiuntivo generico per aiutare il destinatario.
@@ -96,7 +103,7 @@ Ogni articolo viene assegnato a un flusso di lavoro al primo salvataggio. Se l'a
 
 È necessaria una nuova categoria Newsletter per visualizzare la Newsletter come un Blog di Categoria e per garantire che gli articoli della Newsletter siano assegnati al Flusso di Lavoro della Newsletter.
 
-![Elenco dei flussi di lavoro](../../../en/images/workflows/example-1-newsletter-category.png)
+![Elenco dei flussi di lavoro](../../../en/images/workflows/workflow-example-1/07-example-1-newsletter-category.png)
 
 ## L'opzione di menu Newsletter
 
@@ -157,11 +164,11 @@ Puoi consentire l'accesso al backend per tutti i membri di questi gruppi come se
 
 Questo permetterà ad Arthur, Eddie e Pru di accedere al backend con accesso agli elementi di Contenuto. Una Dashboard Home molto ridotta:
 
-![Home dashboard per arthur](../../../en/images/workflows/example-1-backend-home.png)
+![Home dashboard per arthur](../../../en/images/workflows/workflow-example-1/08-example-1-backend-home.png)
 
 Ma Arthur ha accesso ai suoi articoli in bozza:
 
-![Lista articoli per Arthur](../../../en/images/workflows/example-1-backend-articles.png)
+![Lista articoli per Arthur](../../../en/images/workflows/workflow-example-1/09-example-1-backend-articles.png)
 
 Nota che Arthur non può modificare l'ultimo elemento nella lista perché non è uno dei suoi articoli. Il titolo dell'articolo non è collegato. Allo stesso modo, Arthur non può modificare nessuna delle categorie esistenti perché non ha il permesso e anch'esse non sono collegate. Può creare una nuova Categoria ma è Non Pubblicata e non può pubblicarla!
 
@@ -179,7 +186,7 @@ Se assegni un articolo al workflow sbagliato, ci sono due metodi disponibili per
 - Seleziona un Workflow e una Fase adeguati come destinazione.
 - Seleziona il pulsante **Processa**.
 
-![Elenco degli articoli per Arthur](../../../en/images/workflows/example-1-backend-batch.png)
+![Elenco degli articoli per Arthur](../../../en/images/workflows/workflow-example-1/10-example-1-backend-batch.png)
 
 ### Metodo Alternativo
 

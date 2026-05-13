@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Overrides / Display title: Sovrascritture del Modello   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Overrides",
+  "title": "Sovrascritture del Modello   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -12,7 +19,7 @@ Inizia selezionando **Sistema → Template → Template del Sito** nel menu
 dell'Amministratore e poi seleziona l'elemento Cassiopeia Dettagli e File.
 Questo aprirà il modulo Template: Personalizza (Cassiopeia):
 
-![personalizza template scheda sito cassiopeia](../../../en/images/templates/templates-customise-cassiopeia.png)
+![personalizza template scheda sito cassiopeia](../../../en/images/templates/template-overrides/01-templates-customise-cassiopeia.png)
 
 **Importante:** non modificare nessuno dei file forniti come parte del
 template Cassiopeia. Al prossimo aggiornamento di Joomla, quei file
@@ -27,7 +34,7 @@ Al momento non c'è mod_login.
 
 Seleziona la scheda Crea Override per vedere l'elenco di Moduli, Componenti, Plugin e Layout per i quali puoi creare override:
 
-![scheda override personalizzazione cassiopeia dei modelli](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![scheda override personalizzazione cassiopeia dei modelli](../../../en/images/templates/template-overrides/02-cassiopeia-customisation-create-overrides.png)
 
 Seleziona l'elemento mod_login. I file php del template mod_login verranno copiati nella cartella html e verrai riportato alla scheda Editor.
 Espandi le cartelle html e mod_login. Vedrai default.php e default_logout.php.
@@ -40,7 +47,7 @@ Nota quanto sia facile eliminare i file se cambi idea. E con il pulsante Gestisc
 
 Nella scheda Editor, seleziona il file default_logout.php. Nota i pulsanti in alto a destra: Mostra File Originale e Mostra Differenze. Quest'ultimo è stato impostato su Sì per lo screenshot seguente per mostrare alcune righe di codice aggiunte vicino alla parte superiore del file. Queste righe di codice calcolano quando la sessione utente scadrà dopo il caricamento della pagina contenente il modulo di logout.
 
-![modelli personalizza schede cassiopeia sovrascritture](../../../en/images/templates/cassiopeia-customisation-edit-logout-override.png)
+![modelli personalizza schede cassiopeia sovrascritture](../../../en/images/templates/template-overrides/03-cassiopeia-customisation-edit-logout-override.png)
 
 L'area Diff mostra le righe aggiunte con uno sfondo verde e le righe eliminate con uno sfondo rosso. In questo caso non ci sono righe eliminate. Il codice è mostrato qui, nel caso desideri copiarlo per provare tu stesso.
 
@@ -64,7 +71,7 @@ La tua sessione scadrà alle <br><?php echo $endTime; ?>
 
 Salva e ricarica la pagina del sito contenente il modulo di logout.
 
-![modelli personalizza schede cassiopeia sovrascritture](../../../en/images/templates/cassiopeia-customisation-logout-override-result.png)
+![modelli personalizza schede cassiopeia sovrascritture](../../../en/images/templates/template-overrides/04-cassiopeia-customisation-logout-override-result.png)
 
 Dovresti vedere il modulo di logout cambiare ogni volta che la pagina viene ricaricata. Ma cosa succede se cambi idea? O se hai opzioni diverse per diversi gruppi di Utenti? Benvenuto nei Layout, l'argomento di un articolo separato.
 
@@ -72,7 +79,7 @@ Dovresti vedere il modulo di logout cambiare ogni volta che la pagina viene rica
 
 La scheda Crea Override del modulo Template: Personalizza (Cassiopeia) viene utilizzata per creare qualsiasi elemento dell'output di Joomla per cui è possibile creare override. I nomi delle cartelle degli override iniziano per lo più con com\_, mod\_ o plg\_. Si noti che la seconda parte di una cartella di override del plugin indica il gruppo del plugin. Ecco un esempio di selezione di cartelle di override:
 
-![scheda override personalizza template cassiopeia](../../../en/images/templates/templates-customise-example-override-folder.png)
+![scheda override personalizza template cassiopeia](../../../en/images/templates/template-overrides/05-templates-customise-example-override-folder.png)
 
 ## Sovrascritture del Layout
 

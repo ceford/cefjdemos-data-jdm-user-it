@@ -1,4 +1,11 @@
-<!-- Filename: Auto_redirect_guests_to_login / Display title: Reindirizza automaticamente gli ospiti al login  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Auto_redirect_guests_to_login",
+  "title": "Reindirizza automaticamente gli ospiti al login  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Funzionalità Desiderata
 

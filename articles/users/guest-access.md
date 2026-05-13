@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Guest_Access / Display title: Accesso Ospiti  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Guest_Access",
+  "title": "Accesso Ospiti  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Livelli di Accesso
 
@@ -18,7 +25,7 @@ L'uso del livello di accesso Ospite può essere illustrato con un elemento di me
 - Salva
 - Facoltativamente, seleziona la lista Ordine e seleziona l'elemento **dopo** il quale desideri che l'elemento Login appaia.
 
-![form del menu di login limitato all'accesso ospite](../../../en/images/users/guest-access-menu-login.png)
+![form del menu di login limitato all'accesso ospite](../../../en/images/users/guest-access/01-guest-access-menu-login.png)
 
 - Salva e Chiudi.
 - Visualizza il sito. Verifica che l'elemento di menu Login funzioni. Controlla che scompaia dopo il login.  
@@ -35,7 +42,7 @@ L'uso del livello di accesso Registrato può essere illustrato con un elemento d
 - Salva
 - Facoltativamente, seleziona il menu a tendina Ordinamento e scegli l'elemento **dopo** il quale desideri che appaia l'elemento Login.
 
-![modulo menu logout limitato all'accesso registrato](../../../en/images/users/guest-access-menu-logout.png)
+![modulo menu logout limitato all'accesso registrato](../../../en/images/users/guest-access/02-guest-access-menu-logout.png)
 
 - Salva e Chiudi.
 - Visualizza il sito. Verifica che l'elemento del menu Logout funzioni. Verifica che scompaia dopo il logout.

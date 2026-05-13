@@ -1,4 +1,11 @@
-<!-- Filename: Robots.txt_file / Display title: Il file robots.txt -->
+<!--
+{
+  "source": "https://docs.joomla.org/Robots.txt_file",
+  "title": "Il file robots.txt ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Informazioni sui Robot
 

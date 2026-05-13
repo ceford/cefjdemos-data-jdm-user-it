@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Deleting_an_Article / Display title: Articoli: Elimina -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Deleting_an_Article",
+  "title": "Articoli: Elimina ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -18,7 +25,7 @@ Considera perché vuoi eliminare l'articolo:
 - Seleziona il pulsante **Azioni** nella Barra degli Strumenti.
 - Seleziona **Cestino** nel menu a tendina.
 
-![Articolo selezionato per essere cestinato](../../../en/images/articles/articles-selected-to-trash.png)
+![Articolo selezionato per essere cestinato](../../../en/images/articles/articles-delete/01-articles-selected-to-trash.png)
 
 Apparirà un messaggio di conferma e l'articolo scomparirà dall'elenco corrente degli articoli poiché normalmente non include gli elementi nel cestino.  
 
@@ -31,7 +38,7 @@ Per vedere l'elenco degli articoli nel cestino:
 - Seleziona il pulsante **Opzioni Filtro** per aprire l'elenco dei filtri.
 - Seleziona **Cestinati** dall'elenco *-- Seleziona Stato --*.
 
-![Vista cestino degli articoli](../../../en/images/articles/articles-trash-list.png)
+![Vista cestino degli articoli](../../../en/images/articles/articles-delete/02-articles-trash-list.png)
 
 ### Per Ripristinare
 

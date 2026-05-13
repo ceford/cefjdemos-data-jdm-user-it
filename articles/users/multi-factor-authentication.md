@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Multi-factor_Authentication / Display title: Autenticazione a più fattori  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Multi-factor_Authentication",
+  "title": "Autenticazione a più fattori  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -64,7 +71,7 @@ Nota che esiste un plugin separato **Sistema - Accesso Passwordless WebAuthn** p
 
 Il modulo Utenti: Opzioni ha un modulo di Autenticazione Multifattoriale per configurare il funzionamento dell'Autenticazione Multifattoriale in Joomla. Seleziona il pulsante Attiva/Disattiva Guida In Linea per ottenere informazioni su ciascuna opzione.
 
-![opzioni utenti modulo autenticazione multifattoriale](../../../en/images/users/users-configuration-mfa.png)
+![opzioni utenti modulo autenticazione multifattoriale](../../../en/images/users/multi-factor-authentication/01-users-configuration-mfa.png)
 
 ## Profilo Utente
 
@@ -78,7 +85,7 @@ sopra l'altra, il che può risultare confuso perché l'Autenticazione Web
 appare due volte, prima per l'accesso senza password e poi per l'Autenticazione Multi-Fattore. L'illustrazione seguente mostra la parte del modulo relativa all'Autenticazione Multi-fattore dopo che è stato creato un metodo. Questo imposta automaticamente la funzionalità su Abilitata e mostra l'opzione per creare
 Codici di Backup.
 
-![vista del sito del modulo di autenticazione multi-fattore utente](../../../en/images/users/multi-factor-authentication-site-profile.jpg)
+![vista del sito del modulo di autenticazione multi-fattore utente](../../../en/images/users/multi-factor-authentication/02-multi-factor-authentication-site-profile.jpg)
 
 Come accennato in precedenza, puoi provare ciascuno di essi selezionando il pulsante + Aggiungi ..., ma seleziona Annulla nel modulo successivo se decidi di non
 procedere.

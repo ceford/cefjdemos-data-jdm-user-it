@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Privacy_Workflow / Display title: Flusso di lavoro sulla privacy  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Privacy_Workflow",
+  "title": "Flusso di lavoro sulla privacy  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Creazione di una Richiesta
 
@@ -16,11 +23,11 @@ Gli utenti registrati possono inviare una richiesta d'informazioni tramite un li
 
 - Il tipo di richiesta: Esporta o Rimuovi selezionato dalla lista a discesa.
 
-![flusso di lavoro privacy richiesta utente](../../../en/images/privacy/privacy-workflow-user-request.png)
+![flusso di lavoro privacy richiesta utente](../../../en/images/privacy/privacy-workflow/01-privacy-workflow-user-request.png)
 
 Al momento dell'invio, un messaggio indica che la richiesta è stata accettata e una email di verifica è in arrivo:
 
-![flusso di lavoro privacy richiesta utente accettata](../../../en/images/privacy/privacy-workflow-user-request-accepted.png)
+![flusso di lavoro privacy richiesta utente accettata](../../../en/images/privacy/privacy-workflow/02-privacy-workflow-user-request-accepted.png)
 
 oppure che *La tua richiesta di informazioni non può essere creata. C'è già una richiesta di informazioni attiva per questo indirizzo email e tipo di richiesta. Si prega di contattare il proprietario del sito per aggiornamenti su questa richiesta.*
 
@@ -40,7 +47,7 @@ Una volta creata, la richiesta non può essere modificata. Può solo essere Inva
 
 Una volta creata una richiesta, indipendentemente da come viene creata, l'utente riceverà un'email contenente un link a un modulo di conferma.
 
-![flusso di lavoro sulla privacy conferma richiesta utente](../../../en/images/privacy/privacy-workflow-user-request-confirm.png)
+![flusso di lavoro sulla privacy conferma richiesta utente](../../../en/images/privacy/privacy-workflow/03-privacy-workflow-user-request-confirm.png)
 
 L'utente deve inserire il token fornito nell'email e inviare il modulo. Il token è valido per 24 ore. Se una richiesta non viene confermata entro tale intervallo di tempo, verrà contrassegnata come **Non valida** nell'elenco delle Richieste di Privacy e dovrà essere presentata una nuova richiesta.
 
@@ -49,7 +56,7 @@ Una volta che l'utente conferma la richiesta, un'email verrà inviata ai Super U
 - Selezionare **Utenti → Privacy → Richieste** dal menu Amministratore.
 - Le richieste che richiedono azione verranno contrassegnate come **Confermate**.
 
-![flusso di lavoro sulla privacy elenco richieste di informazioni](../../../en/images/privacy/privacy-workflow-information-requests-list.png)
+![flusso di lavoro sulla privacy elenco richieste di informazioni](../../../en/images/privacy/privacy-workflow/04-privacy-workflow-information-requests-list.png)
 
 ## Elaborazione di una Richiesta di Esportazione
 
@@ -80,7 +87,7 @@ Dopo che la richiesta è stata elaborata, dovrebbe essere contrassegnata come co
   - Seleziona il pulsante appropriato **Esporta**, **Email** o **Elimina** dalla Barra degli Strumenti se non è già stato fatto dalla vista elenco.
 - Seleziona il pulsante **Completa** dalla Barra degli Strumenti (o il pulsante **Invalida** se si ritiene che la richiesta sia invalida).
 
-![flusso di lavoro sulla privacy per la revisione delle richieste di informazioni](../../../en/images/privacy/privacy-workflow-review-information-request.png)
+![flusso di lavoro sulla privacy per la revisione delle richieste di informazioni](../../../en/images/privacy/privacy-workflow/05-privacy-workflow-review-information-request.png)
 
 ## Infine
 
@@ -98,7 +105,7 @@ Per rimuovere i dati dei Messaggi Privati e i dati delle Richieste di Privacy:
   (indirizzo email) nel database con phpMyAdmin e cancellare i record
   lì. Ecco un esempio di schermata:
 
-![elimina flusso di lavoro privacy con phpmyadmin](../../../en/images/privacy/privacy-workflow-delete-with-phpmyadmin.png)
+![elimina flusso di lavoro privacy con phpmyadmin](../../../en/images/privacy/privacy-workflow/06-privacy-workflow-delete-with-phpmyadmin.png)
 
 ## Risorse aggiuntive
 

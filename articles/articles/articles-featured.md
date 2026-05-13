@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Featured_Articles / Display title: Articoli: In evidenza -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Featured_Articles",
+  "title": "Articoli: In evidenza ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -20,7 +27,7 @@ Per visualizzare gli articoli selezionati per un layout *Articoli In Evidenza*:
 
 Lo screenshot seguente mostra un elenco di articoli in evidenza contenente quattro elementi, sufficienti per creare un layout blog interessante:
 
-![Articoli in evidenza](../../../en/images/articles/articles-featured.png)
+![Articoli in evidenza](../../../en/images/articles/articles-featured/01-articles-featured.png)
 
 ### Ordine degli Articoli In Evidenza
 
@@ -32,7 +39,7 @@ Un layout blog funziona al meglio se la quantità di testo in ogni elemento è l
 
 ## Aspetto del Sito
 
-![Vista del sito con articoli in evidenza](../../../en/images/articles/articles-featured-site.png)
+![Vista del sito con articoli in evidenza](../../../en/images/articles/articles-featured/02-articles-featured-site.png)
 
 *Tradotto da openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=fields&filename=subform.md / Display title: Campo del Sottomodulo  -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=fields&filename=subform.md",
+  "title": "Campo del Sottomodulo  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -15,7 +22,7 @@ Opzioni speciali per questo campo:
 - **Titolo** e **Etichetta** In questo esempio sono impostati su *Esemplari*.
 - **Campi** Aggiungi i campi richiesti nel submodulo uno per uno. Ogni riga ha un elenco a discesa dei campi disponibili e un interruttore Sì/No per i Valori di Render. L'ordine degli elementi può essere modificato con l'icona di trascinamento.
 
-![Creazione submodulo](../../../en/images/fields/fields-subform-edit.png)
+![Creazione submodulo](../../../en/images/fields/subforms/01-fields-subform-edit.png)
 
 **Nota:** In questo esempio, l'inclusione del tipo di campo nel Titolo è solo per scopi dimostrativi. Omettilo nei titoli dei tuoi campi.
 
@@ -23,14 +30,14 @@ Opzioni speciali per questo campo:
 
 Nel modulo di inserimento dati è necessario aggiungere righe per ogni campione. Ogni riga contiene un campo Calendario, un campo Testo e un campo Colore.
 
-![Inserimento dati sottosezione](../../../en/images/fields/fields-subform-data-entry.png)
+![Inserimento dati sottosezione](../../../en/images/fields/subforms/02-fields-subform-data-entry.png)
 
 ## Visualizzazione dei Dati
 
 Nell'articolo, il sottoform denominato Campioni ha una riga per ciascun campione.
 Cerca l'elemento **Campioni** in questo screenshot:
 
-![visualizzazione sottoform sito](../../../en/images/fields/fields-subform-site.png)
+![visualizzazione sottoform sito](../../../en/images/fields/subforms/03-fields-subform-site.png)
 
 *Tradotto da openai.com*
 

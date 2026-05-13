@@ -1,4 +1,11 @@
-<!-- Filename: What_is_the_difference_between_a_Sub-Domain,_Parked_Domain_and_an_Add-On_Domain%3F / Display title: Sottodomini, Domini Parcheggiati e Domini Aggiuntivi -->
+<!--
+{
+  "source": "https://docs.joomla.org/What_is_the_difference_between_a_Sub-Domain,_Parked_Domain_and_an_Add-On_Domain%3F",
+  "title": "Sottodomini, Domini Parcheggiati e Domini Aggiuntivi ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Differenze
 

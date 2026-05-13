@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Items / Display title: Voci del Menu -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Items",
+  "title": "Voci del Menu ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -8,7 +15,7 @@ Gli elementi di menu sono le unità di navigazione di base di un sito Joomla. Do
 
 I tipi di voci di menu sono definiti in ciascun componente che dispone di viste del sito. Il core di Joomla ha circa 10 di tali componenti, ciascuno con diverse viste che danno un totale di oltre 30 tipi. La seguente schermata mostra la lista delle **Voci di Menu: Tutte le Voci di Menu** con una selezione di tipi di voci di menu sotto il titolo del menu nella colonna **Titolo**:
 
-![elenco voci di menu](../../../en/images/menus/menus-all-menu-items-list.png)
+![elenco voci di menu](../../../en/images/menus/menu-items/01-menus-all-menu-items-list.png)
 
 ## Aggiungere un Elemento del Menu
 
@@ -22,7 +29,7 @@ Nel modulo **Menu: Nuovo Elemento**:
 - Nel campo **Titolo** inserisci un titolo breve e adatto per l'elemento del menu.
 - Nel campo **Tipo di Elemento di Menu** utilizza il pulsante **Seleziona** per aprire la finestra di dialogo Tipo di Elemento di Menu.
 
-![seleziona tipo di elementi del menu](../../../en/images/menus/menus-menu-items-select-type.png)
+![seleziona tipo di elementi del menu](../../../en/images/menus/menu-items/02-menus-menu-items-select-type.png)
 
 - Seleziona il tipo di cui hai bisogno, in questo esempio un tipo Articolo Singolo.
 
@@ -33,7 +40,7 @@ Il modulo di immissione dati **Menu: Nuovo Elemento** cambierà per visualizzare
 - **Salva**
 - Se desideri modificare l'ordine di questo elemento nel menu, utilizza il campo **Ordinamento** a destra. Per impostazione predefinita, è l'ultimo. Puoi farlo diventare **Primo** o farlo venire dopo qualsiasi altro elemento di menu che selezioni.
 
-![modifica elemento del menu](../../../en/images/menus/menus-menu-items-edit-item.png)
+![modifica elemento del menu](../../../en/images/menus/menu-items/03-menus-menu-items-edit-item.png)
 
 - Visualizza il sito per verificare che sia come desideri.
 

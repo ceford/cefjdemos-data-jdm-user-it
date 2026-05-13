@@ -1,4 +1,11 @@
-<!-- Filename: Setting_up_automatic_Smart_Search_indexing / Display title: Indicizzazione di Ricerca Intelligente -->
+<!--
+{
+  "source": "https://docs.joomla.org/Setting_up_automatic_Smart_Search_indexing",
+  "title": "Indicizzazione di Ricerca Intelligente ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Indicizzazione Automatica
 

@@ -1,4 +1,11 @@
-<!-- Filename: Localhost / Display title: Schema.org - Persona -->
+<!--
+{
+  "source": "https://docs.joomla.org/Localhost",
+  "title": "Schema.org - Persona ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -22,7 +29,7 @@ La sezione *Campo Generico* consente di inserire coppie di *Titolo* e *Valore* o
 
 Di seguito è riportato un esempio di schema Persona in un modulo di modifica Articolo.
 
-![A person schema edit form](../../../en/images/schemas/edit-schema-person.png)
+![A person schema edit form](../../../en/images/schemas/person/01-edit-schema-person.png)
 
 *Tradotto da openai.com*
 

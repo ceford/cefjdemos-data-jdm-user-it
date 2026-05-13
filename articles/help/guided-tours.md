@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=help&filename=guided-tours.md / Display title: Visite Guidate -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=help&filename=guided-tours.md",
+  "title": "Visite Guidate ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -6,13 +13,13 @@ I tour guidati sono progettati per offrire ai nuovi arrivati su Joomla una brevi
 
 Ci sono diversi tour integrati e il tour **Benvenuto su Joomla!** si avvia automaticamente la prima volta che un utente accede all'interfaccia dell'amministratore.
 
-![Benvenuto nei Tour Guidati](../../../en/images/help/guided-tours-welcome.png)
+![Benvenuto nei Tour Guidati](../../../en/images/help/guided-tours/01-guided-tours-welcome.png)
 
 ## Elenco dei Tour
 
 I Tour sono elencati in un menu a discesa nella barra del titolo del cruscotto e degli schermi di elenco, come nell'illustrazione seguente:
 
-![Tour Guidati](../../../en/images/help/guided-tours.png)
+![Tour Guidati](../../../en/images/help/guided-tours/02-guided-tours.png)
 
 L'elenco completo include i seguenti:
 

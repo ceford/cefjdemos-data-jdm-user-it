@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/List_Field / Display title: Campo Elenco -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo Elenco ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -12,7 +19,7 @@ Le opzioni speciali all'interno di questo campo sono:
 - **Valori dell'elenco** Aggiungi elementi secondo necessità e utilizza l'icona di trascinamento per cambiare il loro ordine. Inizia l'elenco con il Testo impostato su *- Seleziona -* e Valore vuoto. Questo fornisce un predefinito vuoto che risulta nell'assenza di questo elenco dall'Articolo.
 - **Classe del Campo** Imposta su *w-auto* per rendere la lista abbastanza larga per il suo elenco di etichette.
 
-![Creazione del campo elenco](../../../en/images/fields/fields-list-edit.png)
+![Creazione del campo elenco](../../../en/images/fields/adding-custom-fields-list-field/01-fields-list-edit.png)
 
 **Nota:** In questo esempio, l'inclusione del tipo di campo nel Titolo è solo a scopo dimostrativo. Lasciatelo fuori dai vostri titoli di campo.
 
@@ -20,7 +27,7 @@ Le opzioni speciali all'interno di questo campo sono:
 
 Semplice: basta selezionare un elemento dall'elenco o più elementi se *Multiplo* è *Sì*.
 
-![Inserimento dati campo elenco](../../../en/images/fields/fields-list-data-entry.png)
+![Inserimento dati campo elenco](../../../en/images/fields/adding-custom-fields-list-field/02-fields-list-data-entry.png)
 
 
 ## Visualizzazione dei Dati
@@ -29,7 +36,7 @@ Lo screenshot del sito seguente mostra il campo visualizzato in un articolo. L'o
 
 L'output è un singolo elemento o un elenco separato da virgole.
 
-![visualizzazione campo elenco sito](../../../en/images/fields/fields-list-site.png)
+![visualizzazione campo elenco sito](../../../en/images/fields/adding-custom-fields-list-field/03-fields-list-site.png)
 
 *Tradotto da openai.com*
 

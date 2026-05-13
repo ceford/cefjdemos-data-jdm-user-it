@@ -1,4 +1,11 @@
-<!-- Filename: Joomla_3.x_to_4.x_Step_by_Step_Migration / Display title: Joomla 3 a 4 Passo dopo Passo -->
+<!--
+{
+  "source": "https://docs.joomla.org/Joomla_3.x_to_4.x_Step_by_Step_Migration",
+  "title": "Joomla 3 a 4 Passo dopo Passo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -28,7 +35,7 @@ Di seguito sono riportate istruzioni passo passo per migrare un sito 3.10.x a Jo
         (Leggi la documentazione per sviluppatori.)
 6. Nel tuo luogo di test, aggiorna la tua istanza Joomla! 3.10.x all'ultima release di manutenzione.
 7. Assicurati di avere lo schema del database più recente aggiornato all'ultima versione 3.10.x andando al menu **Gestore Estensioni → Database**. Se il tuo schema non è aggiornato come nell'immagine seguente, fai clic sul pulsante **Correggi**:<br>
-    ![database delle estensioni joomla 3](../../../en/images/migration/admin-extension-database-fix.png)
+    ![database delle estensioni joomla 3](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/01-admin-extension-database-fix.png)
 8. Svuota il cestino: hai articoli nel cestino? Se sì, eliminali (e qualsiasi media applicabile che potrebbe essere associato se non utilizzato altrove sul sito). Gli articoli (categorie e voci di menu) lasciati nel cestino possono causare problemi nella migrazione, non consentendo di completarla senza errori.
 9. Testa.
 10. Backup di nuovo.
@@ -40,10 +47,10 @@ Durante la pianificazione, hai determinato quali estensioni di terze parti sareb
 1. Utilizzando il **Controllo Pre-aggiornamento** per utilizzare il Controllo Pre-aggiornamento, sarà necessario impostare il modulo di Aggiornamento di Joomla su Joomla 4. Per farlo, segui:
 2. Vai a **Componenti → Aggiornamento di Joomla**. Dovrebbe dire che non sono stati trovati aggiornamenti. Se non lo è, aggiorna Joomla all'ultima versione (deve essere 3.10.x) e testa. Quindi fai un altro backup. Clicca sul pulsante Opzioni in alto a destra.
 3. Seleziona *Joomla Next* dal menu a discesa per il Canale di Aggiornamento.<br>
-    ![selezione del canale delle opzioni di aggiornamento](../../../en/images/migration/update-options-channel.png)
+    ![selezione del canale delle opzioni di aggiornamento](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/02-update-options-channel.png)
 4. Clicca su **Salva & Chiudi**.
 5. Vedrai quindi la tua Versione Joomla Installata, l'ultima versione di Joomla! e l'URL per il pacchetto di aggiornamento. Joomla ti mostrerà di nuovo i requisiti per Joomla 4. Se segnala che hai un sistema o delle estensioni incompatibili, te lo dirà qui. Prenditi un momento per rivedere questa pagina.<br>
-    ![aggiornamento a 4 controllo pre aggiornamento](../../../en/images/migration/update-to-4-pre-update-check.png)
+    ![aggiornamento a 4 controllo pre aggiornamento](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/03-update-to-4-pre-update-check.png)
     <div class="alert alert-warning"><strong>Avviso:</strong> Non aggiornare a Joomla! 4 
     subito. Questo serve solo a preparare le estensioni di terze parti e rendere il 
     sito compatibile con Joomla! 4.</div>
@@ -63,7 +70,7 @@ Durante la pianificazione, hai determinato quali estensioni di terze parti sareb
     **Gestore Estensioni → Gestisci**
 11. Clicca sul pulsante *Strumenti di Ricerca* per mostrare le opzioni di filtro
 12. Seleziona Pacchetto dal menu a discesa *Seleziona Tipo*.<br>
-    ![pagina gestione estensioni](../../../en/images/migration/extensions-manage.png)
+    ![pagina gestione estensioni](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/04-extensions-manage.png)
     <div class="alert alert-info">La selezione iniziale del Pacchetto è raccomandata perché se c'è qualcosa che devi disinstallare in un pacchetto, disinstallerà automaticamente i Moduli associati, i Plugin o qualsiasi altra cosa nel pacchetto contemporaneamente.</div>
 13. Disinstalla qualsiasi Pacchetto che non è più necessario o che non verrà migrato a Joomla 4.
 14. Ripeti questo processo passando attraverso la tab Gestione per tutti i Tipi nel menu a discesa: Componente, File, Lingua, Libreria, Modulo, Plugin e Modello. Se l'Autore dichiara Joomla! Project, lascia quelle estensioni invariate. Per tutte le altre, assicurati di disinstallare quelle non in uso o non compatibili con Joomla! 4.x. 
@@ -93,20 +100,20 @@ Il routing legacy non sarà disponibile in Joomla 4.x. Sarà disponibile solo Mo
 Una volta che hai aggiornato o disinstallato le tue estensioni di terze parti in modo che rimangano solo quelle compatibili con Joomla! 4 nella tua installazione, continua con i seguenti passaggi:
 
 1. Vai a **Sistema → Configurazione Globale → Tab Server** e imposta la Segnalazione degli Errori da Predefinito di Sistema a Massima. Assicurati di Salvare & Chiudere. <br>
-    ![sistema configurazione globale tab server](../../../en/images/migration/system-global-configuration-server-tab.png)
+    ![sistema configurazione globale tab server](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/05-system-global-configuration-server-tab.png)
 2. Fai un altro backup.
 3. Vai a **Componenti → Aggiornamento di Joomla**. (Dovrebbe dire che non sono stati trovati aggiornamenti. Se non lo è, aggiorna Joomla all'ultima versione e testa. Quindi fai un altro backup.) Clicca sul pulsante Opzioni in alto a destra.
 4. Seleziona *Joomla Next* dal menu a discesa per il Canale di Aggiornamento.<br>
-    ![componente aggiornamento di joomla seleziona canale di aggiornamento](../../../en/images/migration/update-select-channel.png)
+    ![componente aggiornamento di joomla seleziona canale di aggiornamento](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/06-update-select-channel.png)
 5. Clicca su **Salva & Chiudi**.
 6. Vedrai quindi la tua Versione di Joomla Installata, l'ultima versione di Joomla! e l'URL per il pacchetto di aggiornamento. Joomla ti mostrerà di nuovo i requisiti per Joomla 4. Se segnala che hai un sistema o delle estensioni incompatibili, te lo dirà qui. Prenditi un momento per rivedere questa pagina.<br>
-    ![controllo aggiornamenti per joomla 4](../../../en/images/migration/update-check.png)
+    ![controllo aggiornamenti per joomla 4](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/07-update-check.png)
 7. Se l'aggiornamento non viene visualizzato, vai a **Gestore Estensioni → Aggiorna** e premi Purge Cache dalla barra degli strumenti. Ora l'aggiornamento a Joomla! 4 dovrebbe apparire.
 8. Incrocia le dita e assicurati di avere quel backup disponibile nel caso.
 9. Clicca sul pulsante Installa l'Aggiornamento.
 10. Prepara il tè mentre la barra di stato si carica fino a diventare completamente verde. Il tempo che ci vuole dipende dal tuo sito, conessione Internet e velocità del server. Il processo richiede circa due minuti. Una volta completato l'aggiornamento, probabilmente sarai disconnesso dall'Amministratore. Accedi nuovamente. Due volte.
 11. Se tutto va bene, vedrai un look completamente nuovo nel pannello amministratore di backend.<br>
-    ![joomla 4 o 5 home dashboard](../../../en/images/migration/j4-home-dashboard.png)
+    ![joomla 4 o 5 home dashboard](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/08-j4-home-dashboard.png)
 12. Vai a **Sistema → Manutenzione → Database** e clicca su *Correggi* se compaiono errori.
 13. In **Sistema → Installa → Scopri** verifica se ci sono estensioni da installare. (Non dovrebbero esserci!)
 14. Vai al frontend del sito e verifica se appare anche se non è il modello giusto. In tal caso, continua. Altrimenti, vedi errori comuni durante la migrazione.

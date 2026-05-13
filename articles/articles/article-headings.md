@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Headings / Display title: Articolo: Modifica - Intestazioni -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Headings",
+  "title": "Articolo: Modifica - Intestazioni ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Semantica dei Titoli
 
@@ -38,7 +45,7 @@ Apri l'articolo che desideri modificare. Nota che il contenitore di testo predef
 - Nella parte inferiore dello schermo l'indicatore del contenitore mostrerà HX.
 - Puoi fare doppio clic su qualsiasi testo selezionato per apportare una modifica rapida, ad esempio da P a H2 (toggle) o da H2 a H3 utilizzando una barra popup come nello screenshot seguente:
 
-![modulo di modifica dell'articolo con h3 selezionato](../../../en/images/articles/articles-edit-headings.png)
+![modulo di modifica dell'articolo con h3 selezionato](../../../en/images/articles/article-headings/01-articles-edit-headings.png)
 
 Nota: per convenzione, tutti i tag HTML usano lettere minuscole. Se selezioni il pulsante *Toggle Editor* per guardare il codice sorgente, vedrai i paragrafi e i titoli racchiusi in tag con lettere minuscole.
 

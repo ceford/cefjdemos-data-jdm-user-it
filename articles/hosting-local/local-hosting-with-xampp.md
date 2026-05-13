@@ -1,4 +1,11 @@
-<!-- Filename: / Display title: Hosting Locale con XAMPP -->
+<!--
+{
+  "source": "https://docs.joomla.org/",
+  "title": "Hosting Locale con XAMPP ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -201,11 +208,11 @@ Molti utenti Mac hanno un po' di difficoltà in questa fase quando provano a imp
 
 Una volta che XAMPP è installato e hai avviato il servizio Apache con lo strumento Pannello di Controllo di XAMPP, puoi testarlo aprendo il tuo browser e navigando a `http://localhost`. Dovresti vedere la schermata di benvenuto di XAMPP simile a quella qui sotto.
 
-![La pagina di avvio di xampp](../../../en/images/hosting/local-hosting-xampp.png)
+![La pagina di avvio di xampp](../../../en/images/hosting-local/local-hosting-with-xampp/01-local-hosting-xampp.png)
 
 Seleziona il link chiamato `phpinfo()` nel menu in alto. Questo mostrerà una lunga schermata di informazioni sulla configurazione PHP, come mostrato qui sotto.
 
-![La pagina di informazioni sulla versione php di xampp](../../../en/images/hosting/local-hosting-xampp-php.png)
+![La pagina di informazioni sulla versione php di xampp](../../../en/images/hosting-local/local-hosting-with-xampp/02-local-hosting-xampp-php.png)
 
 A questo punto, XAMPP è installato correttamente. Nota il *File di Configurazione Caricato*. Modificheremo questo file nella sezione successiva per configurare XDebug.
 

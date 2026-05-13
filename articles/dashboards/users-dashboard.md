@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Users_Dashboard / Display title: Pannello di Controllo degli Utenti -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Users_Dashboard",
+  "title": "Pannello di Controllo degli Utenti ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -6,7 +13,7 @@ Il Dashboard Utenti è accessibile tramite l'icona a destra dell'elemento di men
 
 ## Screenshot
 
-![Dashboard utenti](../../../en/images/dashboards/users-dashboard.png)
+![Dashboard utenti](../../../en/images/dashboards/users-dashboard/01-users-dashboard.png)
 
 *Tradotto da openai.com*
 

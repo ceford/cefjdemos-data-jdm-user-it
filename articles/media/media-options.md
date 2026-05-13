@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Options / Display title: Media: Opzioni -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Options",
+  "title": "Media: Opzioni ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -8,7 +15,7 @@ Per accedere al modulo *Media: Opzioni*, selezionare il pulsante **Opzioni** nel
 
 ## Screenshot
 
-![Il modulo Opzioni media](../../../en/images/media/media-options.png)
+![Il modulo Opzioni media](../../../en/images/media/media-options/01-media-options.png)
 
 ## Percorso verso File e Cartelle
 
@@ -22,7 +29,7 @@ Nel modulo Opzioni, inserisci il nome della cartella nel campo **Percorso verso 
 
 Una volta configurato, sarai in grado di scegliere tra le cartelle immagini e file nella parte Local della vista Media.
 
-![La pagina media](../../../en/images/media/media-sample-data-cassiopeia.png)
+![La pagina media](../../../en/images/media/media-options/02-media-sample-data-cassiopeia.png)
 
 ## Tipi di Immagini o Documenti Aggiuntivi
 

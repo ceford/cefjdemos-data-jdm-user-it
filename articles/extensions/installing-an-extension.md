@@ -1,4 +1,11 @@
-<!-- Filename: Installing_an_extension / Display title: Installazione di un'estensione -->
+<!--
+{
+  "source": "https://docs.joomla.org/Installing_an_extension",
+  "title": "Installazione di un'estensione ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Documentazione dell'Estensione
 

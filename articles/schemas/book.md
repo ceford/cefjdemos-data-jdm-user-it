@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Organization_-_Using_Organization_Plugin / Display title: Schema.org - Libro -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Libro ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -25,7 +32,7 @@ La sezione *Generic Field* consente di inserire le coppie *Titolo* e *Valore* ol
 
 Di seguito è riportato un esempio di uno schema Libro in un modulo di modifica Articolo.
 
-![A book schema edit form](../../../en/images/schemas/edit-schema-book.png)
+![A book schema edit form](../../../en/images/schemas/book/01-edit-schema-book.png)
 
 *Tradotto da openai.com*
 

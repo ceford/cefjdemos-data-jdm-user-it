@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_Display_by_Menu_Item / Display title: Visualizzazione del Modulo per Voce di Menu  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_Display_by_Menu_Item",
+  "title": "Visualizzazione del Modulo per Voce di Menu  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -27,7 +34,7 @@ Per le ultime due opzioni viene visualizzato un pannello di Selezione Menu. Iniz
 menu che contiene sono completamente espansi, ma possono essere compressi con il
 pulsante **Espandi i Sottoalberi del Menu** *Nessuno*. Poi espandi il menu di
 interesse.
-![assegnazione del menu del modulo](../../../en/images/modules/module-display-by-menu.png)
+![assegnazione del menu del modulo](../../../en/images/modules/module-display-by-menu-item/01-module-display-by-menu.png)
 
 Seleziona gli Elementi del Menu per visualizzare o meno il modulo a piacere.
 

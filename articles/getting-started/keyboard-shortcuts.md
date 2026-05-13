@@ -1,4 +1,11 @@
-<!-- Filename: Keyboard_Shortcuts / Display title: Scorciatoie da Tastiera  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Keyboard_Shortcuts",
+  "title": "Scorciatoie da Tastiera  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 

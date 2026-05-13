@@ -1,4 +1,11 @@
-<!-- Filename: Managing_404_Errors / Display title: Gestione degli errori 404 -->
+<!--
+{
+  "source": "https://docs.joomla.org/Managing_404_Errors",
+  "title": "Gestione degli errori 404 ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Perché i 404 Not Found Sono Importanti
 
@@ -16,7 +23,7 @@ Quando visiti Search Central, c'è una sezione che ti mostra gli errori URL nell
 
 Se c'era un problema temporaneo sul tuo sito, puoi contrassegnare gli errori come risolti.
 
-![strumenti per webmaster](../../../en/images/performance/404-discovery.png)
+![strumenti per webmaster](../../../en/images/performance/managing-404-errors/01-404-discovery.png)
 
 ## Risoluzione dei Problemi
 
@@ -28,21 +35,21 @@ Se hai bisogno di reindirizzare una pagina, puoi utilizzare il plugin System - R
 
 Se desideri monitorare il tuo traffico 404, il modo migliore per farlo in Analytics è osservare cosa accade quando si verifica un errore 404. Nella maggior parte dei casi, il titolo della pagina cambia in 404 – quindi possiamo creare un segmento personalizzato che filtrerà il traffico con un titolo 404 e ti indicherà quale sia la pagina di destinazione. Ciò dovrebbe consentirti di monitorare e gestire proattivamente i tuoi errori 404 assicurandoti che i visitatori del tuo sito non finiscano su link non funzionanti.
 
-![Avvisi Analytics per traffico 404](../../../en/images/performance/404-analytics-alerts.png)
+![Avvisi Analytics per traffico 404](../../../en/images/performance/managing-404-errors/02-404-analytics-alerts.png)
 
-![Panoramica del pubblico degli avvisi Analytics](../../../en/images/performance/404-analytics-alerts-2.png)
+![Panoramica del pubblico degli avvisi Analytics](../../../en/images/performance/managing-404-errors/03-404-analytics-alerts-2.png)
 
 Google offre anche la possibilità, in Analytics, di impostare avvisi. Gli avvisi ti permettono di ricevere un'email quando si verificano determinati eventi. In questo caso, possiamo impostare un avviso per essere notificati se c'è un aumento di oltre il 5% nel numero di errori 404 in un periodo settimanale – il che potrebbe significare che ci sia un problema con il sito web che necessita di essere investigato.
 
 Questo è un ottimo modo per restare aggiornato anche se non hai effettuato l'accesso per controllare la tua dashboard!
 
-![Email degli avvisi Analytics](../../../en/images/performance/404-analytics-alerts-email.png)
+![Email degli avvisi Analytics](../../../en/images/performance/managing-404-errors/04-404-analytics-alerts-email.png)
 
 ## Monitoraggio degli Errori con una Dashboard
 
 Esiste anche una dashboard che puoi installare chiamata *Data Integrity Dashboard* che ti mostra informazioni sugli errori 404, insieme ad alcune altre metriche che potrebbero essere di interesse. Basta cercare nella Google Analytics Gallery il *Data Integrity Dashboard* e selezionare sotto quale profilo installarlo.
 
-![Integrità dei dati](../../../en/images/performance/404-data-integrity.png)
+![Integrità dei dati](../../../en/images/performance/managing-404-errors/05-404-data-integrity.png)
 
 *Tradotto da openai.com*
 

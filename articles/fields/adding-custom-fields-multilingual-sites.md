@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Multilingual_Sites / Display title: Siti Multilingue -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Siti Multilingue ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -49,7 +56,7 @@ Dal menu dell'Amministratore:
 
 Lo screenshot seguente mostra un esempio di creazione di un override per una costante della lingua tedesca.
 
-![Creazione di un override in tedesco](../../../en/images/fields/fields-overrides-creation-de.png)
+![Creazione di un override in tedesco](../../../en/images/fields/adding-custom-fields-multilingual-sites/01-fields-overrides-creation-de.png)
 
 ## Definizione del Gruppo di Campi
 
@@ -79,11 +86,11 @@ Dal menu Amministratore:
 
 Con l'inglese selezionato prima dell'accesso come Amministratore, il modulo di inserimento dati del contatto dovrebbe contenere una scheda con il nome inglese del tuo gruppo di campi e i campi in quel gruppo con valori in inglese.
 
-![Inserimento dati in inglese](../../../en/images/fields/fields-overrides-entry.png)
+![Inserimento dati in inglese](../../../en/images/fields/adding-custom-fields-multilingual-sites/02-fields-overrides-entry.png)
 
 Con il tedesco selezionato prima dell'accesso come Amministratore, dovresti vedere le traduzioni tedesche delle tue costanti linguistiche:
 
-![Inserimento dati in tedesco](../../../en/images/fields/fields-overrides-entry-de.png)
+![Inserimento dati in tedesco](../../../en/images/fields/adding-custom-fields-multilingual-sites/03-fields-overrides-entry-de.png)
 
 Avvertenza: traduzione tramite translate.google.co.uk!
 
@@ -91,11 +98,11 @@ Avvertenza: traduzione tramite translate.google.co.uk!
 
 In inglese:
 
-![Visualizzazione dei dati in inglese](../../../en/images/fields/fields-overrides-display.png)
+![Visualizzazione dei dati in inglese](../../../en/images/fields/adding-custom-fields-multilingual-sites/04-fields-overrides-display.png)
 
 E in tedesco:
 
-![Visualizzazione dei dati in tedesco](../../../en/images/fields/fields-overrides-display-de.png)
+![Visualizzazione dei dati in tedesco](../../../en/images/fields/adding-custom-fields-multilingual-sites/05-fields-overrides-display-de.png)
 
 *Tradotto da openai.com*
 

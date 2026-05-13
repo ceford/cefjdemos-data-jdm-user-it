@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Item_Order / Display title: Ordine degli Articoli del Menu  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Item_Order",
+  "title": "Ordine degli Articoli del Menu  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -19,7 +26,7 @@ A partire dal menu Amministratore:
 - Seleziona e trascina il simbolo dell'elemento che desideri spostare.
 - Rilascia l'elemento trascinato nella sua nuova posizione.
 
-![ordine voce di menu trascinamento](../../../en/images/menus/menus-menu-item-order-drag.png)
+![ordine voce di menu trascinamento](../../../en/images/menus/menu-item-order/01-menus-menu-item-order-drag.png)
 
 Questo metodo può risultare scomodo se ci sono elementi di menu principali con molti figli. Puoi spostare un elemento principale più facilmente nascondendo i figli:
 
@@ -45,7 +52,7 @@ A partire dal menu Amministratore:
   il quale desideri posizionare l'elemento che stai spostando, oppure le posizioni *- Primo -* o
   *- Ultimo -*.
 
-![lista ordine elementi del menu](../../../en/images/menus/menus-menu-item-order-list.png)
+![lista ordine elementi del menu](../../../en/images/menus/menu-item-order/02-menus-menu-item-order-list.png)
 
 - **Salva** o **Salva & Chiudi**
 

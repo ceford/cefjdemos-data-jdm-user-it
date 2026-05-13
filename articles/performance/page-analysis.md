@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=performance&filename=page-analysis.md / Display title: Analisi della Pagina -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=performance&filename=page-analysis.md",
+  "title": "Analisi della Pagina ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Faro
 
@@ -12,7 +19,7 @@ Puoi utilizzare lo strumento online da questo sito di PageSpeed Insights.
 
 Lo screenshot seguente mostra la prima parte del report di PageSpeed Insights:
 
-![Report di PageSpeed Insights](../../../en/images/performance/performance-pagespeed-insights.png)
+![Report di PageSpeed Insights](../../../en/images/performance/page-analysis/01-performance-pagespeed-insights.png)
 
 ## Miglioramenti delle Prestazioni
 

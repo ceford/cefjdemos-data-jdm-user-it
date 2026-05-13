@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Menu_Item / Display title: Aggiungere un'Voce di Menu -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item",
+  "title": "Aggiungere un'Voce di Menu ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -10,7 +17,7 @@ Supponiamo che uno dei tuoi articoli sia sufficientemente importante da meritare
 
 ## La Pagina di Modifica del Menu
 
-![Modulo di modifica voce di menu](../../../en/images/getting-started/menu-item-edit-form.png)
+![Modulo di modifica voce di menu](../../../en/images/getting-started/adding-a-menu-item/01-menu-item-edit-form.png)
 
 Il modulo *Menu: Nuova Voce* ha quattro campi obbligatori da completare:
 
@@ -24,7 +31,7 @@ Il modulo *Menu: Nuova Voce* ha quattro campi obbligatori da completare:
 
 Questo è tutto ciò che deve essere fatto. Tutto il resto è facoltativo. Dai un'occhiata alla pagina Home del sito. La voce di menu nel menu principale si collega direttamente a quella pagina.
 
-![Vista del sito di un articolo singolo](../../../en/images/getting-started/menu-item-single-article-site-view.png)
+![Vista del sito di un articolo singolo](../../../en/images/getting-started/adding-a-menu-item/02-menu-item-single-article-site-view.png)
 
 ## Voci di Menu Multiple
 
@@ -42,7 +49,7 @@ Fin qui tutto bene. Ma cosa succede quando hai 10, 100, 1000 o più articoli? È
 
 Vai alla Home page del sito e ricarica. Seleziona la nuova voce di menu *Articoli sui Mammiferi*.
 
-![Elenco di categorie di articoli sui Mammiferi](../../../en/images/getting-started/menu-item-category-list-site-view.png)
+![Elenco di categorie di articoli sui Mammiferi](../../../en/images/getting-started/adding-a-menu-item/03-menu-item-category-list-site-view.png)
 
 Seleziona il titolo dell'articolo, Mammiferi, per andare alla vista dell'articolo. Se hai molti 
 articoli puoi trovarli qui, quindi non hai bisogno di voci di menu per articoli singoli.

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Managing_Media / Display title: Gestione dei Media -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Managing_Media",
+  "title": "Gestione dei Media ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -24,7 +31,7 @@ ma con la cartella cassiopeia/sampledata selezionata. È stata aggiunta una cart
 per memorizzare file non di immagine ed è stata aggiunta una cartella extra denominata *garbage*
 per illustrare l'eliminazione di cartelle:
 
-![Pagina Media che mostra i dati di esempio cassiopeia](../../../en/images/media/media-sample-data-cassiopeia.png)
+![Pagina Media che mostra i dati di esempio cassiopeia](../../../en/images/media/managing-media/01-media-sample-data-cassiopeia.png)
 
 ## Gestione delle Cartelle
 
@@ -64,7 +71,7 @@ Se selezioni una cartella diversa, la cartella precedente allo stesso livello si
 
 La cartella selezionata per l'eliminazione è illustrata qui sotto:
 
-![Pagina dei media che mostra la cartella spazzatura](../../../en/images/media/media-sample-data-garbage-select.png)
+![Pagina dei media che mostra la cartella spazzatura](../../../en/images/media/managing-media/02-media-sample-data-garbage-select.png)
 
 ## Barra degli Strumenti dell'Area Media
 

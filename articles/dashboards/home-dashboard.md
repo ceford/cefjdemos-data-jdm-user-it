@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Home_Dashboard / Display title: Dashboard Principale -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Home_Dashboard",
+  "title": "Dashboard Principale ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -17,7 +24,7 @@ La maggior parte degli elementi sono link auto-esplicativi che duplicano quelli 
 
 ## Schermata
 
-![Dashboard principale](../../../en/images/dashboards/home-dashboard.png)
+![Dashboard principale](../../../en/images/dashboards/home-dashboard/01-home-dashboard.png)
 
 *Tradotto da openai.com*
 

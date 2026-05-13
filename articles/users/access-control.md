@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Access_Control / Display title: Controllo Accessi   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Access_Control",
+  "title": "Controllo Accessi   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -8,7 +15,7 @@ Joomla ha un meccanismo sofisticato per controllare chi può vedere e manipolare
 
 I Gruppi di Utenti sono utilizzati per dividere gli utenti del sito in gruppi con diverse responsabilità. Ad esempio, i membri del gruppo di utenti Autore hanno il permesso di accedere al sito, creare articoli e modificare i propri articoli. Nient'altro! I membri del gruppo Super Utenti hanno la responsabilità di tutti gli aspetti della gestione e del funzionamento del sito. Joomla fornisce nove gruppi di utenti predefiniti e puoi crearne altri se ne hai bisogno.
 
-![Elenco gruppi utenti](../../../en/images/users/access-control-users-groups-list.png)
+![Elenco gruppi utenti](../../../en/images/users/access-control/01-access-control-users-groups-list.png)
 
 I gruppi di utenti predefiniti sono organizzati con relazioni di tipo genitore-figlio per minimizzare la duplicazione dei permessi. Esempi di eredità:
 
@@ -21,7 +28,7 @@ Puoi creare nuovi gruppi di utenti per scopi speciali secondo necessità. Ad ese
 
 Ogni volta che crei un oggetto, come un articolo, un modulo o un elemento di menu, vedrai un campo Accesso, solitamente nella colonna di destra del modulo di inserimento dati. È un elenco a discesa che offre una scelta tra Pubblico, Ospite, Registrato, Speciale e Super Utenti. L'impostazione predefinita è Pubblico. I livelli di accesso alla visualizzazione predefiniti sono mostrati nella seguente schermata:
 
-![Livelli di accesso degli utenti](../../../en/images/users/access-control-users-access-levels.png)
+![Livelli di accesso degli utenti](../../../en/images/users/access-control/02-access-control-users-access-levels.png)
 
 Esempi:
 
@@ -32,7 +39,7 @@ Esempi:
 
 Le autorizzazioni di configurazione globale sono il punto di partenza da cui le impostazioni di autorizzazione nei componenti o nei singoli elementi possono ereditare o sovrascrivere. Screenshot:
 
-![autorizzazioni di configurazione globale](../../../en/images/users/access-control-global-configuration-permissions.png)
+![autorizzazioni di configurazione globale](../../../en/images/users/access-control/03-access-control-global-configuration-permissions.png)
 
 Lo screenshot mostra che i membri del gruppo Pubblico non hanno il permesso di eseguire alcuna azione. Se selezioni ogni gruppo a turno, vedrai come le autorizzazioni cambiano da gruppo a gruppo. Nota che Manager e Administrator sono autorizzati all'accesso come Amministratore, ma Author, Editor e Publisher no. Questi ultimi sono effettivamente ruoli del Sito piuttosto che ruoli di Amministratore.
 
@@ -42,13 +49,13 @@ Tutte le autorizzazioni di gruppo ereditano dal gruppo Pubblico. Non ha il perme
 
 Le azioni delle autorizzazioni degli Articoli differiscono dalle azioni delle Autorizzazioni di Configurazione Globale. Non sono presenti voci relative al login e sono presenti voci relative ai flussi di lavoro. Questo è un modello piuttosto tipico: un componente avrà autorizzazioni rilevanti per il componente; un elemento del componente (come un articolo) avrà autorizzazioni rilevanti per quell'unico elemento.
 
-![Autorizzazioni dei contenuti](../../../en/images/users/access-control-global-content-permissions.png)
+![Autorizzazioni dei contenuti](../../../en/images/users/access-control/04-access-control-global-content-permissions.png)
 
 ### Autorizzazioni di un Singolo Articolo
 
 Le autorizzazioni di un singolo articolo hanno solo tre voci: Elimina, Modifica e Modifica Stato:
 
-![autorizzazioni di un singolo articolo](../../../en/images/users/access-control-article-permissions.png)
+![autorizzazioni di un singolo articolo](../../../en/images/users/access-control/05-access-control-article-permissions.png)
 
 ## Esempio di Controllo Accessi: Utente a Scopo Speciale
 
@@ -61,7 +68,7 @@ Supponiamo di dover creare un Gruppo Utenti per utenti che hanno una sola respon
 - Compila il campo Titolo del Gruppo: Amministratore di Articoli
 - Il Genitore del Gruppo deve essere Pubblico - non ha permessi per niente.
 
-![Nuovo modulo gruppo utenti](../../../en/images/users/access-control-new-group.png)
+![Nuovo modulo gruppo utenti](../../../en/images/users/access-control/06-access-control-new-group.png)
 
 ### Assegna a Speciale
 
@@ -70,7 +77,7 @@ Supponiamo di dover creare un Gruppo Utenti per utenti che hanno una sola respon
 - Seleziona la casella di controllo Amministratore di Articoli nel modulo **Utenti: Modifica Livello di Visualizzazione Accesso**.
 - Salva & Chiudi.
 
-![Seleziona accesso per gruppo](../../../en/images/users/access-control-select-access-for-group.png)
+![Seleziona accesso per gruppo](../../../en/images/users/access-control/07-access-control-select-access-for-group.png)
 
 ### Permessi di Configurazione Globale
 
@@ -81,7 +88,7 @@ Supponiamo di dover creare un Gruppo Utenti per utenti che hanno una sola respon
 - Imposta **Login Amministratore** su Consentito.
 - Salva & Chiudi
 
-![Seleziona accesso per gruppo](../../../en/images/users/access-control-article-administrator-global-permissions.png)
+![Seleziona accesso per gruppo](../../../en/images/users/access-control/08-access-control-article-administrator-global-permissions.png)
 
 ### Permessi Opzioni Articoli
 
@@ -93,7 +100,7 @@ Supponiamo di dover creare un Gruppo Utenti per utenti che hanno una sola respon
   Configura solo Opzioni).
 - Salva & Chiudi
 
-![Seleziona accesso per gruppo](../../../en/images/users/access-control-article-administrator-content-permissions.png)
+![Seleziona accesso per gruppo](../../../en/images/users/access-control/09-access-control-article-administrator-content-permissions.png)
 
 ### Crea o Modifica Utente
 
@@ -104,7 +111,7 @@ Supponiamo di dover creare un Gruppo Utenti per utenti che hanno una sola respon
 - Effettua l'accesso come un utente nel solo Gruppo Amministratore di Articoli. Il menu
   dovrebbe mostrare solo elementi relativi agli articoli:
 
-![Seleziona accesso per gruppo](../../../en/images/users/access-control-article-administrator-home-dashboard.png)
+![Seleziona accesso per gruppo](../../../en/images/users/access-control/10-access-control-article-administrator-home-dashboard.png)
 
 *Tradotto da openai.com*
 

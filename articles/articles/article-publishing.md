@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Publishing / Display title: Articolo: Modifica - Pubblicazione -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Publishing",
+  "title": "Articolo: Modifica - Pubblicazione ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -10,7 +17,7 @@ Per lo più, gli articoli vengono pubblicati nel giorno in cui sono creati e rim
 
 ## Screenshot
 
-![La scheda di pubblicazione del modulo di modifica dell'articolo](../../../en/images/articles/articles-edit-publishing-tab.png)
+![La scheda di pubblicazione del modulo di modifica dell'articolo](../../../en/images/articles/article-publishing/01-articles-edit-publishing-tab.png)
 
 Il pannello *Metadata* è spiegato in un articolo separato. Questo articolo tratta del pannello *Publishing*.  
 
@@ -58,7 +65,7 @@ Prima della data di Inizio Pubblicazione, gli articoli sono considerati **In Att
 
 I valori di data e ora possono essere inseriti manualmente nei campi di data oppure selezionati con lo strumento Calendario, che si apre selezionando l'icona del calendario alla fine di ciascun campo di data.
 
-![Date di pubblicazione](../../../en/images/articles-access/article-schedule-publishing.png)
+![Date di pubblicazione](../../../en/images/articles/article-publishing/02-article-schedule-publishing.png)
 
 Il calendario si sposta tra giorni, mesi e anni utilizzando i tasti freccia avanti, indietro, su e giù della tastiera. Il pulsante **Oggi** imposta la data corrente. Il pulsante **Pulisci** cancella la data e l'ora.
 

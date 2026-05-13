@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Options / Display title: Articolo: Modifica - Opzioni  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Options",
+  "title": "Articolo: Modifica - Opzioni  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduzione
 
@@ -10,7 +17,7 @@ Questo articolo riguarda la scheda *Opzioni* nel modulo *Articolo: Modifica*. È
 
 La scheda *Opzioni* del modulo *Articolo: Modifica* presenta una serie di pannelli principalmente con la scelta tra *Utilizza Globale (Nascondi o Mostra)*, *Nascondi* o *Mostra*. La seguente schermata parziale mostra il layout generale.
 
-![Scheda opzioni modifica articolo](../../../en/images/articles/articles-edit-options-tab.png)
+![Scheda opzioni modifica articolo](../../../en/images/articles/article-options/01-articles-edit-options-tab.png)
 
 ## Pannello Layout
 

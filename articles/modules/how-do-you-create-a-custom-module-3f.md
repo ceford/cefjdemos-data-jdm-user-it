@@ -1,4 +1,11 @@
-<!-- Filename: How_do_you_create_a_custom_module%3F / Display title: Modulo Personalizzato   -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_you_create_a_custom_module%3F",
+  "title": "Modulo Personalizzato   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -50,7 +57,7 @@ Quando sei pronto, seleziona il pulsante **Salva e Chiudi**.
 Il modulo verrà pubblicato nella barra laterale del sito web e mostrerà
 il testo che hai inserito.
 
-![Esempio di Modulo Personalizzato](../../../en/images/modules/modules-custom-display.png)
+![Esempio di Modulo Personalizzato](../../../en/images/modules/how-do-you-create-a-custom-module-3f/01-modules-custom-display.png)
 
 *Tradotto da openai.com*
 

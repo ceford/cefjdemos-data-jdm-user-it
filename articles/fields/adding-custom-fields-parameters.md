@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields / Display title: Parametri del Campo  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Parametri del Campo  ",
+  "description": "", 
+  "author": ""
+}
+-->
 ## Modulo di Inserimento Dati dei Campi
 
 Nel modulo di inserimento dati dei campi sono disponibili 16 o più tipi di campi dalla lista di selezione Tipo. La maggior parte dei campi del modulo è uguale per tutti i tipi di campi, ma altri cambiano in base al tipo selezionato. Questo articolo descrive i parametri comuni per tutti i campi. Il modulo di inserimento dati è uguale anche per i campi di **Articolo**, **Contatto** e **Utente** e i loro campi di Categoria.
@@ -8,7 +15,7 @@ L'elenco dei campi inizialmente sarà vuoto. Per iniziare, ad esempio con i camp
 
 Il modulo si compone di un campo Titolo e quattro schede.
 
-![Parametro dei campi scheda generale](../../../en/images/fields/fields-parameters-general-tab.png)
+![Parametro dei campi scheda generale](../../../en/images/fields/adding-custom-fields-parameters/01-fields-parameters-general-tab.png)
 
 
 ## Titolo
@@ -64,7 +71,7 @@ appaiono come schede separate nel modulo di inserimento dati dell'Articolo.
 
 ### Scheda Opzioni
 
-![Parametri dei campi, scheda opzioni](../../../en/images/fields/fields-parameters-options-tab.png)
+![Parametri dei campi, scheda opzioni](../../../en/images/fields/adding-custom-fields-parameters/02-fields-parameters-options-tab.png)
 
 #### Opzioni del Modulo
 
@@ -124,13 +131,13 @@ di visualizzazione dell'elemento di contenuto. Questo potrebbe portare alla divu
 
 ### Scheda Pubblicazione
 
-![Parametri dei campi, scheda pubblicazione](../../../en/images/fields/fields-parameters-publishing-tab.png)
+![Parametri dei campi, scheda pubblicazione](../../../en/images/fields/adding-custom-fields-parameters/03-fields-parameters-publishing-tab.png)
 
 ### Scheda Permessi
 
 Le autorizzazioni per ciascun gruppo di utenti sono autoesplicative per le azioni *Elimina*, *Modifica* e *Modifica stato*. Le autorizzazioni indicano chi può fare cosa con l'intero campo, ad esempio eliminarlo, modificarlo o annullarne la pubblicazione.
 
-![Parametri dei campi, scheda permessi](../../../en/images/fields/fields-parameters-permissions-tab.png)
+![Parametri dei campi, scheda permessi](../../../en/images/fields/adding-custom-fields-parameters/04-fields-parameters-permissions-tab.png)
 
 L'autorizzazione *Modifica valore campo personalizzato* può creare confusione. Indica chi può modificare il contenuto del campo. Per impostazione predefinita, è configurata su **Non consentito (Ereditato)** per tutti i gruppi, tranne che per i Super User. Due esempi:
 

@@ -1,4 +1,11 @@
-<!-- Filename: Help4.x:Components_Privacy_Outline / Display title: Schema della Privacy -->
+<!--
+{
+  "source": "https://docs.joomla.org/Help4.x:Components_Privacy_Outline",
+  "title": "Schema della Privacy ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Contenuto
 

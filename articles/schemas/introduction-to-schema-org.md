@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org / Display title: Introduzione agli Schemi -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Introduzione agli Schemi ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Rich Snippets
 
@@ -18,7 +25,7 @@ In Joomla, i Rich Snippets vengono generati utilizzando il markup dei dati strut
 
 Per iniziare, vai su **Sistema -> Plugin** e abilita il plugin *Sistema - Schema.org*. Se questo plugin non è abilitato, non ci sarà la scheda Schema in un modulo di modifica articolo, anche se tutti i singoli plugin sono abilitati.
 
-![List of schema plugins](../../../en/images/schemas/schema-plugins-list.png)
+![List of schema plugins](../../../en/images/schemas/introduction-to-schema-org/01-schema-plugins-list.png)
 
 ### Modifica Sistema - Plugin Schema.org
 
@@ -28,13 +35,13 @@ Per iniziare, vai su **Sistema -> Plugin** e abilita il plugin *Sistema - Schema
 - **Account social media** Aggiungi gli account social media della tua azienda o personali. Seleziona il pulsante verde con il segno più per aggiungere righe al modulo.
 - Seleziona **Salva e Chiudi**.
 
-![edit system schema org plugin](../../../en/images/schemas/edit-system-schema-org-plugin.png)
+![edit system schema org plugin](../../../en/images/schemas/introduction-to-schema-org/02-edit-system-schema-org-plugin.png)
 
 ### Modifica un articolo
 
 Vai a uno qualsiasi dei tuoi articoli e compila i campi del modulo Schema. Se il *Tipo di Schema* è impostato su *Nessuno*, l'impostazione predefinita, non ci sono campi da completare. Seleziona qualsiasi Schema per vedere un elenco di campi appropriati per quello schema. Lo screenshot seguente mostra un articolo con lo schema Articolo selezionato:
 
-![edit article scheme form](../../../en/images/schemas/schema-form-in-an-article.png)
+![edit article scheme form](../../../en/images/schemas/introduction-to-schema-org/03-schema-form-in-an-article.png)
 
 ### Output
 

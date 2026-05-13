@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org / Display title: Schema.org - Organizzazione -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Organizzazione ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Scopo
 
@@ -17,7 +24,7 @@ La sezione *Campo Generico* consente di inserire coppie di *Titolo* e *Valore* i
 
 Di seguito è riportato un esempio di schema dell'Organizzazione in un modulo di modifica dell'Articolo.
 
-![An organisation schema edit form](../../../en/images/schemas/edit-schema-organisation.png)
+![An organisation schema edit form](../../../en/images/schemas/organisation/01-edit-schema-organisation.png)
 
 *Tradotto da openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: Monitoring_SEO / Display title: Monitoraggio SEO  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Monitoring_SEO",
+  "title": "Monitoraggio SEO  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Perché Monitorare il Tuo Sito?
 
@@ -44,11 +51,11 @@ La potenza dei segmenti personalizzati è enorme. Ti consente di includere e esc
 
 Per iniziare a utilizzare un Segmento Personalizzato, basta cliccare sulla freccia in alto alla pagina per visualizzare i segmenti personalizzati disponibili (delimitati in rosso). Se non ne hai nessuno disponibile, puoi crearne uno tuo o importare segmenti esistenti dalla Galleria di Google Analytics (delimitata in blu).
 
-![Segmenti personalizzati di Google Analytics](../../../en/images/seo/seo-google-analytics-custom-segments.png)
+![Segmenti personalizzati di Google Analytics](../../../en/images/seo/monitoring-seo/01-seo-google-analytics-custom-segments.png)
 
 Una volta scelti i segmenti che desideri utilizzare, premi applica e verranno applicati ai dati che stai visualizzando. Di seguito puoi vedere i filtri applicati per mostrare uno, due, tre e più di tre parole chiave.
 
-![Parole chiave dei segmenti personalizzati di Google Analytics](../../../en/images/seo/seo-google-analytics-custom-segments-keywords.png)
+![Parole chiave dei segmenti personalizzati di Google Analytics](../../../en/images/seo/monitoring-seo/02-seo-google-analytics-custom-segments-keywords.png)
 
 ### Dashboard
 
@@ -58,7 +65,7 @@ Le dashboard possono essere usate per qualsiasi scopo e puoi creare (e condivide
 
 Per iniziare, espandi semplicemente la sezione Dashboard del tuo profilo Analytics
 
-![Dashboard di Google Analytics](../../../en/images/seo/seo-google-anaytics-dashboard.png)
+![Dashboard di Google Analytics](../../../en/images/seo/monitoring-seo/03-seo-google-anaytics-dashboard.png)
 
 ### La Galleria di Google Analytics
 

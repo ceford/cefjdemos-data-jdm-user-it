@@ -1,11 +1,18 @@
-<!-- Filename: J4.x:Site_Offline / Display title: Sito Offline -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Site_Offline",
+  "title": "Sito Offline ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Solo Utenti del Sito
 
 Ci possono essere occasioni in cui è necessario rendere il tuo sito Joomla! 
 non disponibile ai visitatori per un breve periodo. Esiste un semplice interruttore di configurazione **Sito Non Disponibile** per questo scopo, che può essere cambiato da **No** a **Sì** secondo necessità. Quando è impostato su *Sì*, tutti i visitatori del sito vedono una pagina di messaggio offline con un modulo di login. Il modulo predefinito Offline può essere personalizzato con un'immagine:
 
-![Schermata sito non disponibile](../../../en/images/configuration/site-offline.png)
+![Schermata sito non disponibile](../../../en/images/configuration/site-offline/01-site-offline.png)
 
 L'interruttore Sito Non Disponibile non si applica all'interfaccia amministrativa e gli utenti che possono accedere al backend possono continuare a fare login anche al frontend. L'accesso al frontend è negato solo agli utenti nei gruppi di utenti Registrato, Autore, Editore e Pubblicatore.
 
