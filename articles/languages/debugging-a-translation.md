@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Debugging_a_translation",
-  "title": "Debugging di una Traduzione  ",
+  "title": "Debugging di una Traduzione ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Installing_Joomla_using_an_Auto_Installer",
-  "title": "Installazione dell'Installatore Automatico  ",
+  "title": "Installazione dell'Installatore Automatico ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
-  "title": "Campo di colore ",
+  "title": "Campo di colore",
   "description": "", 
   "author": ""
 }

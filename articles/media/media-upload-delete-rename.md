@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename",
-  "title": "Carica Elimina Rinomina ",
+  "title": "Carica Elimina Rinomina",
   "description": "", 
   "author": ""
 }

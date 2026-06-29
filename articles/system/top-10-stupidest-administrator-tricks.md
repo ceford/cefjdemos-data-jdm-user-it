@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks",
-  "title": "I 10 Trucchi Più Stupidi   ",
+  "title": "I 10 Trucchi Più Stupidi  ",
   "description": "", 
   "author": ""
 }

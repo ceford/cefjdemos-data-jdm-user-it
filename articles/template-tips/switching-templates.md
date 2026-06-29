@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Switching_Templates",
-  "title": "Modifica dei modelli   ",
+  "title": "Modifica dei modelli  ",
   "description": "", 
   "author": ""
 }

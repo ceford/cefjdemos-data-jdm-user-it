@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/No_original_yet",
-  "title": "Hosting Locale su Linux ",
+  "title": "Hosting Locale su Linux",
   "description": "", 
   "author": ""
 }

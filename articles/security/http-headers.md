@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/https:",
-  "title": "Intestazioni HTTP   ",
+  "title": "Intestazioni HTTP  ",
   "description": "", 
   "author": ""
 }

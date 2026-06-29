@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Preview",
-  "title": "Articolo: Anteprima   ",
+  "title": "Articolo: Anteprima  ",
   "description": "", 
   "author": ""
 }

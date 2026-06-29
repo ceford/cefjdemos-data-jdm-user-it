@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Optional_Technical_Requirements",
-  "title": "Requisiti Tecnici Opzionali ",
+  "title": "Requisiti Tecnici Opzionali",
   "description": "", 
   "author": ""
 }

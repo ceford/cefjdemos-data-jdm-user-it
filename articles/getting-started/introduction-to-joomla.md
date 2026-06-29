@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Introduction_to_Joomla!",
-  "title": "Introduzione a Joomla!   ",
+  "title": "Introduzione a Joomla!  ",
   "description": "", 
   "author": ""
 }

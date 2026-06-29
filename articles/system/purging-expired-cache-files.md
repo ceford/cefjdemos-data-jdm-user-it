@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Purging_expired_cache_files",
-  "title": "Purgare la cache scaduta  ",
+  "title": "Purgare la cache scaduta ",
   "description": "", 
   "author": ""
 }

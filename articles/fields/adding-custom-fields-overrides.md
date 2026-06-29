@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
-  "title": "Esempio di Sovrascritture del Modello ",
+  "title": "Esempio di Sovrascritture del Modello",
   "description": "", 
   "author": ""
 }

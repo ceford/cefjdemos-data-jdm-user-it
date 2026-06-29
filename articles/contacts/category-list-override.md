@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/category-list-override.md",
-  "title": "Elenco delle Categorie Sovrascritte  ",
+  "title": "Elenco delle Categorie Sovrascritte ",
   "description": "", 
   "author": ""
 }

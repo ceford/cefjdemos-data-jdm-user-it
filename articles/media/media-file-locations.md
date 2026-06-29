@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Media_File_Locations",
-  "title": "Posizioni dei File Multimediali ",
+  "title": "Posizioni dei File Multimediali",
   "description": "", 
   "author": ""
 }

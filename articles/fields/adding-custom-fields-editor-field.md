@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
-  "title": "Campo dell'editor ",
+  "title": "Campo dell'editor",
   "description": "", 
   "author": ""
 }

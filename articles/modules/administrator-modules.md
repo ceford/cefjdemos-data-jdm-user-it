@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Administrator_Modules",
-  "title": "Moduli Amministratore   ",
+  "title": "Moduli Amministratore  ",
   "description": "", 
   "author": ""
 }

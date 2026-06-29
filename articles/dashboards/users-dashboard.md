@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Users_Dashboard",
-  "title": "Pannello di Controllo degli Utenti ",
+  "title": "Pannello di Controllo degli Utenti",
   "description": "", 
   "author": ""
 }

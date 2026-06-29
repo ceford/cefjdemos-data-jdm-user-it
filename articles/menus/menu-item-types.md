@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Menu_Item_Types",
-  "title": "Tipi di Voci di Menu  ",
+  "title": "Tipi di Voci di Menu ",
   "description": "", 
   "author": ""
 }

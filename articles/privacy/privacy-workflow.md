@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Privacy_Workflow",
-  "title": "Flusso di lavoro sulla privacy  ",
+  "title": "Flusso di lavoro sulla privacy ",
   "description": "", 
   "author": ""
 }

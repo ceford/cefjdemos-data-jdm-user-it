@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Help",
-  "title": "Dashboard di Aiuto ",
+  "title": "Dashboard di Aiuto",
   "description": "", 
   "author": ""
 }

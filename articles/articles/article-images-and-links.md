@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Article_Images_and_Links",
-  "title": "Articolo: Modifica - Immagini e Collegamenti  ",
+  "title": "Articolo: Modifica - Immagini e Collegamenti ",
   "description": "", 
   "author": ""
 }

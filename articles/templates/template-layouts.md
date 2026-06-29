@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Template_Layouts",
-  "title": "Layout dei Modelli  ",
+  "title": "Layout dei Modelli ",
   "description": "", 
   "author": ""
 }

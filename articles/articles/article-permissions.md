@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Access_Control",
-  "title": "Articolo: Modifica - Autorizzazioni ",
+  "title": "Articolo: Modifica - Autorizzazioni",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Headings",
-  "title": "Articolo: Modifica - Intestazioni ",
+  "title": "Articolo: Modifica - Intestazioni",
   "description": "", 
   "author": ""
 }

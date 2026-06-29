@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Articles_and_categories",
-  "title": "Concetti di Base ",
+  "title": "Concetti di Base",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Read_More_Links",
-  "title": "Articolo: Modifica - Leggi di più ",
+  "title": "Articolo: Modifica - Leggi di più",
   "description": "", 
   "author": ""
 }

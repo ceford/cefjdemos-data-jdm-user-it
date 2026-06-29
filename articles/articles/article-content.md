@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Adding_a_New_Article",
-  "title": "Articolo: Modifica - Contenuto  ",
+  "title": "Articolo: Modifica - Contenuto ",
   "description": "", 
   "author": ""
 }

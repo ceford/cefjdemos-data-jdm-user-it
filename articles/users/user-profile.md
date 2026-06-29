@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:User_Profile",
-  "title": "Profilo Utente ",
+  "title": "Profilo Utente",
   "description": "", 
   "author": ""
 }

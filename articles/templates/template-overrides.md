@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Template_Overrides",
-  "title": "Sovrascritture del Modello   ",
+  "title": "Sovrascritture del Modello  ",
   "description": "", 
   "author": ""
 }

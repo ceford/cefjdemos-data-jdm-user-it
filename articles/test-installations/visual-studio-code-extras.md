@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Visual_Studio_Code",
-  "title": "Extra di Visual Studio Code ",
+  "title": "Extra di Visual Studio Code",
   "description": "", 
   "author": ""
 }

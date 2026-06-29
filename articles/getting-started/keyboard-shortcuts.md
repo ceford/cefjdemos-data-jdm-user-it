@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Keyboard_Shortcuts",
-  "title": "Scorciatoie da Tastiera  ",
+  "title": "Scorciatoie da Tastiera ",
   "description": "", 
   "author": ""
 }

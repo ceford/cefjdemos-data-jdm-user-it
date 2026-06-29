@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Content_Dashboard",
-  "title": "Dashboard dei Contenuti ",
+  "title": "Dashboard dei Contenuti",
   "description": "", 
   "author": ""
 }

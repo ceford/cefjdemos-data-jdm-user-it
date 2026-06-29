@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Content_editors",
-  "title": "Plugin TinyMCE  ",
+  "title": "Plugin TinyMCE ",
   "description": "", 
   "author": ""
 }

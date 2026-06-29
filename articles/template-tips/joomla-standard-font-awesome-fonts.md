@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Joomla_Standard_Font_Awesome_Fonts",
-  "title": "Font straordinari di Font Awesome   ",
+  "title": "Font straordinari di Font Awesome  ",
   "description": "", 
   "author": ""
 }

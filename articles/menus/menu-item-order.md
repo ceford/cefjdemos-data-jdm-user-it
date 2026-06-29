@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Menu_Item_Order",
-  "title": "Ordine degli Articoli del Menu  ",
+  "title": "Ordine degli Articoli del Menu ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item",
-  "title": "Aggiungere un'Voce di Menu ",
+  "title": "Aggiungere un'Voce di Menu",
   "description": "", 
   "author": ""
 }

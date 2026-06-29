@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Entering_raw_HTML_in_editors",
-  "title": "Filtri HTML  ",
+  "title": "Filtri HTML ",
   "description": "", 
   "author": ""
 }

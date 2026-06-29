@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
-  "title": "Tag dei Contenuti   ",
+  "title": "Tag dei Contenuti  ",
   "description": "", 
   "author": ""
 }

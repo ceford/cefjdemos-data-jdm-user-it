@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Lists",
-  "title": "Articolo: Modifica - Elenchi  ",
+  "title": "Articolo: Modifica - Elenchi ",
   "description": "", 
   "author": ""
 }

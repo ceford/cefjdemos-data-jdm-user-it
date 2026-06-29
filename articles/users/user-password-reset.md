@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:User_Password_Reset",
-  "title": "Reimpostazione Password Utente  ",
+  "title": "Reimpostazione Password Utente ",
   "description": "", 
   "author": ""
 }

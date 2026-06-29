@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Setup_a_Multilingual_Site",
-  "title": "Configurare un Sito Multilingue  ",
+  "title": "Configurare un Sito Multilingue ",
   "description": "", 
   "author": ""
 }

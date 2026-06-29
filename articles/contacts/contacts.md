@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/contacts.md",
-  "title": "Contatti ",
+  "title": "Contatti",
   "description": "", 
   "author": ""
 }

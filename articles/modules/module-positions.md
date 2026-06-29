@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Module_Positions",
-  "title": "Posizioni dei Moduli   ",
+  "title": "Posizioni dei Moduli  ",
   "description": "", 
   "author": ""
 }

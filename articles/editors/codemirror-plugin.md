@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Content_editors",
-  "title": "Plugin Codemirror ",
+  "title": "Plugin Codemirror",
   "description": "", 
   "author": ""
 }

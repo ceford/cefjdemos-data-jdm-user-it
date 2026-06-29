@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J5.x:Managing_Mail_Template_Layout",
-  "title": "Modelli di Posta Elettronica ",
+  "title": "Modelli di Posta Elettronica",
   "description": "", 
   "author": ""
 }
