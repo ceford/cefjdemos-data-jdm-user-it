@@ -44,7 +44,16 @@ Esistono vari Strumenti per Webmaster che possono essere utilizzati per identifi
 
 [Articolo di supporto Google sull'uso dei titoli per le tue pagine web](http://support.google.com/webmasters/bin/answer.py?hl=it&amp;answer=35624)
 
-In Joomla, per una singola pagina il titolo dell'articolo diventa il titolo della pagina utilizzato nella testa e visualizzato nella scheda del browser. Per una pagina composita, come *Articoli in Evidenza* o un *Blog di Categoria*, il Titolo della voce di menu diventa il titolo della pagina. Pertanto, è necessario riflettere attentamente sulla composizione di buoni titoli descrittivi sia per gli articoli sia per le voci di menu.
+### Priorità per i titoli della pagina
+
+In Joomla, il titolo della pagina (metadata) utilizzato nella sezione `<head>` e visualizzato nella scheda del browser viene ricavato da una delle seguenti fonti, secondo questo ordine di priorità:
+
+1. Voce di menu > Visualizzazione pagina > Titolo pagina nel browser (se impostato nel modulo)
+2. Articolo > Opzioni > Titolo pagina nel browser (se impostato nel modulo)
+3. Titolo dell'articolo (per un singolo articolo privo di voce di menu associata)
+4. Titolo della voce di menu (per una pagina composta, come *Articoli in evidenza* o *Blog categoria*)
+
+È quindi importante dedicare la giusta attenzione alla creazione di titoli descrittivi efficaci, sia per gli articoli che per le voci di menu.
 
 ## Descrizione della Pagina
 
