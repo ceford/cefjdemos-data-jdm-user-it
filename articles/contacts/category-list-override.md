@@ -1,71 +1,97 @@
 <!--
 {
-  "source": "https://docs.joomla.org/category-list-override.md",
-  "title": "Elenco delle Categorie Sovrascritte ",
-  "description": "", 
-  "author": ""
+    "source": "https://docs.joomla.org/category-list-override.md",
+    "title": "Override dell\u2019elenco delle categorie",
+    "description": "Scopri come creare un override del template per migliorare il layout di un elenco di contatti in una categoria ",
+    "author": ""
 }
 -->
 
-## Voce di Menu "Elenca Contatti in una Categoria"
+## L'elenco dei contatti in una categoria
 
-Può essere un'opinione personale, ma per me il layout predefinito dell'elenco delle categorie di Contatti non è del tutto soddisfacente. I miei problemi:
+Il layout predefinito dei contatti in una categoria è controllato da un template nel codice del componente 
+com_contacts. Il layout predefinito è simile al seguente:
 
-* Le foto dei contatti sono troppo grandi, poco meno di 500 pixel di larghezza.
-* Il nome del contatto non è sufficientemente enfatizzato.
-* L'elenco puntato dei dettagli personali non ha un'intestazione e sembra isolato.
-* La posizione non ha un'intestazione, quindi può sembrare isolata.
+![comitato culturale che utilizza il layout e lo stile predefiniti](../../../en/images/contacts/category-list-override/01-contacts-culture-committee.png)
+
+Potrebbe essere un'opinione personale, ma per me il layout predefinito dei contatti non è del tutto 
+soddisfacente. I miei problemi:
+
+* Le immagini dei ritratti originali erano larghe 500 pixel e risultavano molto dominanti.
+* Il nome del contatto non è sufficientemente evidenziato.
+* L'elenco puntato dei dati personali non ha un'intestazione e appare isolato.
+* Il ruolo della persona non ha un'intestazione.
 * I campi dell'indirizzo e del codice postale sono assenti.
 * I dati sulla posizione sono incompleti.
-* La dichiarazione personale è mancante.
-* L'elenco è disposto in una tabella che si adatta un po' meglio su schermi stretti ma è piuttosto affollato.
+* I dati di ciascun contatto sono disposti in una tabella e risultano piuttosto compressi sugli schermi stretti.
 
-Allora, come risolverlo a mio piacimento?
+Quindi, come posso correggerlo secondo i miei gusti? La mia soluzione consiste nel creare un override del template 
+e aggiungere alcuni stili personalizzati. Ecco il risultato:
+![comitato aziendale che utilizza una sostituzione del modello e stili personalizzati](../../../en/images/contacts/category-list-override/02-contacts-business-committee.png)
 
-## Stile
+## Sostituzione del layout del modello
 
-L'immagine ha lo stile CSS `contact-thumbnail img-thumbnail`. Gli Strumenti
-per Sviluppatori del browser indicano che img-thumbnail è impostato su `max-width: 100%;`
-ma contact-thumbnail non viene utilizzato. L'unica occorrenza di questo stile
-in tutto il sito si trova in questa posizione, quindi sembra sicuro impostare un override in
-user.css per limitare la larghezza dell'immagine. E la dimensione del font del nome di contatto può essere
-aumentata utilizzando il tag `a` racchiudente:
+La cartella com_contact/tmpl/category contiene tre file PHP: default.php,
+default_children.php e default_items.php. L'ultimo elemento di questo elenco contiene
+il layout della tabella per l'elenco.
+
+I file di sostituzione vengono creati tramite Sistema / Modelli del sito / Dettagli e file
+di Cassiopeia / Crea sostituzioni. Selezionare com_contact e quindi category.
+La cartella html conterrà quindi com_contact/category con i tre file del modello
+menzionati sopra.
+
+### Modifica il file default.php in mydefault.php
+
+Il file `default.php` contiene una riga che specifica quale layout utilizzare per 
+ciascun record. Seleziona questo file per modificarlo e **rinominalo** in 
+`mydefault.php` (oppure usa qualsiasi prefisso desideri al posto di `my`). Non usare 
+un carattere di sottolineatura nel nome del file!
+
+Quando in seguito accederai al modulo Contatti / Categoria / Modifica, il campo Layout
+della scheda Opzioni ti consentirà di scegliere tra il layout del componente e il layout
+sovrascritto. Sarà simile a questo:
 
 ```
-.contact-thumbnail {
-  max-width: 200px;
-  margin-right: 1rem;
-}
-a:has(.contact-thumbnail) {
-  font-weight: 700;
-  font-size: larger;
-}
+---From Global Options---
+  Use Global
+---From Component---
+  Default
+---From cassiopeia Template---
+  mydefault
+
 ```
-L'elenco puntato dei campi personalizzati può essere migliorato rimuovendo i punti e
-la spaziatura selezionando solo gli elenchi puntati che appaiono all'interno di un tag che ha una
-classe di contactList:
+
+### Modifica il file mydefault.php
+
+La riga 20 di `mydefault.php` contiene `$this->subtemplatename = 'items';`.
+Modifica `items` in `myitems`, in modo che le righe dalla 18 alla 23 siano le seguenti:
+
+```html
+<div class="com-contact-category">
+    <?php
+        $this->subtemplatename = 'myitems';
+        echo LayoutHelper::render('joomla.content.category_default', $this);
+    ?>
+</div>
 ```
-#contactList ul {
-  list-style-type: none;
-  padding-left: 0;
-}
+
+### Modificare il file default_items.php in mydefault_myitems.php
+
+Il file `default_items.php` contiene il layout per ogni contatto. Deve essere
+rinominato per mantenere l'opzione di utilizzare il layout originale. La prima
+parte del nome è irrilevante. È la parte `myitems`, a cui si fa riferimento nel
+file `mydefault.php`, a essere utilizzata per il layout.
+
+### Modificare il file mydefault_myitems.php
+
+La sezione `<table>...</table>` di questo file comprende le righe dalla 85 alla
+204. Per la sostituzione del layout, ho sostituito il markup della tabella con il
+seguente markup della griglia Bootstrap. Sugli schermi stretti le tre colonne
+vengono impilate. Sugli schermi con larghezza superiore a 768 pixel, le colonne
+sono affiancate. Il markup modificato ha spostato i campi personalizzati sotto il
+nome del contatto.
+
 ```
-![business committee stilizzato](../../../en/images/contacts/category-list-override/01-contact-business-committee-styled.png)
-
-Questo è tutto ciò che si può fare con lo stile. Meglio, ma ancora non abbastanza.
-Per aggiungere più elementi e modificare il layout sarà necessario un override del layout.
-
-## Sovrascrittura del Layout del Template
-
-La cartella com_contact/tmpl/category contiene tre file PHP: default.php, default_children.php e default_items.php. L'ultimo della lista contiene il layout della tabella per l'elenco.
-
-I file di sovrascrittura vengono creati tramite Sistema / Template Sito / Cassiopeia Dettagli e File / Crea Sovrascritture. Seleziona com_contact e poi category. La cartella html contiene quindi com_contact/category con i tre file del template menzionati sopra. Il default_items.php è quello da selezionare per l'editing. Le righe da 83 a 203 contengono la tabella utilizzata per il layout.
-
-Potrebbe non essere ovvio, ma $this->items è un array di membri della categoria e ogni membro contiene effettivamente tutti i dati di ciascun elemento, non solo quelli menzionati nelle impostazioni del menu.
-
-Il seguente è un sostituto per la sezione `<table>...</table>` del file default_items.php utilizzando una griglia Bootstrap. Su schermi stretti le tre colonne sono impilate. Su schermi più larghi di 768 pixel le colonne sono affiancate. Ulteriori spiegazioni seguono il codice.
-
-```php
 <div class="container-fluid text-center border border-2">
 <?php $nrows = 0; foreach ($this->items as $i => $item) : ?>
     <?php if ($item->published !== 1 ||
@@ -79,7 +105,7 @@ Il seguente è un sostituto per la sezione `<table>...</table>` del file default
                             'joomla.html.image',
                             [
                                 'src'   => $item->image,
-                                'alt'   => 'immagine ufficiale di ' . $item->name,
+                                'alt'   => 'official image of ' . $item->name,
                                 'class' => 'contact-thumbnail img-thumbnail',
                             ]
                         ); ?>
@@ -87,13 +113,16 @@ Il seguente è un sostituto per la sezione `<table>...</table>` del file default
                 <?php endif; ?>
             </div>
             <div class="col-12 col-md-3">
+                <div class="parliament-committee-fields">
                 <a href="<?php echo Route::_(RouteHelper::getContactRoute($item->slug, $item->catid, $item->language)); ?>">
                     <span class="fs-2"><?php echo $this->escape($item->name); ?></span>
                 </a>
+                    <?php echo $item->event->beforeDisplayContent; ?>
+                </div>
             </div>
             <div class="col-12 col-md-6 text-start">
                 <?php if ($this->params->get('show_position_headings') && !empty($item->con_position)) : ?>
-                    <strong>Posizione</strong><br>
+                    <strong><?php echo Text::_('COM_CONTACT_FIELD_INFORMATION_POSITION_LABEL'); ?></strong><br>
                     <?php echo $item->con_position; ?><br>
                 <?php endif; ?>
                 <?php if ($this->params->get('show_suburb_headings')) : ?>
@@ -110,7 +139,7 @@ Il seguente è un sostituto per la sezione `<table>...</table>` del file default
                     <?php if (!empty($item->postcode)) : ?>
                         <?php $location[] = $item->postcode; ?>
                     <?php endif; ?>
-                        <strong>Indirizzo</strong><br>
+                        <strong><?php echo Text::_('COM_CONTACT_FIELD_INFORMATION_ADDRESS_LABEL'); ?></strong><br>
                     <?php echo implode("<br>\n", $location); ?><br>
                 <?php endif; ?>
                 <?php if (!empty($item->misc)) : ?>
@@ -122,51 +151,47 @@ Il seguente è un sostituto per la sezione `<table>...</table>` del file default
 </div>
 ```
 
-### Spiegazione
+## Stile
 
-L'elenco di contatti potrebbe contenere elementi che non sono pubblicati, o che hanno date di inizio e fine non attuali. Devono essere esclusi dalla visualizzazione e serve un conteggio separato per mantenere l'alternanza dei colori di sfondo in ogni riga.
+Le classi di stile Bootstrap possono essere definite nel file `mydefault_myitems.php`.
+Ad esempio, `<span class="fs-2">...</span>` viene utilizzato per aumentare la dimensione
+del carattere del nome del contatto. È possibile aggiungere altri stili nel file `user.css`, ad esempio
+la personalizzazione degli elenchi puntati che compaiono solo all'interno di un tag con
+una classe `contactList`.
 
-Il tag img è reso come:
-```html
-<img src="/j51/images/parliament/Official_portrait_of_Liam_Byrne_crop_2.jpg"
-alt="immagine ufficiale di Liam Byrne" class="contact-thumbnail img-thumbnail"
-width="479" height="639" loading="lazy">
+Ecco gli stili inseriti nel file user.css per ottenere il layout
+del Comitato aziendale illustrato sopra.
+
 ```
-La classe `<span class="fs-2">...</span>` imposta il nome del contatto a dimensione font 2, che sarebbe la stessa di Heading 2.
-
-L'elemento `show_suburb_headings` viene utilizzato come proxy per mostrare l'intero indirizzo poiché alcuni degli elementi indirizzo singoli non hanno selettori Mostra/Nascondi nell'elemento del menu.
-
-### Stile Extra
-
-La versione a griglia dell'elenco contatti necessita di uno stile aggiuntivo in user.css:
-```css
 .contact-thumbnail {
   max-width: 200px;
   margin-right: 1rem;
 }
-
 a:has(.contact-thumbnail) {
   font-weight: 700;
   font-size: larger;
 }
-
 #contactList ul {
   list-style-type: none;
   padding-left: 0;
 }
-
 .cat-list-row0 {
   background-color: #efefef;
 }
-
 .cat-list-row0:hover, .cat-list-row1:hover  {
   background-color: #ddd;
 }
+div.parliament-committee-fields {
+  text-align: left;
+  margin-top: 1rem;
+}
+div.parliament-committee-fields ul.fields-container {
+  list-style-type: none;
+  padding-left: 0;
+}
+div.parliament-committee-fields ul.fields-container span.field-label {
+  font-weight: 700;
+}
 ```
 
-### Risultato
-
-![gridded business committee](../../../en/images/contacts/category-list-override/02-contact-business-committee-grid.png)
-
 *Tradotto da openai.com*
-

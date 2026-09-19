@@ -1,130 +1,161 @@
 <!--
 {
-  "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
-  "title": "Tag dei Contenuti  ",
-  "description": "", 
-  "author": ""
+    "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
+    "title": "Tag di contenuto",
+    "description": " ",
+    "author": ""
 }
 -->
 
 ## Introduzione
 
-I tag forniscono un modo facile e efficiente per organizzare e visualizzare i contenuti. Il **Componente Tag** consente di utilizzare i tag su diversi tipi di contenuti, inclusi articoli, categorie, contatti e newsfeed. Permette anche la creazione di tag genitori e figli.
+I tag offrono un modo semplice ed efficiente per organizzare e visualizzare i contenuti. 
+Il **componente Tag** consente di utilizzare singoli tag in diversi tipi di 
+contenuto, inclusi articoli, categorie, contatti e feed di notizie. Consente inoltre di creare tag principali e secondari.
 
-A differenza delle **Categorie** di Joomla, dove solo una categoria può essere assegnata a un elemento, è possibile assegnare più tag a un singolo elemento, ma non è obbligatorio assegnare tag agli elementi.
+A differenza delle **categorie** di Joomla, in cui è possibile assegnare un'unica categoria
+a un elemento, è possibile assegnare più tag a un singolo elemento, ma non è
+obbligatorio assegnare tag agli elementi.
 
-Una volta che un elemento è stato taggato con un tag specifico, cliccando sul pulsante del tag nel contenuto che mostra i tag si verrà indirizzati a una pagina che visualizza un elenco di tutti gli elementi che sono stati taggati con quel particolare tag. Per questo motivo, i tag sono spesso utilizzati come un modo per presentare elenchi *filtrati* di contenuti.
+Quando a un elemento viene assegnato un tag specifico, facendo clic sul pulsante del tag nei
+contenuti che visualizzano i tag si accede a una pagina che mostra un elenco di
+tutti gli elementi a cui è stato assegnato quel determinato tag. Per questo
+motivo, i tag vengono spesso utilizzati per presentare elenchi di contenuti *filtrati*.
 
-I tag possono essere aggiunti in diversi luoghi, offrendo flessibilità nella creazione dei tag.
+I tag possono essere aggiunti in diversi punti, offrendo flessibilità nella loro creazione.
 
 ## Considerazioni
 
-Prima di iniziare, considera lo scopo dei tag sul sito web, specialmente se altri aggiungeranno contenuti. A meno che non siano aggiunti e gestiti correttamente, i tag possono diventare controproducenti. I problemi comuni includono gli scrittori di contenuti che aggiungono nuovi tag non necessari e nomi di tag scritti male. Alcuni amministratori del sito potrebbero decidere di modificare i permessi di accesso in modo che solo utenti specifici possano aggiungere nuovi tag.
+Prima di iniziare, valutare lo scopo dei tag nel sito web, soprattutto
+se altre persone aggiungeranno contenuti. Se non vengono aggiunti e gestiti
+correttamente, i tag possono diventare controproducenti. Tra i problemi comuni vi sono
+l'aggiunta di nuovi tag non necessari da parte degli autori dei contenuti e i nomi dei tag
+con errori di ortografia. Alcuni amministratori del sito possono scegliere di modificare le autorizzazioni di accesso in modo che
+solo utenti specifici possano aggiungere nuovi tag.
 
-Quando i tag vengono creati, verranno visualizzati come link negli elementi taggati. Gli stili e le posizioni dei tag sono definiti dal template del sito. Spesso sono stilizzati come pulsanti o etichette.
+La schermata seguente mostra i tag utilizzati in un sito contenente articoli sui
+siti patrimonio dell'umanità dell'UNESCO. In questo caso ogni tag ha un colore distintivo. 
 
-La visualizzazione dei tag potrebbe essere disattivata! Questo potrebbe sembrare illogico, ma è una funzione utile quando i tag vengono usati, ad esempio, per filtrare il contenuto per casi d'uso specifici.
+![la pagina dell'elenco dei tag](../../../en/images/tags/content-tags/01-tags-example.png)
 
-## Elenco dei Tag
+Quando vengono creati, i tag vengono visualizzati come collegamenti negli elementi a cui sono assegnati. 
+Gli stili e le posizioni dei tag sono definiti dal template del sito. Spesso
+vengono visualizzati come pulsanti o etichette.
 
-- Seleziona **Componenti → Tag** dal menu Amministratore.
+La visualizzazione dei tag può essere disattivata per singoli articoli o per tutti gli articoli! Questo
+può sembrare illogico, ma è una funzione utile quando i tag vengono utilizzati, ad esempio,
+per filtrare i contenuti in base a casi d'uso specifici.
 
-![la pagina dell'elenco dei tag](../../../en/images/tags/content-tags/01-tags-list.png)
+## L'elenco dei tag
 
-Indipendentemente da come sono creati, i tag possono essere trovati in questo elenco.
+- Selezionare **Componenti → Tag** dal menu dell'amministratore.
 
-## Aggiunta di Tag
+Questa schermata mostra i tag in una struttura utilizzata per un sito multilingue.
+Ogni lingua ha un elenco di tag con un tag della lingua come elemento principale. 
+Il tag principale viene utilizzato nei moduli *Tag popolari* e *Tag simili*.
 
-### Tramite l'elenco Tag
+![la pagina dell'elenco dei tag](../../../en/images/tags/content-tags/02-tags-list.png)
 
-Seleziona il pulsante **Nuovo** nella toolbar dell'elenco dei tag.
+Indipendentemente dal modo in cui vengono creati, i tag sono disponibili in questo elenco.
 
-![nuovo tag chiamato predator](../../../en/images/tags/content-tags/02-new-tag-predator.png)
+- Selezionare il pulsante **Nuovo** nella barra degli strumenti per creare un nuovo tag.
+- Selezionare il **Titolo** di un tag per modificarne uno esistente.
 
-- **Titolo** Questo è l'unico campo *obbligatorio*.
-- **Alias** Questo viene creato dal Titolo al momento del salvataggio.
-- **Descrizione** È sempre meglio aggiungere una Descrizione. Viene visualizzata nei moduli dell'amministratore e può essere utile quando si utilizzano molti tag.
-- **Genitore** Lascia impostato su *Nessuno* se si tratta di un tag genitore principale. Oppure scegli un tag genitore dall'elenco se si tratta di un tag figlio.
-- **Stato** Questo campo è impostato su *Pubblicato* di default. Può essere impostato su *Non Pubblicato*, *Archiviato* o *Nel Cestino*.
-- **Accesso** Il livello di Accesso è Pubblico di default.
-- **Nota** e **Nota di Versione:** Se necessario, puoi aggiungere note.
-- **Salva & Chiudi** Il nuovo tag apparirà nell'elenco dei tag. Se stai creando più tag, puoi scegliere di cliccare **Salva & Nuovo** invece per crearne un altro.
+### La scheda Dettagli tag
 
-Una volta salvato, il tag sarà disponibile per l'uso nei vari tipi di contenuto che lo utilizzano.
+![modulo di modifica del tag, scheda delle opzioni con classi CSS bootstrap](../../../en/images/tags/content-tags/03-edit-tag-details-tab.png)
 
-### Dall'interno di un Articolo
+- **Titolo** Questo è l'unico campo *obbligatorio*. 
+- **Alias** Viene creato dal titolo al momento del salvataggio.
+- **Descrizione** È sempre consigliabile aggiungere una descrizione. Viene visualizzata nei
+  moduli dell'amministratore e può essere utile quando sono in uso molti tag.
+- **Principale** Lasciare impostato su *Nessuno* se si tratta di un tag che non ha un elemento principale. Oppure scegliere un
+  tag principale dall'elenco per rendere questo un tag secondario.
+- **Stato** Questo campo è impostato su *Pubblicato* per impostazione predefinita. Può essere impostato su
+  *Non pubblicato*, *Archiviato* o *Cestinato*.
+- **Accesso** Il livello di accesso è Pubblico per impostazione predefinita.
+- **Nota** e **Nota sulla versione:** Se necessario, è possibile aggiungere note.
+- **Salva e chiudi** Se si stanno creando più tag, è possibile selezionare **Salva e nuovo** per creare un nuovo tag.
 
-È possibile aggiungere nuovi tag mentre si crea o modifica un articolo. Nella scheda Contenuto dell'articolo, nel **Campo Tag**, inserisci il nome del nuovo tag e premi **Invio** per salvare e assegnare il tag all'articolo.
+### La scheda Opzioni
 
-### Dall'interno di una Categoria
+- **Layout** Potrebbero essere disponibili diversi layout tra cui scegliere; è anche possibile creare un layout personalizzato con un override del template.
+- **Classe CSS per il collegamento del tag** Per impostazione predefinita, i tag vengono visualizzati come pulsanti blu. È possibile inserire qui le dichiarazioni di classe per personalizzare l'aspetto dei tag e assegnare colori diversi a tag diversi. Esempio: `bg-danger-subtle border border-danger` sono classi Bootstrap che producono un pulsante rosa con un bordo rosso.
+- **Immagine teaser e immagine completa** Impostare le immagini per il tag: un'immagine teaser per l'elenco dei tag e/o un'immagine completa per la pagina del tag.
 
-I tag possono essere aggiunti durante la creazione o la modifica di una categoria. Nella scheda **Categoria**, inserisci il nome del tag nel **Campo Tag** e premi **Invio** per creare e assegnare il nuovo tag.
+![modulo di modifica del tag, scheda delle opzioni con classi CSS bootstrap](../../../en/images/tags/content-tags/04-edit-tag-options-tab.png)
 
-### Dall'interno di un Contatto
+### La scheda Pubblicazione
 
-I tag possono essere aggiunti durante la creazione o la modifica di un Contatto. Nella scheda **Nuovo/Modifica Contatto**, inserisci il nome del tag nel **Campo Tag** e premi **Invio** per creare e assegnare il nuovo tag. Puoi anche aggiungere nuovi tag durante la creazione di Categorie di Contatti.
+- Impostare i metadati per la pagina del tag ai fini dell'ottimizzazione per i motori di ricerca (SEO).
 
-### Dall'interno di un Feed di Notizie
+## Metodi alternativi di creazione
 
-I tag possono essere aggiunti durante la creazione o la modifica di un nuovo Feed di Notizie. Nella scheda **Nuovo/Modifica Feed di Notizie**, inserisci il nome del tag nel **Campo Tag** e premi **Invio** per creare e assegnare il nuovo tag. Puoi anche aggiungere nuovi tag durante la creazione di Categorie di Feed di Notizie.
+### Da un articolo
 
-## Gestione dei Tag
+È possibile aggiungere nuovi tag durante la creazione o la modifica di un articolo. Nella
+scheda Contenuto dell'articolo, nel **Campo Tag**, inserire il nome del nuovo tag e
+premere **Invio** per salvare e assegnare il tag all'articolo.
 
-Ogni volta che aggiungi nuovi Tag all'interno di Joomla, essi appariranno tutti nella lista dei Tag. Usa la lista dei Tag per trovare, aprire e regolare le impostazioni dei tag.
+### Da una categoria
 
-### Il Filtro della Lista dei Tag
+I tag possono essere aggiunti durante la creazione o la modifica di una categoria. Nella scheda **Categoria**
+inserire il nome del tag nel **Campo Tag** e premere **Invio** per creare
+e assegnare il nuovo tag.
 
-![filtro della lista dei tag per tipo](../../../en/images/tags/content-tags/03-tags-list-filter.png)
+### Da un contatto
 
-Puoi manipolare la lista in diversi modi:
+I tag possono essere aggiunti durante la creazione o la modifica di un contatto. Nella 
+scheda **Nuovo/Modifica contatto**, inserire il nome del tag nel **Campo Tag** e premere 
+**Invio** per creare e assegnare il nuovo tag. È inoltre possibile aggiungere nuovi tag durante la creazione delle categorie di contatti.
 
-- Cerca un tag utilizzando parte o tutto il suo titolo nel campo di ricerca.
-- Riordina la lista utilizzando il drag and drop per ottimizzare l'ordine di output.
-- Pubblica o Sospendi la pubblicazione dei tag utilizzando il pulsante nella colonna di Stato.
-- Seleziona uno o più tag e utilizza il pulsante **Azioni** per Pubblicare, Sospendere la pubblicazione, Archiviare, Verificare o Cestinare i tag selezionati.
-- Seleziona uno o più tag e utilizza il pulsante **Azioni → Blocco** per impostare la Lingua o il Livello di Accesso.
+### Da un feed di notizie
 
-### Impostazioni del Tag
+I tag possono essere aggiunti durante la creazione o la modifica di un nuovo feed di notizie. Nella scheda 
+**Nuovo/Modifica feed di notizie**, inserire il nome del tag nel **campo Tag** e premere
+**Invio** per creare e assegnare il nuovo tag. È inoltre possibile aggiungere nuovi tag durante 
+la creazione delle categorie dei feed di notizie.
 
-- Seleziona un **Titolo** del tag per apportare modifiche alle sue impostazioni.
+## Gestione dei tag
 
-Nel modulo di modifica del tag:
+Ovunque vengano aggiunti nuovi tag in Joomla, questi compariranno nell'elenco dei tag.
+Utilizzare l'elenco dei tag per trovare, aprire e modificare le impostazioni dei tag.
 
-- Le impostazioni della scheda **Dettagli del Tag** sono state trattate sopra.
-- La scheda **Opzioni**:
-  - Cambia il layout della pagina del tag (la pagina che appare quando
-    clicchi sul link del tag - ad esempio, miosito.com/tags/il-mio-tag). Questo
-    layout è normalmente l'impostazione predefinita e dipende dal tema.
-  - Aggiungi una Classe CSS per applicare uno stile (aspetto) diverso al link
-    per il tag. Questo sarebbe normalmente utilizzato solo dall'Amministratore
-    del sito.
-  - Imposta le immagini per il tag - un'immagine teaser per la lista dei tag e/o un'immagine completa per la pagina del tag.
-- La scheda **Pubblicazione**: Imposta i Metadati per la pagina del tag per l'Ottimizzazione per i Motori di Ricerca (SEO).
+È possibile manipolare l'elenco in diversi modi:
 
-## Come Joomla Visualizza i Tag
+- Cercare un tag utilizzando nel campo di ricerca una parte o tutto il titolo o l'alias.
+- Riordinare l'elenco utilizzando il trascinamento per ottimizzare l'ordine di visualizzazione.
+- Pubblicare o sospendere la pubblicazione dei tag utilizzando il pulsante nella colonna Stato.
+- Selezionare uno o più tag e utilizzare il pulsante **Azioni** per Pubblicare, Sospendere la pubblicazione, Archiviare, Registrare o Cestinare i tag selezionati.
+- Selezionare uno o più tag e utilizzare il pulsante **Azioni → Batch** per impostare la Lingua o il Livello di accesso.
 
-Una volta creati i tag sul tuo sito, saranno disponibili per l'uso non solo nei contenuti, ma anche in alcuni utili moduli come **Tag Popolari** e **Tag Simili**. I seguenti esempi mostrano come appaiono in un'installazione standard utilizzando il template predefinito **Cassiopeia**.
+## Visualizzazione dei tag
 
-![esempio di utilizzo dei tag sito labrador giallo](../../../en/images/tags/content-tags/04-tag-examples-yellow-labrador.png)
+Una volta creati, i tag sono disponibili per l'uso nei contenuti e in moduli come **Tag popolari** e **Tag simili**. Gli esempi seguenti mostrano come potrebbero apparire in un sito che utilizza il template predefinito **Cassiopeia**.
 
-Quando clicchi su uno dei tag, sarai portato a una pagina che elenca tutti gli elementi assegnati a quel particolare tag:
+![tag visualizzati in un articolo e nei moduli dei tag popolari e dei tag simili](../../../en/images/tags/content-tags/05-tag-modules-site-view.png)
 
-![esempio di utilizzo dei tag sito labrador nero](../../../en/images/tags/content-tags/05-tag-examples-black-labrador.png)
+Quando si seleziona uno dei tag, si viene indirizzati a una pagina che elenca
+tutti gli elementi assegnati a quel particolare tag:
 
-Cliccando su un tag verrai portato a una pagina che visualizza un elenco di tutti gli elementi assegnati a quel particolare tag - in pratica è una lista filtrata del contenuto del tuo sito web taggato. È fornita una casella di filtro per facilitare la ricerca degli elementi man mano che la lista cresce. Puoi anche impostare il numero di risultati che desideri vedere in una singola vista.
+![esempio dell'utilizzo dei tag nel sito con un labrador nero](../../../en/images/tags/content-tags/06-items-with-cultural-site-tag.png)
 
-## Configurazione dei Tag
+L'elenco degli elementi è un elenco filtrato dei contenuti del sito web con il tag selezionato.
+Viene fornita una casella di filtro per facilitare la ricerca degli elementi man mano che l'elenco cresce. 
+È inoltre possibile impostare il numero di risultati da visualizzare in un'unica schermata.
 
-I singoli tag ereditano le impostazioni dalle opzioni del componente Tag. Questo
-argomento è trattato in un tutorial separato. [DaFare] Seleziona il pulsante **Opzioni** nella barra degli strumenti della pagina dell'elenco Tag.
+## Configurazione dei tag
 
-La configurazione del componente Tag può essere sovrascritta a livello di voce di menu.
+I singoli tag ereditano le impostazioni dalle opzioni del componente Tag. Selezionare il pulsante 
+**Opzioni** nella barra degli strumenti della pagina dell'elenco dei tag per visualizzare le opzioni predefinite
+disponibili per i tag.
+
+Le opzioni di configurazione del componente Tag possono essere sostituite a livello di elemento di contenuto e/o di voce di menu.
 
 ## Suggerimenti
 
-- Ricorda che i Tag sono utilizzati in diversi tipi di contenuti
-- Puoi aggiungere più di un Tag a un elemento
-- Usa il pulsante Guida se non sei sicuro
+- Ricordare che i tag vengono utilizzati in più tipi di contenuto.
+- È possibile aggiungere più di un tag a un elemento.
+- Utilizzare il pulsante Guida della barra degli strumenti in caso di dubbi.
 
 *Tradotto da openai.com*
-

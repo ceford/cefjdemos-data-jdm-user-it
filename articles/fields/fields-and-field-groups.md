@@ -21,7 +21,7 @@ Se un campo non è assegnato a un gruppo, apparirà nel modulo di modifica sotto
 
 Per gli articoli sulla Natura, la categoria dell'articolo e le sotto-categorie per ciascun ramo del mondo vivente potrebbero apparire come nel seguente esempio:
 
-![Categorie degli articoli sulla natura](../../../en/images/fields/fields-and-field-groups/01-fields-articles-categories-list.png)
+![Categorie degli articoli sulla natura](../../../en/images/fields/fields-and-field-groups/01-categories-list.png)
 
 Alcune caratteristiche evidenti della Natura da notare:
 
@@ -45,7 +45,7 @@ Creare Gruppi di Campi per gli Articoli è molto semplice:
   dell'articolo quando è selezionata l'opzione *Attiva Aiuto Inlinea*.
 - Seleziona **Salva & Chiudi** dalla barra degli strumenti.
 
-![Elenco dei gruppi di campi di contenuto](../../../en/images/fields/fields-and-field-groups/02-fields-field-groups-list.png)
+![Elenco dei gruppi di campi di contenuto](../../../en/images/fields/fields-and-field-groups/02-field-groups-list.png)
 
 ### Ordinamento
 
@@ -62,7 +62,7 @@ di seguito.
 
 Nota che nello screenshot qui sotto questo campo è stato assegnato al gruppo Campo Natura e alla categoria Natura. Questo assicura che appaia sempre negli articoli della categoria Natura e in qualsiasi sotto-categoria.
 
-![Campo di testo - nome latino nel gruppo natura](../../../en/images/fields/fields-and-field-groups/03-fields-latin-name.png)
+![Campo di testo - nome latino nel gruppo natura](../../../en/images/fields/fields-and-field-groups/03-latin-name.png)
 
 ### Caselle di controllo - Stagione di Fioritura
 
@@ -70,13 +70,13 @@ Le caselle di controllo appaiono nel modulo di Modifica Articolo per far selezio
 
 Nota che in questo screenshot il Campo è stato assegnato al gruppo Fiori e alla Categoria Fiori. Ciò dovrebbe garantire che il campo sia presente solo negli articoli sui fiori.
 
-![Campo caselle di controllo - stagione di fioritura](../../../en/images/fields/fields-and-field-groups/04-fields-flowering-season.png)
+![Campo caselle di controllo - stagione di fioritura](../../../en/images/fields/fields-and-field-groups/04-propagation.png)
 
 ### Colore - Color
 
 Per confondere un po', il nome del tipo di campo è Color (ortografia USA), ma l'etichetta nella documentazione è Colour (ortografia britannica).
 
-![Campo di colore](../../../en/images/fields/fields-and-field-groups/05-fields-colour.png)
+![Campo di colore](../../../en/images/fields/fields-and-field-groups/05-colour.png)
 
 Il Campo di Colore è assegnato al gruppo di campi Natura e alla categoria Natura poiché non è unico per i fiori.
 
@@ -84,7 +84,7 @@ Il Campo di Colore è assegnato al gruppo di campi Natura e alla categoria Natur
 
 La resistenza di una pianta può essere rappresentata come un intero da 1 a 7. Non esiste un campo per un numero reale, quindi lunghezza e larghezza potrebbero essere interi con una scala (cm, m o ft) inclusa nell'etichetta. Ci sono le impostazioni di *Prefisso* e *Suffisso* nella scheda *Opzioni*. Se non c'è un limite superiore evidente, lascia vuoto il campo *Ultimo:*.
 
-![Campo di resistenza](../../../en/images/fields/fields-and-field-groups/06-fields-hardiness.png)
+![Campo di resistenza](../../../en/images/fields/fields-and-field-groups/06-hardiness.png)
 
 La resistenza RHS è una proprietà di solito applicata ai fiori!
 

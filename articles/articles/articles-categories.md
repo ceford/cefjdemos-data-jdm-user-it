@@ -114,7 +114,7 @@ Nella scheda *Visualizzazione Pagina* prova a impostare il campo *Mostra Intesta
 
 Lo screenshot seguente mostra la visualizzazione del sito di una pagina blog di categoria in fase di sviluppo.
 
-![Pagina blog categoria Mammiferi](../../../en/images/articles/articles-categories/04-article-mammals-articles-blog-site-view.png)
+![Pagina blog categoria Mammiferi](../../../en/images/articles/articles-categories/04-category-blog-site-view.png)
 
 ## Consigli
 
