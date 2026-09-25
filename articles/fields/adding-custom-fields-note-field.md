@@ -50,4 +50,6 @@ Nel modulo di inserimento dati, il campo nota appare tra gli altri campi come te
 
 Se *Visualizza nel frontend* è impostato su *Sì*, il campo Nota appare tra gli altri campi nel frontend. Potrebbe contenere informazioni generali comuni a un gruppo di articoli.
 
+![Note field site display](../../../en/images/fields/adding-custom-fields-note-field/03-fields-note-site.png)
+
 *Tradotto da openai.com*

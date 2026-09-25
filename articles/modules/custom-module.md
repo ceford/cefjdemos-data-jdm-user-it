@@ -57,7 +57,7 @@ Quando sei pronto, seleziona il pulsante **Salva e Chiudi**.
 Il modulo verrà pubblicato nella barra laterale del sito web e mostrerà
 il testo che hai inserito.
 
-![Esempio di Modulo Personalizzato](../../../en/images/modules/how-do-you-create-a-custom-module-3f/01-modules-custom-display.png)
+![Esempio di Modulo Personalizzato](../../../en/images/modules/custom-module/01-modules-site-message.png)
 
 *Tradotto da openai.com*
 

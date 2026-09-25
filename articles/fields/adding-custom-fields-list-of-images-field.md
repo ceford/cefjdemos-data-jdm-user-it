@@ -20,7 +20,7 @@ Le opzioni speciali all'interno di questo campo sono:
 - **Multiplo** Consente di selezionare valori multipli.
 - **Classe Immagine** La classe da aggiungere all'immagine. Ad esempio, *w-25 p-1* limita la larghezza di ciascuna immagine al 25% del suo contenitore e aggiunge 1 unità di spaziatura.
 
-![creazione campo lista di immagini](../../../en/images/fields/adding-custom-fields-list-of-images-field/01-fields-list-of-images-edit.png)
+![creazione campo lista di immagini](../../../en/images/fields/adding-custom-fields-images-list-field/01-fields-images-list-edit.png)
 
 **Nota:** In questo esempio, l'inclusione del tipo di campo nel titolo ha solo scopi dimostrativi. Eliminalo dai titoli dei tuoi campi.
 
@@ -28,14 +28,14 @@ Le opzioni speciali all'interno di questo campo sono:
 
 Semplice: seleziona una o più immagini dall'elenco.
 
-![elenco di immagini per l'inserimento dati](../../../en/images/fields/adding-custom-fields-list-of-images-field/02-fields-list-of-images-data-entry.png)
+![elenco di immagini per l'inserimento dati](../../../en/images/fields/adding-custom-fields-images-list-field/02-fields-images-list-data-entry.png)
 
 
 ## Visualizzazione dei Dati
 
 Lo screenshot del sito seguente mostra il campo visualizzato in un articolo. L'opzione *Visualizzazione automatica* è responsabile della posizione del campo e il tuo template è responsabile del design del campo.
 
-![lista di immagini visualizzazione sito](../../../en/images/fields/adding-custom-fields-list-of-images-field/03-fields-list-of-images-site.png)
+![lista di immagini visualizzazione sito](../../../en/images/fields/adding-custom-fields-images-list-field/03-fields-images-list-site.png)
 
 *Tradotto da openai.com*
 

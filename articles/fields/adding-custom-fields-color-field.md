@@ -18,7 +18,7 @@ Opzioni speciali per questo campo:
 - **Classe del Campo** Imposta su *w-auto* per rendere il campo abbastanza largo
 per la selezione e il valore.
 
-![Creazione del campo colore](../../../en/images/fields/adding-custom-fields-color-field/01-fields-colour-edit.png)
+![Creazione del campo colore](../../../en/images/fields/adding-custom-fields-color-field/01-fields-color-edit.png)
 
 **Nota:** In questo esempio, l'inclusione del tipo di campo nel Titolo è solo a scopo dimostrativo. Escludilo nei tuoi titoli di campo.
 
@@ -26,7 +26,7 @@ per la selezione e il valore.
 
 Puoi digitare un valore colore esadecimale se sai che i numeri esadecimali vanno da 0 a 9 e poi da a a f, e le coppie di numeri rappresentano rosso, verde e blu. Quindi #00ff00 è niente rosso, massimo verde e niente blu. Oppure puoi usare un cursore per selezionare un colore visivamente.
 
-![Inserimento dati del campo colore](../../../en/images/fields/adding-custom-fields-color-field/02-fields-colour-data-entry.png)
+![Inserimento dati del campo colore](../../../en/images/fields/adding-custom-fields-color-field/02-fields-color-data-entry.png)
 
 ## Visualizzazione dei Dati
 
@@ -45,5 +45,5 @@ E il valore esadecimale sarà preceduto da un campione con il colore di sfondo d
 
 Cerca l'elemento **Colore del Fiore**.
 
-![visualizzazione del campo colore nel sito](../../../en/images/fields/adding-custom-fields-color-field/03-fields-colour-site.png)
+![visualizzazione del campo colore nel sito](../../../en/images/fields/adding-custom-fields-color-field/03-fields-color-site.png)
 

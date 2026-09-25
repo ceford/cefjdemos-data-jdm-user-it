@@ -17,7 +17,7 @@ Il modulo di Configurazione Globale permette a un Super Utente di modificare le 
 
 Il modulo di Configurazione Globale ha sei schede, alcune delle quali contengono lunghe liste di parametri. Utilizza il pulsante *Attiva/Disattiva Aiuto in Linea* nella barra degli strumenti per visualizzare più o meno informazioni su ciascun parametro.
 
-![Scheda sito configurazione globale](../../../en/images/configuration/global-configuration/01-global-configuration-site-tab.png)
+![Scheda sito configurazione globale](../../../en/images/configuration/global-configuration/01-site-tab.png)
 
 Alcuni parametri mostrano o nascondono altri parametri quando selezionati. Ad esempio, il pulsante **Sito Offline** mostra più campi quando è impostato su *Sì* rispetto a quando è impostato su *No*. Con l'aiuto in linea espanso, la maggior parte dei campi è sufficientemente ben documentata da non necessitare ulteriori spiegazioni qui, oltre ad alcune note aggiuntive per ciascuna scheda.
 
@@ -51,7 +51,7 @@ SEO è un acronimo per *Search Engine Optimisation* (Ottimizzazione per i Motori
 
 ## Scheda del sistema
 
-![Scheda del sistema di configurazione globale](../../../en/images/configuration/global-configuration/02-global-configuration-system-tab.png)
+![Scheda del sistema di configurazione globale](../../../en/images/configuration/global-configuration/02-system-tab.png)
 
 ### Pannello di debug
 
@@ -59,7 +59,7 @@ Gli elementi in questo pannello sono ben spiegati dall'aiuto in linea. Tuttavia,
 
 ## Scheda Server
 
-![Scheda server configurazione globale](../../../en/images/configuration/global-configuration/03-global-configuration-server-tab.png)
+![Scheda server configurazione globale](../../../en/images/configuration/global-configuration/03-server-tab.png)
 
 ### Pannello di posta
 
@@ -133,19 +133,19 @@ Le seguenti sono combinazioni di configurazione funzionanti:
 
 ## Scheda di Registrazione
 
-![Scheda del sito di configurazione globale](../../../en/images/configuration/global-configuration/04-global-configuration-logging-tab.png)
+![Scheda del sito di configurazione globale](../../../en/images/configuration/global-configuration/04-logging-tab.png)
 
 In condizioni normali, un sito Joomla dovrebbe avere il logging disabilitato. Se ci sono problemi, puoi abilitare il logging impostando il campo **Registra Quasi Tutto** su `Sì`. Il campo **Registra API Deprecate** è davvero solo per gli sviluppatori. Il campo **Percorso alla Cartella di Log** ti mostra dove cercare i log se hai impostato il logging per aiutare nel debug. I registri di errore che trovi lì sono solo quelli intercettati da Joomla. Potrebbero esserci altri errori che appariranno solo nei registri di errore del tuo server.
 
 ## La scheda Filtri Testo
 
-![Scheda di configurazione globale del sito](../../../en/images/configuration/global-configuration/05-global-configuration-filters-tab.png)
+![Scheda di configurazione globale del sito](../../../en/images/configuration/global-configuration/06-permissions-tab.png)
 
 Le impostazioni del filtro del testo verranno applicate a tutti i campi dell'editor di testo inviati dagli utenti nei gruppi selezionati. Queste opzioni di filtraggio forniscono un maggiore controllo sull'HTML che i tuoi fornitori di contenuti inviano. Puoi essere tanto severo o liberale quanto necessario per soddisfare le esigenze del tuo sito. Il filtraggio è facoltativo e le impostazioni predefinite offrono una buona protezione contro i markup comunemente associati ad attacchi sui siti web.
 
 ## Scheda Permessi
 
-![Scheda configurazione globale del sito](../../../en/images/configuration/global-configuration/06-global-configuration-permissions-tab.png)
+![Scheda configurazione globale del sito](../../../en/images/configuration/global-configuration/05-filters-tab.png)
 
 I permessi controllano ciò che gli utenti in ciascun Gruppo Utenti possono vedere e fare. Le voci nella scheda Permessi impostano i permessi predefiniti per il sito.
 

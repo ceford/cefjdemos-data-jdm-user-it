@@ -39,7 +39,7 @@ Dal menu dell'Amministratore:
 
 - Accedi al sito e utilizza il link per controllare il Profilo Utente.
 
-![riepilogo profilo utente](../../../en/images/users/user-profile/03-user-profile-summary.png)
+![riepilogo profilo utente](../../../en/images/users/user-profile/03-user-profile-edit.png.png)
 
 - Prova il pulsante **Modifica Profilo**.
 

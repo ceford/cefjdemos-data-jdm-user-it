@@ -67,7 +67,7 @@ Ora l'intestazione del modulo è in blu scuro. Ci sono diversi modi per specific
 * Cambia anche il bordo inferiore dell'intestazione.
 * Applica questo stile a diversi moduli invece che uno alla volta.
 
-![Esempio di Modulo Articoli Archiviati](../../../en/images/modules/module-styles/01-modules-archived-articles.png)
+![Esempio di Modulo Articoli Archiviati](../../../en/images/modules/module-styles/01-modules-site-message.png)
 
 *Tradotto da openai.com*
 
