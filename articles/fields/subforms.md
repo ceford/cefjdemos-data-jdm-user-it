@@ -40,4 +40,3 @@ Cerca l'elemento **Campioni** in questo screenshot:
 ![visualizzazione sottoform sito](../../../en/images/fields/subforms/03-fields-subform-site.png)
 
 *Tradotto da openai.com*
-
